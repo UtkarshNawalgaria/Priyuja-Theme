@@ -131,7 +131,7 @@
 
             {%- if logo_alignment == 'center' -%}
               <div class="header-item header-item--left header-item--navigation">
-                {%- if section.settings.main_menu_alignment == 'center' or section.settings.main_menu_alignment == 'center-split' -%}
+                <!-- {%- if section.settings.main_menu_alignment == 'center' or section.settings.main_menu_alignment == 'center-split' -%}
                   {%- if settings.search_enable -%}
                     <div class="site-nav small--hide">
                       <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header">
@@ -140,7 +140,7 @@
                       </a>
                     </div>
                   {%- endif -%}
-                {%- endif -%}
+                {%- endif -%} -->
 
                 {%- if section.settings.main_menu_alignment == 'center-left' -%}
                   {%- render 'header-desktop-nav', main_menu: main_menu, dropdown_alignment: dropdown_alignment -%}
