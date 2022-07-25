@@ -10,7 +10,7 @@
     "color_cart_dot": "#ff4f33",
     "color_small_image_bg": "#ffffff",
     "color_large_image_bg": "#0f0f0f",
-    "color_header": "#ffffff",
+    "color_header": "#ffe300",
     "color_header_text": "#000000",
     "color_announcement": "#0f0f0f",
     "color_announcement_text": "#ffffff",
@@ -109,7 +109,7 @@
           "1524770296206"
         ],
         "settings": {
-          "main_menu_link_list": "main-menu",
+          "main_menu_link_list": "menu",
           "mega_menu_images": true,
           "main_menu_alignment": "center",
           "header_style": "sticky",
@@ -130,39 +130,39 @@
           "1494301487049": {
             "type": "menu",
             "settings": {
-              "show_footer_title": false,
-              "menu": "footer",
+              "show_footer_title": true,
+              "menu": "footer-products-menu",
               "container_width": 25
             }
           },
-          "1494292487693": {
-            "type": "newsletter",
+          "2fcbcdc3-0c6e-46d1-bc44-058efed0d218": {
+            "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "container_width": 33
+              "menu": "footer-policy-menu",
+              "container_width": 25
             }
           },
-          "1494301487048": {
-            "type": "logo_social",
+          "04b91eed-5b63-4cdc-8818-a70cdbb67efa": {
+            "type": "menu",
             "settings": {
-              "desktop_logo_height": 50,
-              "container_width": 95
+              "show_footer_title": true,
+              "menu": "footer-help-menu",
+              "container_width": 25
             }
           }
         },
         "block_order": [
           "1494301487049",
-          "1494292487693",
-          "1494301487048"
+          "2fcbcdc3-0c6e-46d1-bc44-058efed0d218",
+          "04b91eed-5b63-4cdc-8818-a70cdbb67efa"
         ],
         "settings": {
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_currency_flags": true,
-          "show_payment_icons": false,
-          "show_copyright": false,
+          "show_payment_icons": true,
+          "show_copyright": true,
           "copyright_text": ""
         }
       },
@@ -204,43 +204,6 @@
       },
       "footer-promotions": {
         "type": "footer-promotions",
-        "blocks": {
-          "footer-promotions-0": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "footer-promotions-1": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          },
-          "footer-promotions-2": {
-            "type": "promotion",
-            "settings": {
-              "enable_image": true,
-              "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
-              "button_label": "Optional button",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "footer-promotions-0",
-          "footer-promotions-1",
-          "footer-promotions-2"
-        ],
         "settings": {
           "hide_homepage": false,
           "image_size": "wide"
