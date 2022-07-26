@@ -242,7 +242,7 @@
                       {%- endif -%}
                     </div>
                   {%- when 'quantity_selector' -%}
-                    <div class="product-block" {{ block.shopify_attributes }}>
+                    <div class="product-block show-desktop" {{ block.shopify_attributes }}>
                       <div class="product__quantity">
                         {% assign qty_id = section_id | append: product.id %}
                         <label for="Quantity-{{ qty_id }}">{{ 'products.product.quantity' | t }}</label>
@@ -316,14 +316,15 @@
                       {%- endunless -%}
                     </div>
                   {%- when 'buy_buttons' -%}
-                    <div class="product-block" {{ block.shopify_attributes }}>
+                    <div class="product-block show-desktop" {{ block.shopify_attributes }}>
                       {%- unless product.empty? -%}
                         <div class="product-block">
                           {%- render 'product-form',
                             form_id: form_id,
                             product: product,
                             show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                            current_variant: current_variant
+                            current_variant: current_variant,
+                            sticky: false,
                           -%}
                         </div>
                       {%- endunless -%}
@@ -418,6 +419,26 @@
           </div>
         {%- endunless -%}
       </div>
+    </div>
+
+    <div class="sticky-add-to-cart"  data-sticky-add-to-cart>
+      <div class="product-block" {{ block.shopify_attributes }}>
+        <div class="product__quantity">
+          {% assign qty_id = section_id | append: product.id %}
+          {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
+        </div>
+      </div>
+
+      {%- unless product.empty? -%}
+        <div class="product-block">
+          {%- render 'product-form',
+            form_id: form_id,
+            product: product,
+            show_dynamic_checkout: block.settings.show_dynamic_checkout,
+            current_variant: current_variant,
+          -%}
+        </div>
+      {%- endunless -%}
     </div>
   </div>
 </div>

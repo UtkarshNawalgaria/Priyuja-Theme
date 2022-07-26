@@ -27,6 +27,11 @@
             "size_chart": ""
           }
         },
+        "fe0a3ed7-4d52-40b2-9aa3-1839ae4f1d32": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -68,6 +73,7 @@
         "4b7490db-7985-4767-ac45-7bd22e77004d",
         "sales_point",
         "inventory_status",
+        "fe0a3ed7-4d52-40b2-9aa3-1839ae4f1d32",
         "buy_buttons",
         "description",
         "tab",
