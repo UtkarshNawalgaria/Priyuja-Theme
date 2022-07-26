@@ -27,31 +27,17 @@
             "size_chart": ""
           }
         },
-        "sales_point": {
-          "type": "sales_point",
-          "settings": {
-            "icon": "globe",
-            "text": "Free worldwide shipping"
-          }
-        },
-        "inventory_status": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "surface_pickup_enable": true
           }
         },
         "description": {
           "type": "description",
           "settings": {
-            "is_tab": true
+            "is_tab": false
           }
         },
         "tab": {
