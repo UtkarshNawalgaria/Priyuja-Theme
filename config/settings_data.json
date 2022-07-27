@@ -64,6 +64,11 @@
     "cart_additional_buttons": false,
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/albeliekam\/",
+    "social_twitter_link": "https:\/\/twitter.com\/albeliekam",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/albeliekam",
+    "social_instagram_link": "https:\/\/instagram.com\/albeliekam\/",
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/in\/albeliekam",
     "search_type": "product",
     "predictive_image_size": "portrait",
     "show_breadcrumbs": true,
@@ -129,12 +134,21 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "7b5cd298-24af-4457-adbd-9946a3cafacd": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Welcome to Albeli Ekam",
+              "text": "<p>Kolkata's biggest marketplace for Kurtis, Sarees, Lehengas and more.<\/p>",
+              "container_width": 20
+            }
+          },
           "1494301487049": {
             "type": "menu",
             "settings": {
               "show_footer_title": true,
               "menu": "footer-products-menu",
-              "container_width": 25
+              "container_width": 20
             }
           },
           "2fcbcdc3-0c6e-46d1-bc44-058efed0d218": {
@@ -142,7 +156,7 @@
             "settings": {
               "show_footer_title": true,
               "menu": "footer-policy-menu",
-              "container_width": 25
+              "container_width": 20
             }
           },
           "04b91eed-5b63-4cdc-8818-a70cdbb67efa": {
@@ -150,14 +164,24 @@
             "settings": {
               "show_footer_title": true,
               "menu": "footer-help-menu",
-              "container_width": 25
+              "container_width": 20
+            }
+          },
+          "ceba44b0-72f7-4df5-b5f1-7150483b2e89": {
+            "type": "social",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Follow Us",
+              "container_width": 20
             }
           }
         },
         "block_order": [
+          "7b5cd298-24af-4457-adbd-9946a3cafacd",
           "1494301487049",
           "2fcbcdc3-0c6e-46d1-bc44-058efed0d218",
-          "04b91eed-5b63-4cdc-8818-a70cdbb67efa"
+          "04b91eed-5b63-4cdc-8818-a70cdbb67efa",
+          "ceba44b0-72f7-4df5-b5f1-7150483b2e89"
         ],
         "settings": {
           "show_locale_selector": true,
