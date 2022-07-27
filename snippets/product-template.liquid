@@ -69,11 +69,10 @@
 
   <div class="page-content page-content--product">
     <div class="page-width">
-
       {%- if settings.show_breadcrumbs and isModal != true -%}
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
-
+      
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
@@ -94,9 +93,9 @@
         {%- endif -%}
 
         <div class="grid__item {{ product_description_width }}">
+
           <div class="product-single__meta">
             <div class="product-block product-block--header">
-
               {%- if settings.vendor_enable -%}
                 <div class="product-single__vendor">
                   {%- assign vendor_handle = product.vendor | handleize -%}
@@ -168,15 +167,14 @@
                     </div>
                   {%- when 'price' -%}
                     <div class="product-block product-block--price" {{ block.shopify_attributes }}>
-                      <span data-product-price
-                        class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                      <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
                         {%- unless product.empty? -%}
                           {{ current_variant.price | money }}
                         {%- else -%}
                           {{ 1999 | money }}
                         {%- endunless -%}
                       </span>
-
+                      
                       {%- assign hide_sale_price = true -%}
                       {%- if product.compare_at_price_max > product.price -%}
                         {%- if current_variant.compare_at_price > current_variant.price -%}
@@ -323,8 +321,7 @@
                             form_id: form_id,
                             product: product,
                             show_dynamic_checkout: block.settings.show_dynamic_checkout,
-                            current_variant: current_variant,
-                            sticky: false,
+                            current_variant: current_variant
                           -%}
                         </div>
                       {%- endunless -%}
@@ -420,7 +417,6 @@
         {%- endunless -%}
       </div>
     </div>
-
     <div class="sticky-add-to-cart"  data-sticky-add-to-cart>
       <div class="product-block" {{ block.shopify_attributes }}>
         <div class="product__quantity">
@@ -428,14 +424,14 @@
           {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
         </div>
       </div>
-
+  
       {%- unless product.empty? -%}
         <div class="product-block">
           {%- render 'product-form',
             form_id: form_id,
             product: product,
             show_dynamic_checkout: block.settings.show_dynamic_checkout,
-            current_variant: current_variant,
+            current_variant: current_variant
           -%}
         </div>
       {%- endunless -%}

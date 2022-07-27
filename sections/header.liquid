@@ -131,17 +131,6 @@
 
             {%- if logo_alignment == 'center' -%}
               <div class="header-item header-item--left header-item--navigation">
-                <!-- {%- if section.settings.main_menu_alignment == 'center' or section.settings.main_menu_alignment == 'center-split' -%}
-                  {%- if settings.search_enable -%}
-                    <div class="site-nav small--hide">
-                      <a href="{{ routes.search_url }}" class="site-nav__link site-nav__link--icon js-search-header">
-                        <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-search" viewBox="0 0 64 64"><path d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/></svg>
-                        <span class="icon__fallback-text">{{ 'general.search.title' | t }}</span>
-                      </a>
-                    </div>
-                  {%- endif -%}
-                {%- endif -%} -->
-
                 {%- if section.settings.main_menu_alignment == 'center-left' -%}
                   {%- render 'header-desktop-nav', main_menu: main_menu, dropdown_alignment: dropdown_alignment -%}
                 {%- endif -%}
