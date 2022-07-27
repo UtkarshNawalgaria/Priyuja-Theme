@@ -752,6 +752,20 @@
             }
           }
         },
+        "social": {
+          "name": "Social Links",
+          "settings": {
+            "show_footer_title": {
+              "label": "Show heading"
+            },
+            "title": {
+              "label": "Heading"
+            },
+            "container_width": {
+              "label": "Column width"
+            }
+          }
+        },
         "newsletter_and_social": {
           "name": "Newsletter and social",
           "settings": {

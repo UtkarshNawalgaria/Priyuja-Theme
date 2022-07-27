@@ -26,7 +26,6 @@
 
 <footer class="site-footer" data-section-id="{{ section.id }}" data-section-type="footer-section">
   <div class="page-width">
-
     <div class="grid">
       {%- assign row_width = 0 -%}
       {%- for block in section.blocks -%}
@@ -65,10 +64,13 @@
                 render 'footer-newsletter', block: block
               when 'menu'
                 render 'footer-menu', block: block
+              when 'social'
+                render 'footer-social', block: block
             endcase
           -%}
         </div>
       {%- endfor -%}
+
       {%- for block in section.blocks -%}
         {%- if block.type == 'logo' -%}
           <div class="grid__item medium-up--hide">
@@ -102,22 +104,20 @@
     {%- endif -%}
 
     {%- if section.settings.show_copyright -%}
-      <p class="footer__small-text">
+      <p class="footer__small-text copyright_text">
         &copy; {{ 'now' | date: '%Y' }} {{ shop.name }}
         {%- if section.settings.copyright_text != blank -%}
           {{ section.settings.copyright_text }}
         {%- endif -%}
       </p>
     {%- endif -%}
-    <p class="footer__small-text">{{ powered_by_link }}</p>
-
   </div>
 </footer>
 
 {% schema %}
 {
   "name": "t:sections.footer.name",
-  "max_blocks": 12,
+  "max_blocks": 5,
   "settings": [
     {
       "type": "header",
@@ -192,7 +192,7 @@
           "type": "range",
           "id": "container_width",
           "label": "t:sections.footer.blocks.logo.settings.container_width.label",
-          "default": 25,
+          "default": 20,
           "min": 15,
           "max": 95,
           "unit": "%"
@@ -219,7 +219,33 @@
           "type": "range",
           "id": "container_width",
           "label": "t:sections.footer.blocks.navigation.settings.container_width.label",
-          "default": 25,
+          "default": 20,
+          "min": 15,
+          "max": 95,
+          "unit": "%"
+        }
+      ]
+    },
+    {
+      "type": "social",
+      "name": "t:sections.footer.blocks.social.name",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_footer_title",
+          "label": "t:sections.footer.blocks.social.settings.show_footer_title.label"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.social.settings.title.label",
+          "default": "Follow Us"
+        },
+        {
+          "type": "range",
+          "id": "container_width",
+          "label": "t:sections.footer.blocks.social.settings.container_width.label",
+          "default": 20,
           "min": 15,
           "max": 95,
           "unit": "%"
@@ -258,7 +284,7 @@
           "type": "range",
           "id": "container_width",
           "label": "t:sections.footer.blocks.newsletter_and_social.settings.container_width.label",
-          "default": 25,
+          "default": 20,
           "min": 15,
           "max": 95,
           "unit": "%"
@@ -296,7 +322,7 @@
           "type": "range",
           "id": "container_width",
           "label": "t:sections.footer.blocks.custom_text.settings.container_width.label",
-          "default": 25,
+          "default": 20,
           "min": 15,
           "max": 95,
           "unit": "%"
