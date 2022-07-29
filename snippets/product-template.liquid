@@ -23,7 +23,7 @@
       assign product_image_size = '740x'
   endcase
 
-  assign product_img_structure = product.featured_media | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
+  assign product_img_structure = product.featured_media | image_url : '1x1' | replace: '_1x1.', '_{width}x.'
 -%}
 
 {%- liquid
@@ -72,7 +72,7 @@
       {%- if settings.show_breadcrumbs and isModal != true -%}
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
-      
+
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
@@ -174,7 +174,7 @@
                           {{ 1999 | money }}
                         {%- endunless -%}
                       </span>
-                      
+
                       {%- assign hide_sale_price = true -%}
                       {%- if product.compare_at_price_max > product.price -%}
                         {%- if current_variant.compare_at_price > current_variant.price -%}
@@ -369,7 +369,7 @@
                     <div class="product-block" {{ block.shopify_attributes }}>
                       <div class="aos-animate" style="max-width: {{ block.settings.trust_image.width }}px; margin: 0 auto;">
                         <div class="image-wrap " style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.trust_image.aspect_ratio }}%;">
-                          {%- assign img_url = block.settings.trust_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          {%- assign img_url = block.settings.trust_image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
                           <img class="lazyload"
                               data-src="{{ img_url }}"
                               data-widths="[360, 540, 700, 1024]"
@@ -377,7 +377,7 @@
                               data-sizes="auto"
                               alt="{{ block.settings.trust_image.alt }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ block.settings.trust_image | img_url: '540x' }}" alt="{{ block.settings.trust_image.alt }}">
+                            <img class="lazyloaded" src="{{ block.settings.trust_image | image_url : '540x' }}" alt="{{ block.settings.trust_image.alt }}">
                           </noscript>
                         </div>
                       </div>
@@ -424,7 +424,7 @@
           {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
         </div>
       </div>
-  
+
       {%- unless product.empty? -%}
         <div class="product-block">
           {%- render 'product-form',

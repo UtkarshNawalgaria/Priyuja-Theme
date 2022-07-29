@@ -80,7 +80,7 @@
                 {% endif %}>
                 <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: media.preview_image.aspect_ratio }}%;">
                   <a
-                    href="{{ media.preview_image | img_url: product_zoom_size }}"
+                    href="{{ media.preview_image | image_url : product_zoom_size }}"
                     data-product-thumb
                     class="product__thumb"
                     data-index="{{ forloop.index0 }}"
@@ -96,7 +96,7 @@
                       </span>
                     {%- endif -%}
 
-                    {%- assign img_url = media.preview_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    {%- assign img_url = media.preview_image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
                     <img class="animation-delay-{{ forloop.index | times: 3 }} lazyload"
                         data-src="{{ img_url }}"
                         data-widths="[120, 360, 540, 720]"
@@ -106,7 +106,7 @@
 
                     <noscript>
                       <img class="lazyloaded"
-                        src="{{ media | img_url: '400x' }}"
+                        src="{{ media | image_url : '400x' }}"
                         alt="{{ media.alt | escape }}">
                     </noscript>
                   </a>

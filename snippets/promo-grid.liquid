@@ -159,11 +159,11 @@
                       }
                     {%- endstyle -%}
 
-                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    {%- assign img_url = block.settings.image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
                     <img
                       class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyload"
-                      src="{{ block.settings.image | img_url: '300x' }}"
+                      src="{{ block.settings.image | image_url : '300x' }}"
                       data-src="{{ img_url }}"
                       data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                       data-sizes="auto"
@@ -171,7 +171,7 @@
                     <noscript>
                       <img
                         class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyloaded"
-                        src="{{ block.settings.image | img_url: '1800x' }}"
+                        src="{{ block.settings.image | image_url : '1800x' }}"
                         alt="{{ block.settings.image.alt }}">
                     </noscript>
                   {%- else -%}
@@ -249,7 +249,7 @@
                     <div class="type-sale-images__image">
                       {%- if collection_image_1 != blank -%}
                         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: collection_image_1.aspect_ratio }}%;">
-                          {%- assign img_url = collection_image_1 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          {%- assign img_url = collection_image_1 | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
                           <img class="lazyload"
                               data-src="{{ img_url }}"
                               data-widths="[360, 540, 720, 900, 1080, 1600]"
@@ -257,7 +257,7 @@
                               data-sizes="auto"
                               alt="{{ collection_image_1.alt }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ collection_image_1 | img_url: '800x' }}" alt="{{ image.alt }}">
+                            <img class="lazyloaded" src="{{ collection_image_1 | image_url : '800x' }}" alt="{{ image.alt }}">
                           </noscript>
                         </div>
                       {%- endif -%}
@@ -266,7 +266,7 @@
                     <div class="type-sale-images__image">
                       {%- if collection_image_2 != blank -%}
                         <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: collection_image_2.aspect_ratio }}%;">
-                          {%- assign img_url = collection_image_2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          {%- assign img_url = collection_image_2 | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
                           <img class="lazyload"
                               data-src="{{ img_url }}"
                               data-widths="[360, 540, 720, 900, 1080, 1600]"
@@ -274,7 +274,7 @@
                               data-sizes="auto"
                               alt="{{ collection_image_2.alt }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ collection_image_2 | img_url: '800x' }}" alt="{{ image.alt }}">
+                            <img class="lazyloaded" src="{{ collection_image_2 | image_url : '800x' }}" alt="{{ image.alt }}">
                           </noscript>
                         </div>
                       {%- endif -%}
@@ -318,7 +318,7 @@
 
               <div class="promo-grid__bg">
                 {%- if block_img != blank -%}
-                  {%- assign img_url = block_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  {%- assign img_url = block_img | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
                   <img class="image-fit lazyload"
                     src=""
@@ -351,7 +351,7 @@
               {%- endif -%}
                 {%- if block.settings.image != blank -%}
                   <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
-                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    {%- assign img_url = block.settings.image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
                     <img class="lazyload"
                         data-src="{{ img_url }}"
                         data-widths="[360, 540, 720, 900, 1080, 1600]"
@@ -360,7 +360,7 @@
                         role="presentation"
                         alt="{{ block.settings.image.alt }}">
                     <noscript>
-                      <img class="lazyloaded" src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.image.alt }}">
+                      <img class="lazyloaded" src="{{ block.settings.image | image_url : '600x' }}" alt="{{ block.settings.image.alt }}">
                     </noscript>
                   </div>
                 {%- else -%}
@@ -380,7 +380,7 @@
                   {%- if block.settings.image != blank -%}
                     <div class="type-banner__image">
                       <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
-                        {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        {%- assign img_url = block.settings.image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
                         <img class="lazyload"
                             data-src="{{ img_url }}"
                             data-widths="[180, 360, 460]"
@@ -389,7 +389,7 @@
                             role="presentation"
                             alt="{{ block.settings.image.alt }}">
                         <noscript>
-                          <img class="lazyloaded" src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.image.alt }}">
+                          <img class="lazyloaded" src="{{ block.settings.image | image_url : '300x' }}" alt="{{ block.settings.image.alt }}">
                         </noscript>
                       </div>
                     </div>
@@ -463,7 +463,7 @@
                               </div>
                             {%- endif -%}
                             <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: image.aspect_ratio }}%;">
-                              {%- assign img_url = image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                              {%- assign img_url = image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
                               <a href="{{ product.url }}">
                                 <img class="lazyload"
                                     data-src="{{ img_url }}"
@@ -472,7 +472,7 @@
                                     data-sizes="auto"
                                     alt="{{ image.alt }}">
                                 <noscript>
-                                  <img class="lazyloaded" src="{{ image | img_url: '600x' }}" alt="{{ image.alt }}">
+                                  <img class="lazyloaded" src="{{ image | image_url : '600x' }}" alt="{{ image.alt }}">
                                 </noscript>
                               </a>
                             </div>

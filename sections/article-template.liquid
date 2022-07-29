@@ -7,7 +7,7 @@
 
 {%- if section.settings.image_hero and article.image -%}
   <div class="collection-hero">
-    {%- assign img_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+    {%- assign img_url = article.image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
     <img class="collection-hero__image image-fit lazyload"
       src=""
@@ -17,7 +17,7 @@
       alt="{{ article.image.alt | escape }}">
     <noscript>
       <img class="collection-hero__image image-fit"
-        src="{{ article.image | img_url: '1400x' }}"
+        src="{{ article.image | image_url : '1400x' }}"
         alt="{{ article.image.alt | escape }}">
     </noscript>
 
@@ -92,7 +92,7 @@
     <div class="text-center">
       <a href="{{ blog.url }}" class="btn return-link"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon--wide icon-arrow-left" viewBox="0 0 50 15"><path d="M50 5.38v4.25H15V15L0 7.5 15 0v5.38z"/></svg> {{ 'blogs.article.back_to_blog' | t: title: blog.title }}</a>
     </div>
-      
+
     <div class="article__body rte">
       {{ article.content }}
     </div>
@@ -220,7 +220,7 @@
   {% if article.image %}
     {% assign image_size = article.image.width | append: 'x' %}
     "image": [
-      {{ article | img_url: image_size | prepend: "https:" | json }}
+      {{ article | image_url : image_size | prepend: "https:" | json }}
     ],
   {% endif %}
   "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
@@ -237,7 +237,7 @@
       "logo": {
         "@type": "ImageObject",
         "height": {{ page_image.height | json }},
-        "url": {{ page_image | img_url: image_size | prepend: "https:" | json }},
+        "url": {{ page_image | image_url : image_size | prepend: "https:" | json }},
         "width": {{ page_image.width | json }}
       },
     {% endif %}

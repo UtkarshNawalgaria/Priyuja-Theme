@@ -1,7 +1,7 @@
 {%- style -%}
   @media screen and (max-width: 768px) {
     .background-media-text--{{ section.id }} {
-      background-image: url({{ section.settings.image | img_url: '1x1' }});
+      background-image: url({{ section.settings.image | image_url : '1x1' }});
     }
   }
 {%- endstyle -%}
@@ -20,7 +20,7 @@
     {%- endif -%}
 
       {%- if section.settings.image != blank -%}
-        {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        {%- assign img_url = section.settings.image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
         <img
           class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyload"
           src=""
@@ -33,7 +33,7 @@
         <noscript>
           <img
             class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyloaded"
-            src="{{ section.settings.image | img_url: '1800x' }}"
+            src="{{ section.settings.image | image_url : '1800x' }}"
             alt="{{ section.settings.image.alt }}">
         </noscript>
       {%- else -%}
