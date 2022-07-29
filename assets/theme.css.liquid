@@ -5425,19 +5425,21 @@ form+.footer__social{
   display:none;
 }
 
-.cart-link__bubble--visible{
-  display:block;
-  position:absolute;
-  top:50%;
-  right:0px;
-  width:15px;
-  height:15px;
-  background-color:{{ settings.color_cart_dot | default: "#ff4f33" }};
-  background-color:var(--colorCartDot);
-  border:2px solid;
-  border-color:{{ settings.color_body_bg | default: "#fff" }};
-  border-color:var(--colorBody);
-  border-radius:50%
+.cart-link__bubble--visible {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  width: 17px;
+  height: 17px;
+  background-color: #ff4f33;
+  background-color: var(--colorCartDot);
+  border-radius: 50%;
+  font-size: 14px;
+  text-align: center;
+  text-indent: 0;
+  color: white;
+  font-weight: 900;
 }
 
 [data-icon=cart] .cart-link__bubble--visible{
@@ -7635,7 +7637,7 @@ input[type=image]{
     position:sticky;
     top:10px;
     max-height:90vh;
-/*     overflow-y:auto; */
+    margin-top: 59px;
   }
 }
 
