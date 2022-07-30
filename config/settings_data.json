@@ -45,6 +45,7 @@
     "button_style": "round-slight",
     "icon_weight": "4px",
     "icon_linecaps": "round",
+    "product_save_type": "percent",
     "vendor_enable": true,
     "quick_shop_enable": true,
     "quick_shop_text": "Quick view",
