@@ -72,7 +72,7 @@
       {%- if settings.show_breadcrumbs and isModal != true -%}
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
-
+      
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
@@ -93,6 +93,7 @@
         {%- endif -%}
 
         <div class="grid__item {{ product_description_width }}">
+
           <div class="product-single__meta">
             <div class="product-block product-block--header">
               {%- if settings.vendor_enable -%}
@@ -423,7 +424,7 @@
           {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
         </div>
       </div>
-
+  
       {%- unless product.empty? -%}
         <div class="product-block button">
           {%- render 'product-form',
