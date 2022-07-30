@@ -72,7 +72,7 @@
       {%- if settings.show_breadcrumbs and isModal != true -%}
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
-
+      
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
@@ -174,7 +174,7 @@
                           {{ 1999 | money }}
                         {%- endunless -%}
                       </span>
-
+                      
                       {%- assign hide_sale_price = true -%}
                       {%- if product.compare_at_price_max > product.price -%}
                         {%- if current_variant.compare_at_price > current_variant.price -%}
@@ -424,7 +424,7 @@
           {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
         </div>
       </div>
-
+  
       {%- unless product.empty? -%}
         <div class="product-block button">
           {%- render 'product-form',
