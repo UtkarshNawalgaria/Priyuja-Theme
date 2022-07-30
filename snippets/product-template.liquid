@@ -72,7 +72,7 @@
       {%- if settings.show_breadcrumbs and isModal != true -%}
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
-      
+
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
@@ -93,7 +93,6 @@
         {%- endif -%}
 
         <div class="grid__item {{ product_description_width }}">
-
           <div class="product-single__meta">
             <div class="product-block product-block--header">
               {%- if settings.vendor_enable -%}
@@ -167,77 +166,77 @@
                     </div>
                   {%- when 'price' -%}
                     <div class="product-block product-block--price" {{ block.shopify_attributes }}>
-                      <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
-                        {%- unless product.empty? -%}
-                          {{ current_variant.price | money }}
-                        {%- else -%}
-                          {{ 1999 | money }}
-                        {%- endunless -%}
-                      </span>
-                      
-                      {%- assign hide_sale_price = true -%}
-                      {%- if product.compare_at_price_max > product.price -%}
-                        {%- if current_variant.compare_at_price > current_variant.price -%}
-                          {%- assign hide_sale_price = false -%}
-                        {%- endif -%}
-                        <span
-                          data-a11y-price
-                          class="visually-hidden"
-                          aria-hidden="{{ hide_sale_price }}">
-                            {{ 'products.general.regular_price' | t }}
-                        </span>
-                        <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
-                          <span data-compare-price class="product__price product__price--compare">
-                            {%- if current_variant.compare_at_price > current_variant.price -%}
-                              {{ current_variant.compare_at_price | money }}
-                            {%- endif -%}
-                          </span>
-                        </span>
-                        <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-                      {%- else -%}
-                        <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
-                      {%- endif -%}
-
-                      {%- if settings.product_save_amount -%}
-                        {%- if settings.product_save_type == 'dollar' -%}
-                          {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
-                        {%- else -%}
-                          {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round }}%{%- endcapture -%}
-                        {%- endif -%}
-                        <span data-save-price class="product__price-savings{% if hide_sale_price %} hide{% endif %}">
-                          {%- unless hide_sale_price -%}
-                            {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
+                      <div>
+                        <span data-product-price class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                          {%- unless product.empty? -%}
+                            {{ current_variant.price | money }}
+                          {%- else -%}
+                            {{ 1999 | money }}
                           {%- endunless -%}
                         </span>
-                      {%- endif -%}
-
-                      <div
-                        data-unit-price-wrapper
-                        class="product__unit-price product__unit-price--spacing {% unless current_variant.unit_price_measurement %} hide{% endunless %}">
-                        {%- capture unit_price_base_unit -%}
-                          <span data-unit-base>
-                            {%- if current_variant.unit_price_measurement -%}
-                              {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
-                                {{ current_variant.unit_price_measurement.reference_value }}
-                              {%- endif -%}
-                              {{ current_variant.unit_price_measurement.reference_unit }}
-                            {%- endif -%}
+                        {%- if settings.product_save_amount -%}
+                          {%- if settings.product_save_type == 'dollar' -%}
+                            {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
+                          {%- else -%}
+                            {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round }}%{%- endcapture -%}
+                          {%- endif -%}
+                          <span data-save-price class="product__price-savings{% if hide_sale_price %} hide{% endif %}">
+                            {%- unless hide_sale_price -%}
+                              {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
+                            {%- endunless -%}
                           </span>
-                        {%- endcapture -%}
-
-                        <span data-unit-price>{{ current_variant.unit_price | money }}</span>/{{ unit_price_base_unit }}
+                        {%- endif -%}
                       </div>
 
-                      {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
-                        <div class="product__policies rte">
-                          {%- if shop.taxes_included -%}
-                            {{ 'products.product.include_taxes' | t }}
+                      <div>
+                        {%- assign hide_sale_price = true -%}
+                        {%- if product.compare_at_price_max > product.price -%}
+                          {%- if current_variant.compare_at_price > current_variant.price -%}
+                            {%- assign hide_sale_price = false -%}
                           {%- endif -%}
-                          {%- if shop.shipping_policy.body != blank -%}
-                            {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                          {%- endif -%}
+                          <span
+                            data-a11y-price
+                            class="visually-hidden"
+                            aria-hidden="{{ hide_sale_price }}">
+                              {{ 'products.general.regular_price' | t }}
+                          </span>
+                          <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
+                            <span data-compare-price class="product__price product__price--compare">
+                              {%- if current_variant.compare_at_price > current_variant.price -%}
+                                {{ current_variant.compare_at_price | money }}
+                              {%- endif -%}
+                            </span>
+                          </span>
+                          <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+                        {%- else -%}
+                          <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                        {%- endif -%}
+                        <div
+                          data-unit-price-wrapper
+                          class="product__unit-price product__unit-price--spacing {% unless current_variant.unit_price_measurement %} hide{% endunless %}">
+                          {%- capture unit_price_base_unit -%}
+                            <span data-unit-base>
+                              {%- if current_variant.unit_price_measurement -%}
+                                {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+                                  {{ current_variant.unit_price_measurement.reference_value }}
+                                {%- endif -%}
+                                {{ current_variant.unit_price_measurement.reference_unit }}
+                              {%- endif -%}
+                            </span>
+                          {%- endcapture -%}
+                          <span data-unit-price>{{ current_variant.unit_price | money }}</span>/{{ unit_price_base_unit }}
                         </div>
-                      {%- endif -%}
+                        {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                          <span class="product__policies rte">
+                            {%- if shop.taxes_included -%}
+                              {{ 'products.product.include_taxes' | t }}
+                            {%- endif -%}
+                            {%- if shop.shipping_policy.body != blank -%}
+                              {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                            {%- endif -%}
+                          </span>
+                        {%- endif -%}
+                      </div>
                     </div>
                   {%- when 'quantity_selector' -%}
                     <div class="product-block show-desktop" {{ block.shopify_attributes }}>
@@ -424,7 +423,7 @@
           {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
         </div>
       </div>
-  
+
       {%- unless product.empty? -%}
         <div class="product-block button">
           {%- render 'product-form',
