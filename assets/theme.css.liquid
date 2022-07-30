@@ -249,7 +249,7 @@
   color:var(--colorBtnPrimaryText);
   background:{{ settings.color_button | default: "#000" }};
   background:var(--colorBtnPrimary);
-  border-radius:50%
+  border-radius:50%;
 }
 
 .hero .flickity-button{
@@ -11808,4 +11808,119 @@ html[dir=rtl] .product-single__meta .rte{
   margin-top: 20px;
 }
 
+.brand-page {
+  margin-bottom: 75px;
+}
 
+.brand-page .brand {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.brand .brand-banner {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.brand .brand-banner img {
+  width: 100%;
+  max-width: 1440px;
+  object-fit: cover;
+  height: 350px;
+}
+
+.brand .brand-info {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.brand .brand-logo-block {
+  height: 80px;
+  width: 80px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  border-radius: 50%;
+  margin-top: -30px;
+  align-self: center;
+}
+
+.brand .brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.brand .brand-description {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.brand .brand-contact .icon-list {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.brand .brand-contact .icon-list li {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 10px;
+}
+
+.brand .brand-contact .icon-list li span {
+  font-weight: bold;
+}
+
+.brand .brand-contact .icon-list .brand-svg-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.brand-page hr {
+  margin-bottom: 45px;
+  width: 90%;
+}
+
+@media screen and (min-width: 769px) {
+  .brand-page .brand {
+    border-bottom: none;
+  }
+
+  .brand-page .brand-info {
+    padding: 0 50px;
+    flex-direction: row;
+    align-items: start;
+    gap: 2em;
+    justify-content: inherit;
+  }
+
+  .brand .brand-banner {
+    margin-bottom: 10px;
+  }
+
+  .brand .brand-logo-block {
+    height: 112px;
+    width: 112px;
+    margin-top: 0;
+    width: 8.5%;
+    align-self: start;
+  }
+
+  .brand .brand-details {
+    width: 55%;
+  }
+
+  .brand .brand-name {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  .brand-page hr {
+    width: 1300px;
+  }
+}

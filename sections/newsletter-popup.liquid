@@ -26,7 +26,7 @@
             <div class="newsletter-popup__image"></div>
             {% style %}
               .newsletter-popup__image {
-                background-image: url({{ section.settings.popup_image | image_url : '1000x' }});
+                background-image: url({{ section.settings.popup_image | img_url: '1000x' }});
               }
             {% endstyle %}
           {% endif %}

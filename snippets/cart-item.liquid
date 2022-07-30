@@ -1,5 +1,5 @@
 <div class="cart__item" data-key="{{ product.key }}">
-  {%- assign img_url = product | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
+  {%- assign img_url = product | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
   <div class="cart__image">
     <a href="{{ product.url }}" style="height: 0; padding-bottom: {{ 100 | divided_by: product.image.aspect_ratio }}%;">
       <img class="lazyload"
@@ -11,7 +11,7 @@
 
       <noscript>
         <img class="lazyloaded"
-          src="{{ product | image_url : '400x' }}"
+          src="{{ product | img_url: '400x' }}"
           alt="{{ product.product.title | escape }}">
       </noscript>
     </a>

@@ -85,8 +85,8 @@
       -%}
       <div class="image-wrap{% if has_video and video_modal == false %} hide{% endif %}" style="height: 0; padding-bottom: {{ 100 | divided_by: media_aspect_ratio }}%;">
         {%- liquid
-          assign img_url = media | image_url : '1x1' | replace: '_1x1.', '_{width}x.'
-          assign zoom_img_url = media.preview_image | image_url : product_zoom_size
+          assign img_url = media | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
+          assign zoom_img_url = media.preview_image | img_url: product_zoom_size
         -%}
 
         <img class="{% if product_zoom_enable %}photoswipe__image{% endif %} lazyload"
@@ -102,7 +102,7 @@
 
         <noscript>
           <img class="lazyloaded"
-            src="{{ media | image_url : '1400x' }}"
+            src="{{ media | img_url: '1400x' }}"
             alt="{{ media.alt | escape }}">
         </noscript>
 
@@ -133,7 +133,7 @@
             {% if video_looping %}loop{% endif %}
             controls
             controlsList="nodownload"
-            poster="{{ media.preview_image | image_url : product_image_size }}"
+            poster="{{ media.preview_image | img_url: product_image_size }}"
             class="hide product-video-mp4-sound">
             {%- for source in media.sources -%}
               <source src="{{ source.url }}" type="{{ source.mime_type }}">
@@ -168,7 +168,7 @@
                 {% if video_style == 'muted' %}muted{% endif %}
                 {% if video_style == 'unmuted' %}controls{% endif %}
                 controlsList="nodownload"
-                poster="{{ media.preview_image | image_url : product_image_size }}"
+                poster="{{ media.preview_image | img_url: product_image_size }}"
                 data-image-count="{{ product.media.size }}"
                 data-video-type="{{ video_type }}"
                 data-video-style="{{ video_style }}"

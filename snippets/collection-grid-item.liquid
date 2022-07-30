@@ -36,7 +36,7 @@
       <div class="collection-image collection-image--{{ settings.collection_grid_shape }} collection-image--placeholder">{{ placeholder | placeholder_svg_tag: 'placeholder-svg' }}</div>
     {%- else -%}
       <div class="collection-image collection-image--{{ settings.collection_grid_shape }} image-wrap">
-        {%- assign img_url = collection_image | image_url : '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        {%- assign img_url = collection_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
         <img
           class="lazyload"
           src=""
@@ -49,7 +49,7 @@
 
         <noscript>
           <img class="lazyloaded"
-            src="{{ collection_image | image_url : '400x' }}"
+            src="{{ collection_image | img_url: '400x' }}"
             alt="{{ collection_image.alt | escape }}">
         </noscript>
       </div>
