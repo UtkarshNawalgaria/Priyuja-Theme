@@ -249,7 +249,7 @@
   color:var(--colorBtnPrimaryText);
   background:{{ settings.color_button | default: "#000" }};
   background:var(--colorBtnPrimary);
-  border-radius:50%;
+  border-radius:50%
 }
 
 .hero .flickity-button{
@@ -7638,6 +7638,8 @@ input[type=image]{
     top:10px;
     max-height:90vh;
     margin-top: 59px;
+    border: 1px solid #e8e8e1;
+	  border-radius: 3px;
   }
 }
 
@@ -8027,10 +8029,14 @@ html[dir=rtl] .grid-product__content{
   }
     }
 
-.grid-product__title{
-  word-break:break-word;
-  -webkit-hyphens:auto;
-          hyphens:auto;
+.grid-product__title {
+	word-break: break-word;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .grid-product__link{
@@ -11808,6 +11814,7 @@ html[dir=rtl] .product-single__meta .rte{
   margin-top: 20px;
 }
 
+/* Brand Page CSS */
 .brand-page {
   margin-bottom: 75px;
 }
@@ -11840,8 +11847,8 @@ html[dir=rtl] .product-single__meta .rte{
 }
 
 .brand .brand-logo-block {
-  height: 80px;
-  width: 80px;
+  height: 112px;
+  width: 112px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
   border-radius: 50%;
   margin-top: -30px;
@@ -11903,8 +11910,6 @@ html[dir=rtl] .product-single__meta .rte{
   }
 
   .brand .brand-logo-block {
-    height: 112px;
-    width: 112px;
     margin-top: 0;
     width: 8.5%;
     align-self: start;
@@ -11924,3 +11929,5 @@ html[dir=rtl] .product-single__meta .rte{
     width: 1300px;
   }
 }
+
+
