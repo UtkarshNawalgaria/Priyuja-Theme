@@ -1,7 +1,63 @@
 {
   "sections": {
+    "1659180325337d0a91": {
+      "type": "slideshow",
+      "blocks": {
+        "1659180325cecb808a-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/all",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/banner_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/banner_mobile_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "1659180325cecb808a-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/pages\/fidaindia",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/banner_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/banner_mobile_2.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1659180325cecb808a-0",
+        "1659180325cecb808a-1"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "400px",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 10
+      }
+    },
     "background-image-text": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "",
         "title": "",
@@ -92,6 +148,7 @@
     }
   },
   "order": [
+    "1659180325337d0a91",
     "background-image-text",
     "featured-collection",
     "1658645152bb25d696",
