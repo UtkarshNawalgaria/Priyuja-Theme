@@ -65,35 +65,6 @@
     }
   </style>
   <hr>
-  <div class="page-width brand-page">
-
-    <div class="brand-products grid">
-      <div class="grid__item medium-up--one-fifth grid__item--sidebar">
-        {% render 'collection-grid-filters',
-          collection: brand_collection,
-          enable_sidebar: true,
-          filter_style: 'sidebar',
-          collapsed: true,
-          enable_color_swatches: section.settings.enable_color_swatches
-        %}
-      </div>
-      <div class="grid__item medium-up--four-fifths grid__item--content">
-        <div data-scroll-to>
-          {% render 'collection-grid'
-            collection: brand_collection,
-            items: brand_collection.products,
-            enable_sidebar: true,
-            filter_style: 'sidebar',
-            enable_sort: true,
-            enable_collection_count: true,
-            per_row: 4,
-            mobile_flush_grid: false,
-            quick_shop_enable: true
-          %}
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 {% schema %}

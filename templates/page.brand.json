@@ -4,9 +4,36 @@
       "type": "main-brand-page",
       "settings": {
       }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": true,
+        "enable_sort": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "main-collection"
   ]
 }
