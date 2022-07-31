@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-brand-list-page",
-      "disabled": true,
       "settings": {
       }
     }
