@@ -9,9 +9,9 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "title": "Contact us",
+        "title": "Get in touch with Us",
         "text": "",
-        "show_phone": false,
+        "show_phone": true,
         "narrow_column": true
       }
     },
