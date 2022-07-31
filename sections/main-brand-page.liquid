@@ -9,9 +9,9 @@
   assign brand_description = page.metafields.custom.brand_description
 
   if page.metafields.custom.brand_logo == blank
-    assign brand_logo_url = 'https://images.meesho.com/images/marketing/1629896997118_128.jpg'
+    assign brand_logo_url = 'https://cdn.shopify.com/s/files/1/0652/7074/3285/files/brand-shop-icon.png?v=1659269538&width=120'
   else
-    assign brand_logo_url = page.metafields.custom.brand_logo | image_url: width: 150, height: 150
+    assign brand_logo_url = page.metafields.custom.brand_logo | image_url: width: 120, height: 120
   endif
 
   if page.metafields.custom.brand_banner == blank
@@ -19,16 +19,23 @@
   else
     assign brand_banner_url = page.metafields.custom.brand_banner | image_url: width: 1300, height: 350
   endif
+
+  if page.metafields.custom.brand_banner_mobile == blank
+    assign brand_mobile_banner_url = 'https://images.meesho.com/images/marketing/1630322640582_1024.jpg'
+  else
+    assign brand_mobile_banner_url = page.metafields.custom.brand_banner_mobile | image_url: width: 500, height: 350
+  endif
 %}
 
 <div class="brand-page">
   <div class="brand">
     <div class="brand-banner">
-      <img src="{{ brand_banner_url }}" alt="{{ brand_name }}" loading="lazy">
+      <img src="{{ brand_banner_url }}" alt="{{ brand_name }}" loading="lazy" class="desktop-banner-image">
+      <img src="{{ brand_mobile_banner_url }}" alt="{{ brand_name }}" loading="lazy" class="mobile-banner-image">
     </div>
     <div class="brand-info">
       <div class="brand-logo-block">
-        <div class="brand-logo"></div>
+        <img src="{{ brand_logo_url }}" alt="">
       </div>
       <div class="brand-details">
         <h1 class="brand-name">{{ brand_name }}</h1>
@@ -58,12 +65,6 @@
       </div>
     </div>
   </div>
-
-  <style>
-    .brand .brand-info .brand-logo-block {
-      background: rgba(0, 0, 0, 0) url("{{ brand_logo_url }}") no-repeat scroll center center / contain;
-    }
-  </style>
   <hr>
 </div>
 

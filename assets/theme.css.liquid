@@ -11818,10 +11818,6 @@ html[dir=rtl] .product-single__meta .rte{
 }
 
 /* Brand Page CSS */
-.brand-page {
-  margin-bottom: 75px;
-}
-
 .brand-page .brand {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -11850,12 +11846,17 @@ html[dir=rtl] .product-single__meta .rte{
 }
 
 .brand .brand-logo-block {
-  height: 112px;
-  width: 112px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
-  border-radius: 50%;
+  box-shadow: 0 0 .3125rem #1718180d,0 .0625rem .125rem #00000026;
   margin-top: -50px;
   align-self: center;
+  text-align: center;
+  border-radius: 50%;
+  padding: 3px;
+  width: 150px;
+}
+
+.brand .brand-logo-block img {
+  border-radius: 50%;
 }
 
 .brand .brand-name {
@@ -11868,6 +11869,10 @@ html[dir=rtl] .product-single__meta .rte{
 .brand .brand-description {
   margin-bottom: 0;
   font-size: 20px;
+}
+
+.brand .brand-contact {
+  width: 100%;
 }
 
 .brand .brand-contact .icon-list {
@@ -11895,6 +11900,14 @@ html[dir=rtl] .product-single__meta .rte{
   width: 90%;
 }
 
+.mobile-banner-image {
+  display: block;
+}
+
+.desktop-banner-image {
+  display: none;
+}
+
 @media screen and (min-width: 769px) {
   .brand-page .brand {
     border-bottom: none;
@@ -11913,12 +11926,11 @@ html[dir=rtl] .product-single__meta .rte{
   }
 
   .brand .brand-banner img {
-    object-fit: contain;
+    object-fit: cover;
   }
 
   .brand .brand-logo-block {
     margin-top: 0;
-    width: 8.5%;
     align-self: start;
   }
 
@@ -11932,9 +11944,45 @@ html[dir=rtl] .product-single__meta .rte{
     font-weight: 700;
   }
 
+  .brand .brand-contact {
+    width: 40%;
+  }
+
   .brand-page hr {
     width: 1300px;
   }
+
+  .mobile-banner-image {
+    display: none;
+  }
+
+  .desktop-banner-image {
+    display: inline-block;
+  }
 }
 
+/* Brand List Page */
+.brand-list-grid {
+  display: flex;
+}
 
+.brand-list-grid .brand-card {
+  width: calc(50% - 1px);
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 0 .3125rem #1718180d,0 .0625rem .125rem #00000026;
+}
+
+.brand-list-grid .brand-card .brand-card__img {
+  object-fit: contain;
+}
+
+@media screen and (min-width: 769px) {
+  .brand-list-grid {
+    gap: 2em;
+  }
+
+  .brand-list-grid .brand-card {
+    width: 300px;
+  }
+}
