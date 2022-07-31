@@ -19,8 +19,6 @@
         }
       },
       "block_order": [
-        "collection_description",
-        "subcollections",
         "product_grid"
       ],
       "settings": {
@@ -28,7 +26,7 @@
         "collapsed": true,
         "filter_style": "sidebar",
         "enable_color_swatches": true,
-        "enable_sort": true
+        "enable_sort": false
       }
     }
   },
