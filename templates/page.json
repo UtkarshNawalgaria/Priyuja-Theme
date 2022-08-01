@@ -142,7 +142,7 @@
         "icon_color": "#ffe300",
         "button_label": "",
         "button_link": "",
-        "divider": true
+        "divider": false
       }
     }
   },
