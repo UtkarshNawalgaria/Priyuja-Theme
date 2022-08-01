@@ -144,6 +144,37 @@
         "button_link": "",
         "divider": false
       }
+    },
+    "16593519192598339d": {
+      "type": "newsletter",
+      "blocks": {
+        "1659351919ca745579-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "1659351919ca745579-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659351919ca745579-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659351919ca745579-0",
+        "1659351919ca745579-1",
+        "1659351919ca745579-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
@@ -152,6 +183,7 @@
     "1659349331abbcfcda",
     "1659349393172e187e",
     "165935010517705749",
-    "1659348964d401dad3"
+    "1659348964d401dad3",
+    "16593519192598339d"
   ]
 }
