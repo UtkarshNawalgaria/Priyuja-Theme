@@ -95,6 +95,22 @@
         "divider": true
       }
     },
+    "165935010517705749": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659350250k2lR.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": true
+      }
+    },
     "1659348964d401dad3": {
       "type": "text-with-icons",
       "blocks": {
@@ -135,6 +151,7 @@
     "16593494910529f367",
     "1659349331abbcfcda",
     "1659349393172e187e",
+    "165935010517705749",
     "1659348964d401dad3"
   ]
 }
