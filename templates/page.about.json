@@ -180,6 +180,37 @@
         "show_phone": false,
         "narrow_column": true
       }
+    },
+    "1659352094ce3bfc0c": {
+      "type": "newsletter",
+      "blocks": {
+        "1659352094252530fb-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "1659352094252530fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659352094252530fb-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659352094252530fb-0",
+        "1659352094252530fb-1",
+        "1659352094252530fb-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
@@ -191,6 +222,7 @@
     "1659347588ac042dce",
     "map",
     "featured-collection",
-    "form"
+    "form",
+    "1659352094ce3bfc0c"
   ]
 }
