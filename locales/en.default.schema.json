@@ -720,6 +720,9 @@
         },
         "copyright_text": {
           "label": "Additional copyright text"
+        },
+        "footer_text": {
+          "label": "Footer text"
         }
       },
       "blocks": {
