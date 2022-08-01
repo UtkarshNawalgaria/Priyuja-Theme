@@ -12,7 +12,19 @@
         "slideshow-0": {
           "type": "image",
           "settings": {
-            "link_text": ""
+            "top_subheading": "",
+            "title": "Join Us At Albeli Ekam",
+            "title_size": 70,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659346116sW0P.jpg",
+            "overlay_opacity": 38,
+            "focal_point": "20% 0"
           }
         }
       },
@@ -20,32 +32,32 @@
         "slideshow-0"
       ],
       "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
       }
     },
     "rich-text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
+            "enlarge_text": true,
+            "text": "<p>Albeli Ekam invites you to become a part of our family and help us promote West Bengal's women's ethnic fashion industry. We are looking for vendors and manufacturers that deal in women ethnic wear including Designer Kurtis, Suit Dupatta Set , Unstitched Suits, Sarees And Lehengas.<\/p>"
           }
         }
       },
       "block_order": [
-        "heading",
         "text"
       ],
       "settings": {
-      }
-    },
-    "map": {
-      "type": "map",
-      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "text-columns": {
@@ -54,16 +66,37 @@
         "column1": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659347073OPFv.jpg",
+            "image_width": 300,
+            "title": "Product Showcase",
+            "text": "<p>We will promote your products by showcasing them on our online marketplace. We will not just showcase your products, but also help in promoting and building your company as a brand on our platform and social media channels.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column2": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659347159FtzR.jpg",
+            "image_width": 300,
+            "title": "Professional Photoshoot",
+            "text": "<p>We will provide you with a professional photoshoot of your showcased products, which will be done in our state-of-the-art in-house content studio. This product portfolio will be used on our website, and can also be used for your own personal dealings.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column3": {
           "type": "text_block",
           "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-16593473297T5D.jpg",
+            "image_width": 300,
+            "title": "Brand Promotion",
+            "text": "<p>We will also promote your brand and your products on our social media channels (Instagram, Facebook, Pinterest, etc) to increase your reach. (Reels which are shot and edited, can be provided to your for your personal use as well)<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
@@ -73,16 +106,70 @@
         "column3"
       ],
       "settings": {
+        "title": "How Can We Help You:",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "1659346729c6dbba12": {
+      "type": "rich-text",
+      "blocks": {
+        "16593467296a9e31ee-0": {
+          "type": "heading",
+          "settings": {
+            "title": "How Can You Help Us:"
+          }
+        },
+        "16593467296a9e31ee-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>a. You will be required to send us product samples that you wish to promote on our online marketplace.<\/p><p><\/p><p>b. Along with product samples, you will also be required to provide us with all details of your products. (This can be done on a Google sheet or any similar tool)<\/p><p><\/p><p>c. Order requirements will need to be fulfilled by you in a few days after order is placed by customers on our website or social media.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16593467296a9e31ee-0",
+        "16593467296a9e31ee-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br\/>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
       }
     },
     "featured-collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "form": {
       "type": "contact-form",
       "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
       }
     }
   },
@@ -91,6 +178,7 @@
     "slideshow",
     "rich-text",
     "text-columns",
+    "1659346729c6dbba12",
     "map",
     "featured-collection",
     "form"
