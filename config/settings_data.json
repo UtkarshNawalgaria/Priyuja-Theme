@@ -98,7 +98,7 @@
             "type": "announcement",
             "settings": {
               "text": "Free shipping",
-              "link_text": "On all orders over $100",
+              "link_text": "On all orders over INR 5000",
               "link": ""
             }
           },
