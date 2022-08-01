@@ -2,11 +2,188 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16593494910529f367": {
+      "type": "slideshow",
+      "blocks": {
+        "16593494916e097ea1-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "About Albeli Ekam",
+            "title_size": 60,
+            "subheading": "Kolkata's Own Online Marketplace",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
+            "overlay_opacity": 10,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16593494916e097ea1-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1659349331abbcfcda": {
+      "type": "rich-text",
+      "blocks": {
+        "1659349331812d39ca-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Background"
+          }
+        },
+        "1659349331812d39ca-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Albeli is a brand that is inspired by the many different traditions and cultures of India. The brand offers a wide variety of colors, fabrics, and designs that are all influenced by Indian culture. The house of Albeli was founded by brothers Mr. Sharad and Mr. Samir Nawalgaria, out of their love and admiration for Indian textiles, when they started off as handloom manufacturers in Banaras in 1990.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659349331812d39ca-0",
+        "1659349331812d39ca-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1659349393172e187e": {
+      "type": "rich-text",
+      "blocks": {
+        "1659349393f78d2d47-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Shift To Albeli Ekam"
+          }
+        },
+        "1659349393f78d2d47-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Kolkata is famous worldwide for its hand-stitched embroidered outfits, block and screen prints, and colourfully dyed garments. The city has become synonymous with a certain sense of style.<\/p><p>We are trying to bring the best of women's ethnic wear produced in this region and make it available at the price of manufacturers directly to consumers. We believe that this will provide a great opportunity for women to enjoy beautiful and stylish clothing at a fair price.<\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the ecommerce domain and give people access to products that they might otherwise not have seen–designed by local tailors and karigars of West Bengal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659349393f78d2d47-0",
+        "1659349393f78d2d47-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
+    "165935010517705749": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659350250k2lR.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": true
+      }
+    },
+    "1659348964d401dad3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1659348964c874d33e-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "Our Mission",
+            "text": "<p>Our mission is to bring the best of women's ethnic wear, produced here in West Bengal, and make it available to our patrons at the lowest prices, directly from manufacturers.<\/p>"
+          }
+        },
+        "1659348964c874d33e-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Our Vision",
+            "text": "<p>We strive to become the one stop destination for women all around India, to get the best of the intricate styles of West Bengal's striving ethnic fashion industry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659348964c874d33e-0",
+        "1659348964c874d33e-1"
+      ],
+      "settings": {
+        "title": "What Does Albeli Ekam Stands For?",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#ffe300",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "16593519192598339d": {
+      "type": "newsletter",
+      "blocks": {
+        "1659351919ca745579-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "1659351919ca745579-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659351919ca745579-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659351919ca745579-0",
+        "1659351919ca745579-1",
+        "1659351919ca745579-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16593494910529f367",
+    "1659349331abbcfcda",
+    "1659349393172e187e",
+    "165935010517705749",
+    "1659348964d401dad3",
+    "16593519192598339d"
   ]
 }

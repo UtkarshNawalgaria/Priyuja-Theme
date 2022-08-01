@@ -6,39 +6,12 @@
       "settings": {
       }
     },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Get in touch"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
     "form": {
       "type": "contact-form",
       "settings": {
-        "title": "Contact us",
+        "title": "Get in touch with Us",
         "text": "",
-        "show_phone": false,
+        "show_phone": true,
         "narrow_column": true
       }
     },
@@ -46,18 +19,50 @@
       "type": "map",
       "settings": {
         "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br\/>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "address": "<p>CG 171, Sector II, Bidhannagar, Salt Lake, Kolkata, West Bengal 700091<\/p>",
+        "map_address": "CG 171, Sector II, Bidhannagar, Kolkata, West Bengal 700091",
         "api_key": "",
         "show_button": true,
+        "background_image": "shopify:\/\/shop_images\/Screenshot_from_2022-07-31_18-38-23.png",
         "background_image_position": "center center"
+      }
+    },
+    "16593521701cd6b7f8": {
+      "type": "newsletter",
+      "blocks": {
+        "1659352170003c6c8b-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "1659352170003c6c8b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659352170003c6c8b-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659352170003c6c8b-0",
+        "1659352170003c6c8b-1",
+        "1659352170003c6c8b-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
       }
     }
   },
   "order": [
     "main",
-    "rich-text",
     "form",
-    "16591729329f5bd978"
+    "16591729329f5bd978",
+    "16593521701cd6b7f8"
   ]
 }

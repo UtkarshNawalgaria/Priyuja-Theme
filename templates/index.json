@@ -90,10 +90,10 @@
         "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "Shop at Albeli Ekam",
-        "text": "<p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices.<br\/>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<br\/><br\/>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p>",
-        "button_label": "",
-        "button_link": "",
+        "title": "Join Us At Albeli Ekam",
+        "text": "<p><\/p><p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices. <\/p><p><\/p><p>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<\/p><p><\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p><p><\/p>",
+        "button_label": "Become A Vendor",
+        "button_link": "shopify:\/\/pages\/join-us",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -145,6 +145,26 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
+    },
+    "1659336331582dbf35": {
+      "type": "rich-text",
+      "blocks": {
+        "16593363310038511f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Kolkata is famous worldwide for its <span style=\"text-decoration:underline\"><strong>hand-stitched outfits<\/strong><\/span>, <span style=\"text-decoration:underline\"><strong>block and screen prints<\/strong><\/span>, and <span style=\"text-decoration:underline\"><strong>colorfully dyed garments<\/strong><\/span>. We are trying to bring the best of <span style=\"text-decoration:underline\"><strong>women's ethnic wear<\/strong><\/span> produced in this region and make it available at the price of manufacturers directly to consumers. The city has become synonymous with a certain sense of style. We are trying to bring to people the best of women's ethnic wear from this region in India at the same price that producers have been working with until now.<br\/><br\/>Kolkata's own online marketplace where you will find a stunning variety of traditional and <span style=\"text-decoration:underline\"><strong>indo-western clothing<\/strong><\/span> for women. We source only the most exquisite handcrafted designs, manufactured by top karigars from untapped areas across West Bengal. <br\/><br\/>Our mission is to bring the best of <span style=\"text-decoration:underline\"><strong>women's ethnic wear<\/strong><\/span>, produced here in West Bengal, and make it available to our patrons at the lowest prices, directly from manufacturers.<br\/><br\/>Shop from our beautiful collection of <span style=\"text-decoration:underline\"><strong>Designer Kurtis<\/strong><\/span>, <span style=\"text-decoration:underline\"><strong>Kurta Dupatta Sets<\/strong><\/span>, <span style=\"text-decoration:underline\"><strong>Unstitched Suits<\/strong><\/span>, <span style=\"text-decoration:underline\"><strong>Sarees<\/strong><\/span>, <span style=\"text-decoration:underline\"><strong>Gowns<\/strong><\/span> and <span style=\"text-decoration:underline\"><strong>Lehengas<\/strong><\/span>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16593363310038511f-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
     }
   },
   "order": [
@@ -153,6 +173,7 @@
     "featured-collection",
     "1658645152bb25d696",
     "blog-posts",
-    "1658644964bc53921a"
+    "1658644964bc53921a",
+    "1659336331582dbf35"
   ]
 }
