@@ -23,6 +23,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
             "overlay_opacity": 10,
             "focal_point": "center center"
           }
