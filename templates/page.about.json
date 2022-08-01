@@ -138,6 +138,14 @@
         "divider": true
       }
     },
+    "1659347588ac042dce": {
+      "type": "rich-text",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
+      }
+    },
     "map": {
       "type": "map",
       "disabled": true,
@@ -179,6 +187,7 @@
     "rich-text",
     "text-columns",
     "1659346729c6dbba12",
+    "1659347588ac042dce",
     "map",
     "featured-collection",
     "form"
