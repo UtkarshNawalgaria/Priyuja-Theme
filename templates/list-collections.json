@@ -8,9 +8,41 @@
         "sort": "alphabetical",
         "grid": "4"
       }
+    },
+    "1659373687374f10df": {
+      "type": "newsletter",
+      "blocks": {
+        "1659373687d54f4aa3-0": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up for our Newsletter"
+          }
+        },
+        "1659373687d54f4aa3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659373687d54f4aa3-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659373687d54f4aa3-0",
+        "1659373687d54f4aa3-1",
+        "1659373687d54f4aa3-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1659373687374f10df"
   ]
 }
