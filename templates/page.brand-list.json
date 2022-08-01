@@ -4,9 +4,41 @@
       "type": "main-brand-list-page",
       "settings": {
       }
+    },
+    "1659352131612023ce": {
+      "type": "newsletter",
+      "blocks": {
+        "16593521318b393079-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "16593521318b393079-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "16593521318b393079-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16593521318b393079-0",
+        "16593521318b393079-1",
+        "16593521318b393079-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1659352131612023ce"
   ]
 }
