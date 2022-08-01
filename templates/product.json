@@ -115,6 +115,37 @@
       "type": "collection-return",
       "settings": {
       }
+    },
+    "165935223461708268": {
+      "type": "newsletter",
+      "blocks": {
+        "16593522342254eca0-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "16593522342254eca0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "16593522342254eca0-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16593522342254eca0-0",
+        "16593522342254eca0-1",
+        "16593522342254eca0-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
@@ -122,6 +153,7 @@
     "sub",
     "product-recommendations",
     "recently-viewed",
-    "collection-return"
+    "collection-return",
+    "165935223461708268"
   ]
 }
