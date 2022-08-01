@@ -3724,7 +3724,7 @@ tool-tip[data-tool-tip-open=true] .tool-tip__inner{
   }
 
 .site-footer{
-  padding-bottom:30px;
+  padding-bottom:0;
   background-color:{{ settings.color_footer | default: "#111" }};
   background-color:var(--colorFooter);
   color:{{ settings.color_footer_text | default: "#fff" }};
@@ -3732,12 +3732,11 @@ tool-tip[data-tool-tip-open=true] .tool-tip__inner{
 }
 
 @media only screen and (min-width:769px){
-
-.site-footer{
-    padding-top:60px;
-    padding-bottom:60px
-}
+  .site-footer{
+      padding-top:60px;
+      padding-bottom:0;
   }
+}
 
 .site-footer .footer__collapsible{
     font-size:calc(var(--typeBaseSize)*0.85);
