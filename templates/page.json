@@ -2,7 +2,96 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "16593494910529f367": {
+      "type": "slideshow",
+      "blocks": {
+        "16593494916e097ea1-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "About Albeli Ekam",
+            "title_size": 60,
+            "subheading": "Kolkata's Own Online Marketplace",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
+            "overlay_opacity": 10,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16593494916e097ea1-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1659349331abbcfcda": {
+      "type": "rich-text",
+      "blocks": {
+        "1659349331812d39ca-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Background"
+          }
+        },
+        "1659349331812d39ca-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Albeli is a brand that is inspired by the many different traditions and cultures of India. The brand offers a wide variety of colors, fabrics, and designs that are all influenced by Indian culture. The house of Albeli was founded by brothers Sharad and Samir Nawalgaria, out of their love and admiration for Indian textiles. In 1990, they started off as handloom manufacturers in Banaras.<\/p><p>We have also worked on exporting Indian textiles to the entire world. This allowed us to improve our manufacturing alongside bringing our traditional designs to a global market.<\/p><p>After exporting goods for some time, we decided to venture into retail in 2004. By 2010, we had opened 40 brand stores across the country.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659349331812d39ca-0",
+        "1659349331812d39ca-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1659349393172e187e": {
+      "type": "rich-text",
+      "blocks": {
+        "1659349393f78d2d47-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Shift To Albeli Ekam"
+          }
+        },
+        "1659349393f78d2d47-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Kolkata is famous worldwide for its hand-stitched embroidered outfits, block and screen prints, and colourfully dyed garments. The city has become synonymous with a certain sense of style.<\/p><p>We are trying to bring the best of women's ethnic wear produced in this region and make it available at the price of manufacturers directly to consumers. We believe that this will provide a great opportunity for women to enjoy beautiful and stylish clothing at a fair price.<\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the ecommerce domain and give people access to products that they might otherwise not have seen–designed by local tailors and karigars of West Bengal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659349393f78d2d47-0",
+        "1659349393f78d2d47-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
       }
     },
     "1659348964d401dad3": {
@@ -42,6 +131,9 @@
   },
   "order": [
     "main",
+    "16593494910529f367",
+    "1659349331abbcfcda",
+    "1659349393172e187e",
     "1659348964d401dad3"
   ]
 }
