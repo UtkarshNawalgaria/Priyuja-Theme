@@ -4,9 +4,44 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1659348964d401dad3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1659348964c874d33e-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "Our Mission",
+            "text": "<p>Our mission is to bring the best of women's ethnic wear, produced here in West Bengal, and make it available to our patrons at the lowest prices, directly from manufacturers.<\/p>"
+          }
+        },
+        "1659348964c874d33e-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Our Vision",
+            "text": "<p>We strive to become the one stop destination for women all around India, to get the best of the intricate styles of West Bengal's striving ethnic fashion industry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659348964c874d33e-0",
+        "1659348964c874d33e-1"
+      ],
+      "settings": {
+        "title": "What Does Albeli Ekam Stands For?",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#ffe300",
+        "button_label": "",
+        "button_link": "",
+        "divider": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1659348964d401dad3"
   ]
 }
