@@ -6,31 +6,31 @@
       "settings": {
       }
     },
-    "slideshow": {
+    "16593494910529f367": {
       "type": "slideshow",
       "blocks": {
-        "slideshow-0": {
+        "16593494916e097ea1-0": {
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Join Us At Albeli Ekam",
-            "title_size": 70,
-            "subheading": "",
+            "title": "About Albeli Ekam",
+            "title_size": 60,
+            "subheading": "Kolkata's Own Online Marketplace",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659346116sW0P.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659346116sW0P.jpg",
-            "overlay_opacity": 38,
-            "focal_point": "20% 0"
+            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
+            "overlay_opacity": 10,
+            "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "slideshow-0"
+        "16593494916e097ea1-0"
       ],
       "settings": {
         "section_height": "650px",
@@ -38,100 +38,56 @@
         "parallax": true,
         "style": "bars",
         "autoplay": true,
-        "autoplay_speed": 7
+        "autoplay_speed": 5
       }
     },
-    "rich-text": {
+    "1659349331abbcfcda": {
       "type": "rich-text",
       "blocks": {
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Albeli Ekam invites you to become a part of our family and help us promote West Bengal's women's ethnic fashion industry. We are looking for vendors and manufacturers that deal in women ethnic wear including Designer Kurtis, Suit Dupatta Set , Unstitched Suits, Sarees And Lehengas.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "text"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "text-columns": {
-      "type": "text-columns",
-      "blocks": {
-        "column1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659347073OPFv.jpg",
-            "image_width": 300,
-            "title": "Product Showcase",
-            "text": "<p>We will promote your products by showcasing them on our online marketplace. We will not just showcase your products, but also help in promoting and building your company as a brand on our platform and social media channels.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "column2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659347159FtzR.jpg",
-            "image_width": 300,
-            "title": "Professional Photoshoot",
-            "text": "<p>We will provide you with a professional photoshoot of your showcased products, which will be done in our state-of-the-art in-house content studio. This product portfolio will be used on our website, and can also be used for your own personal dealings.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "column3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-16593473297T5D.jpg",
-            "image_width": 300,
-            "title": "Brand Promotion",
-            "text": "<p>We will also promote your brand and your products on our social media channels (Instagram, Facebook, Pinterest, etc) to increase your reach. (Reels which are shot and edited, can be provided to your for your personal use as well)<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "How Can We Help You:",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "1659346729c6dbba12": {
-      "type": "rich-text",
-      "blocks": {
-        "16593467296a9e31ee-0": {
+        "1659349331812d39ca-0": {
           "type": "heading",
           "settings": {
-            "title": "How Can You Help Us:"
+            "title": "Our Background"
           }
         },
-        "16593467296a9e31ee-1": {
+        "1659349331812d39ca-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>a. You will be required to send us product samples that you wish to promote on our online marketplace.<\/p><p><\/p><p>b. Along with product samples, you will also be required to provide us with all details of your products. (This can be done on a Google sheet or any similar tool)<\/p><p><\/p><p>c. Order requirements will need to be fulfilled by you in a few days after order is placed by customers on our website or social media.<\/p>"
+            "enlarge_text": false,
+            "text": "<p>Albeli is a brand that is inspired by the many different traditions and cultures of India. The brand offers a wide variety of colors, fabrics, and designs that are all influenced by Indian culture. The house of Albeli was founded by brothers Mr. Sharad and Mr. Samir Nawalgaria, out of their love and admiration for Indian textiles, when they started off as handloom manufacturers in Banaras in 1990.<\/p>"
           }
         }
       },
       "block_order": [
-        "16593467296a9e31ee-0",
-        "16593467296a9e31ee-1"
+        "1659349331812d39ca-0",
+        "1659349331812d39ca-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1659349393172e187e": {
+      "type": "rich-text",
+      "blocks": {
+        "1659349393f78d2d47-0": {
+          "type": "heading",
+          "settings": {
+            "title": "The Shift To Albeli Ekam"
+          }
+        },
+        "1659349393f78d2d47-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Kolkata is famous worldwide for its hand-stitched embroidered outfits, block and screen prints, and colourfully dyed garments. The city has become synonymous with a certain sense of style.<\/p><p>We are trying to bring the best of women's ethnic wear produced in this region and make it available at the price of manufacturers directly to consumers. We believe that this will provide a great opportunity for women to enjoy beautiful and stylish clothing at a fair price.<\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the ecommerce domain and give people access to products that they might otherwise not have seen–designed by local tailors and karigars of West Bengal.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659349393f78d2d47-0",
+        "1659349393f78d2d47-1"
       ],
       "settings": {
         "align_text": "center",
@@ -139,73 +95,81 @@
         "divider": true
       }
     },
-    "1659347588ac042dce": {
-      "type": "rich-text",
+    "165935010517705749": {
+      "type": "background-image-text",
       "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659350250k2lR.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 450,
+        "framed": false,
+        "parallax": true
+      }
+    },
+    "1659348964d401dad3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1659348964c874d33e-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "Our Mission",
+            "text": "<p>Our mission is to bring the best of women's ethnic wear, produced here in West Bengal, and make it available to our patrons at the lowest prices, directly from manufacturers.<\/p>"
+          }
+        },
+        "1659348964c874d33e-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Our Vision",
+            "text": "<p>We strive to become the one stop destination for women all around India, to get the best of the intricate styles of West Bengal's striving ethnic fashion industry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659348964c874d33e-0",
+        "1659348964c874d33e-1"
+      ],
+      "settings": {
+        "title": "What Does Albeli Ekam Stands For?",
         "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
-    },
-    "map": {
-      "type": "map",
-      "disabled": true,
-      "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br\/>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
-        "background_image_position": "center center"
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
+        "desktop_columns_per_row": 3,
+        "icon_color": "#ffe300",
+        "button_label": "",
+        "button_link": "",
         "divider": false
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
-      }
-    },
-    "1659352094ce3bfc0c": {
+    "16593519192598339d": {
       "type": "newsletter",
       "blocks": {
-        "1659352094252530fb-0": {
+        "1659351919ca745579-0": {
           "type": "title",
           "settings": {
             "title": "Signup for our Newsletter"
           }
         },
-        "1659352094252530fb-1": {
+        "1659351919ca745579-1": {
           "type": "text",
           "settings": {
             "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
           }
         },
-        "1659352094252530fb-2": {
+        "1659351919ca745579-2": {
           "type": "form",
           "settings": {
           }
         }
       },
       "block_order": [
-        "1659352094252530fb-0",
-        "1659352094252530fb-1",
-        "1659352094252530fb-2"
+        "1659351919ca745579-0",
+        "1659351919ca745579-1",
+        "1659351919ca745579-2"
       ],
       "settings": {
         "color_background": "#ffe300",
@@ -215,14 +179,11 @@
   },
   "order": [
     "main",
-    "slideshow",
-    "rich-text",
-    "text-columns",
-    "1659346729c6dbba12",
-    "1659347588ac042dce",
-    "map",
-    "featured-collection",
-    "form",
-    "1659352094ce3bfc0c"
+    "16593494910529f367",
+    "1659349331abbcfcda",
+    "1659349393172e187e",
+    "165935010517705749",
+    "1659348964d401dad3",
+    "16593519192598339d"
   ]
 }
