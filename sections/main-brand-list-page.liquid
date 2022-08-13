@@ -1,5 +1,3 @@
-{% assign brand_list = pages | where: "metafields.custom.brand_page" %}
-
 <div class="page-width page-content brand-list">
   <header class="section-header">
     <h1 class="section-header__title">All {{ page.title }}</h1>
@@ -7,9 +5,16 @@
   <div class="brand-list-grid">
     {% for page in pages %}
       {% if page.metafields.custom.brand_page %}
+        {% liquid
+          if page.metafields.custom.brand_list_image != blank
+            assign image_url = page.metafields.custom.brand_list_image | image_url: width: 280, height: 280
+          else
+            assign image_url = page.metafields.custom.brand_banner_mobile | image_url: width: 280, height: 280
+          endif
+        %}
         <div class="brand-card">
           <a href="{{ page.url }}" target="_blank">
-            <img class="brand-card__img" src="{{ page.metafields.custom.brand_banner_mobile | image_url: width: 280, height: 280 }}" alt="{{ page.title }}">
+            <img class="brand-card__img" src="{{ image_url }}" alt="{{ page.title }}">
             <h3 class="brand-card__title">{{ page.title }}</h3>
           </a>
         </div>
