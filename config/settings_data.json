@@ -101,20 +101,11 @@
               "link_text": "Offer valid until August 2022 on all orders",
               "link": ""
             }
-          },
-          "1524770296206": {
-            "type": "announcement",
-            "settings": {
-              "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns",
-              "link": ""
-            }
           }
         },
         "block_order": [
           "1524770014057",
-          "1524770292306",
-          "1524770296206"
+          "1524770292306"
         ],
         "settings": {
           "main_menu_link_list": "menu",
