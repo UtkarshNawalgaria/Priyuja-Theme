@@ -64,7 +64,7 @@
     "cart_icon": "bag",
     "cart_additional_buttons": false,
     "cart_notes_enable": true,
-    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_enable": true,
     "social_facebook_link": "https:\/\/www.facebook.com\/albeliekam\/",
     "social_twitter_link": "https:\/\/twitter.com\/albeliekam",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/albeliekam",
