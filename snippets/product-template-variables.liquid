@@ -32,7 +32,10 @@
         }{% unless forloop.last %},{% endunless %}
       {%- endfor -%}
     ],
-    "brand": {{ product.vendor | json }},
+    "brand": {
+      "@type": "Brand",
+      "name": {{ product.vendor | json }}
+    },
     "sku": {{ current_variant.sku | json }},
     "name": {{ product.title | json }},
     "description": {{ product.description | strip_html | json }},
