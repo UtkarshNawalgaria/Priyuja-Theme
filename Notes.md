@@ -36,3 +36,36 @@ function(formData) {
     this.renderCollectionPage(searchParams);
 }
 ```
+
+### Make the removal of Cart Item AJAX
+
+In `theme.js`
+
+1. Add the below selector to `theme.Cart.selectors`
+```javascript
+productRemove: '.cart__item-remove',
+```
+
+2. Add below to `CartForm` function
+```javascript
+this.removeProductBtns = form.querySelectorAll(selectors.productRemove);
+```
+
+3. New function to remove cart Items using AJAX API
+```javascript
+removeProduct: function(evt) {
+    if (this.removeProductBtns.length > 0) {
+        this.removeProductBtns.forEach(removeBtn => {
+
+        removeBtn.addEventListener('click', evt => {
+            evt.preventDefault()
+            const productKey = removeBtn.closest('.cart__item').dataset.key;
+
+            document.dispatchEvent(new CustomEvent('cart:quantity' + this.namespace, {
+                detail: [productKey, 0, this.wrapper]
+            }));
+        })
+        })
+    }
+    }
+```

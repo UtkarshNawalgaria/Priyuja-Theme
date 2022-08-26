@@ -1644,6 +1644,7 @@ lazySizesConfig.expFactor = 4;
       discounts: '[data-discounts]',
       savings: '[data-savings]',
       subTotal: '[data-subtotal]',
+      itemsTotal: '[data-items-total]',
 
       cartBubble: '.cart-link__bubble',
       cartNote: '[name="note"]',
@@ -1674,6 +1675,7 @@ lazySizesConfig.expFactor = 4;
       this.discounts = form.querySelector(selectors.discounts);
       this.savings = form.querySelector(selectors.savings);
       this.subtotal = form.querySelector(selectors.subTotal);
+      this.itemstotal = form.querySelector(selectors.itemsTotal);
       this.termsCheckbox = form.querySelector(selectors.termsCheckbox);
       this.noteInput = form.querySelector(selectors.cartNote);
 
@@ -1745,6 +1747,7 @@ lazySizesConfig.expFactor = 4;
         var items = markup.items;
         var count = parseInt(items.dataset.count);
         var subtotal = items.dataset.cartSubtotal;
+        var itemstotal = items.dataset.itemsTotal;
         var savings = items.dataset.cartSavings;
 
         this.updateCartDiscounts(markup.discounts);
@@ -1764,6 +1767,7 @@ lazySizesConfig.expFactor = 4;
 
         // Update subtotal
         this.subtotal.innerHTML = theme.Currency.formatMoney(subtotal, theme.settings.moneyFormat);
+        this.itemstotal.innerHTML = theme.Currency.formatMoney(itemstotal, theme.settings.moneyFormat)
 
         this.reInit();
 
@@ -1787,7 +1791,7 @@ lazySizesConfig.expFactor = 4;
       ==============================================================================*/
       initQtySelectors: function() {
         this.form.querySelectorAll(selectors.qtySelector).forEach(el => {
-          var selector = new theme.QtySelector(el, {
+          new theme.QtySelector(el, {
             namespace: this.namespace,
             isCart: true
           });
