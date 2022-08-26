@@ -12,7 +12,8 @@
 
 <div class="cart__items"
   data-count="{{ cart.item_count }}"
-  data-cart-subtotal="{{ cart.total_price }}">
+  data-cart-subtotal="{{ cart.total_price }}"
+  data-cart-items-total="{{ cart.items_subtotal_price }}">
   {% for item in cart.items %}
     {%- render 'cart-item', product: item -%}
   {% endfor %}
