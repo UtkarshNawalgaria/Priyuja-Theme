@@ -1747,7 +1747,7 @@ lazySizesConfig.expFactor = 4;
         var items = markup.items;
         var count = parseInt(items.dataset.count);
         var subtotal = items.dataset.cartSubtotal;
-        var itemstotal = items.dataset.itemsTotal;
+        var itemstotal = items.dataset.cartItemsTotal;
         var savings = items.dataset.cartSavings;
 
         this.updateCartDiscounts(markup.discounts);
