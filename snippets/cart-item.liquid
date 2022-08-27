@@ -21,7 +21,7 @@
         <a href="{{ product.url }}" class="cart__item--name">
           {{ product.product.title }} <span class="sku">({{ product.sku }})</span>
         </a>
-        <button class="cart__item-remove">
+        <button class="cart__item-remove" data-product-key="{{ product.key }}" data-cart-item-remove>
           {{ 'cart.general.remove' | t }}
         </button>
       </div>
@@ -110,7 +110,7 @@
     </div>
   </div>
   <div class="remove-btn">
-    <button class="cart__item-remove page">
+    <button class="cart__item-remove page" data-product-key="{{ product.key }}" data-cart-item-remove>
       {{ 'cart.general.remove' | t }}
     </button>
   </div>

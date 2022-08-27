@@ -1645,6 +1645,7 @@ lazySizesConfig.expFactor = 4;
       savings: '[data-savings]',
       subTotal: '[data-subtotal]',
       itemsTotal: '[data-items-total]',
+      removeProduct: '[data-cart-item-remove]',
 
       cartBubble: '.cart-link__bubble',
       cartNote: '[name="note"]',
@@ -1689,6 +1690,7 @@ lazySizesConfig.expFactor = 4;
     CartForm.prototype = Object.assign({}, CartForm.prototype, {
       init: function() {
         this.initQtySelectors();
+        this.initRemoveProductBtns();
 
         document.addEventListener('cart:quantity' + this.namespace, this.quantityChanged.bind(this));
 
@@ -1709,6 +1711,7 @@ lazySizesConfig.expFactor = 4;
 
       reInit: function() {
         this.initQtySelectors();
+        this.initRemoveProductBtns();
       },
 
       onSubmit: function(evt) {
@@ -1798,12 +1801,25 @@ lazySizesConfig.expFactor = 4;
         });
       },
 
+      initRemoveProductBtns: function() {
+        const removeProductBtns = this.form.querySelectorAll(selectors.removeProduct);
+
+        if (removeProductBtns.length > 0) {
+          removeProductBtns.forEach(removeBtn => {
+            removeBtn.addEventListener('click', evt => {
+              evt.preventDefault();
+              this.removeProduct(removeBtn);
+            })
+          })
+        }
+      },
+
       quantityChanged: function(evt) {
         var key = evt.detail[0];
         var qty = evt.detail[1];
         var el = evt.detail[2];
 
-        if (!key || !qty) {
+        if (key == null || qty == null) {
           return;
         }
 
@@ -1820,7 +1836,13 @@ lazySizesConfig.expFactor = 4;
               this.wrapper.classList.add('is-empty');
             }
 
-            this.buildCart();
+            if (cart.item_count > 0) {
+              this.buildCart();
+            } else {
+              this.updateEmptyCart();
+            }
+
+            this.updateCount(cart.item_count)
 
             document.dispatchEvent(new CustomEvent('cart:updated', {
               detail: {
@@ -1874,6 +1896,25 @@ lazySizesConfig.expFactor = 4;
             });
           }
         }
+      },
+
+      removeProduct: function(removeBtn) {
+        const productKey = removeBtn.dataset.productKey;
+
+        document.dispatchEvent(new CustomEvent('cart:quantity' + this.namespace, {
+            detail: [productKey, 0, this.wrapper]
+        }));
+      },
+
+      updateEmptyCart: function() {
+        const form = this.wrapper.querySelector('form');
+        const pageHeader = document.querySelector('.section-header');
+        const emptyCartIcon = document.querySelector('.empty-cart-icon');
+        const emptyCartText = pageHeader.querySelector('.empty-cart-text');
+        pageHeader.classList.add('section-header--404');
+        emptyCartIcon.classList.remove('hide');
+        emptyCartText.classList.remove('hide');
+        form.remove();
       }
     });
 
@@ -4026,6 +4067,7 @@ lazySizesConfig.expFactor = 4;
 
         document.addEventListener('ajaxProduct:added', function(evt) {
           this.cartForm.buildCart();
+          this.cartForm.initRemoveProductBtns();
           this.open();
         }.bind(this));
 

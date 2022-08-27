@@ -4915,6 +4915,9 @@ form+.footer__social{
 
 .section-header--404{
   padding-top:80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-header select{
@@ -10600,6 +10603,12 @@ newsletter-reminder .newsletter-reminder__message{
   color:var(--colorTextSavings);
 }
 
+.cart__discounts-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .cart__terms{
   display:flex;
   align-items:center;
@@ -10634,11 +10643,21 @@ newsletter-reminder .newsletter-reminder__message{
 
 .drawer .cart__item-remove {
   padding-right: 0;
+  align-self: start;
 }
 
 .order-summary {
   border: 1px solid #e7e7e7;
   border-radius: 5px;
+  padding: 20px;
+}
+
+.empty-cart-icon.hide {
+  display: none;
+}
+
+.empty-cart-text.hide {
+  display: none;
 }
 
 @media only screen and (min-width:769px){
@@ -10659,6 +10678,10 @@ newsletter-reminder .newsletter-reminder__message{
     top:70px;
     flex:0 1 35%;
     padding:30px;
+  }
+
+  .order-summary {
+    padding: 0;
   }
 
   .cart__item--container {
