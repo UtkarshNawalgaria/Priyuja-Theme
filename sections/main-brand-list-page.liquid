@@ -4,7 +4,7 @@
   </header>
   <div class="brand-list-grid">
     {% for page in pages %}
-      {% if page.metafields.custom.brand_page and page.metafields.custom.hide_brand %}
+      {% if page.metafields.custom.brand_page and page.metafields.custom.hide_brand == false %}
         {% liquid
           if page.metafields.custom.brand_list_image != blank
             assign image_url = page.metafields.custom.brand_list_image | image_url: width: 280, height: 280
