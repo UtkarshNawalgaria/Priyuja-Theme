@@ -17,7 +17,6 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/banner_1.png",
-            "image_mobile": "shopify:\/\/shop_images\/banner_mobile_1.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -35,8 +34,44 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/banner_2.png",
+            "image": "shopify:\/\/shop_images\/2_4d10765f-b0f2-4a6b-9130-2e155f19e820.png",
             "image_mobile": "shopify:\/\/shop_images\/banner_mobile_2.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/3_bd1a02df-1f8d-4e24-ae09-2faa98e15f82.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "e23af650-d03c-4d4f-a2b3-1309e311f3a7": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/4_d43d91ad-9c96-430a-bd8f-bfa22cfafc7c.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -44,10 +79,12 @@
       },
       "block_order": [
         "1659180325cecb808a-0",
-        "1659180325cecb808a-1"
+        "1659180325cecb808a-1",
+        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
+        "e23af650-d03c-4d4f-a2b3-1309e311f3a7"
       ],
       "settings": {
-        "section_height": "750px",
+        "section_height": "650px",
         "mobile_height": "400px",
         "parallax": false,
         "style": "arrows",
