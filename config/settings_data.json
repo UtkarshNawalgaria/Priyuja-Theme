@@ -103,11 +103,20 @@
               "link_text": "Offer valid until September 2022 on all orders",
               "link": ""
             }
+          },
+          "1d917be8-8530-41c5-9a60-9ee75ce1021c": {
+            "type": "announcement",
+            "settings": {
+              "text": "extra 20% off for first time customers",
+              "link_text": "",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "1524770014057",
-          "1524770292306"
+          "1524770292306",
+          "1d917be8-8530-41c5-9a60-9ee75ce1021c"
         ],
         "settings": {
           "main_menu_link_list": "menu",
