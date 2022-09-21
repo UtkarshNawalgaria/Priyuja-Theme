@@ -8806,11 +8806,10 @@ html[dir=rtl] .grid-product__content{
 }
 
 @media only screen and (min-width:769px){
-
-.article__grid-image{
+  .article__grid-image{
     margin-bottom:20px
-}
   }
+}
 
 .article__grid-image img{
     display:block;
@@ -8818,6 +8817,7 @@ html[dir=rtl] .grid-product__content{
 
 .article__title{
   font-size:calc(var(--typeBaseSize) + 2px);
+  font-weight: bold;
 }
 
 .article__date{
@@ -8838,12 +8838,12 @@ html[dir=rtl] .grid-product__content{
   margin-bottom:30px
 }
 
-@media only screen and (min-width:769px){
-
-[data-center-text=true] .article__grid-meta{
-    text-align:center
-}
+@media only screen and (max-width:769px){
+  .article__grid-meta {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e7e7e7;
   }
+}
 
 .article__excerpt{
   margin-top:10px;
