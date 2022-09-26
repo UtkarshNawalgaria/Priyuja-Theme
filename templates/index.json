@@ -124,6 +124,30 @@
         "divider": false
       }
     },
+    "1664195030898aa5c1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Unstitched Suits",
+        "home_featured_products": "manbanaras",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1664195048bcec6709": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Kurtis",
+        "home_featured_products": "fida",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "1658645152bb25d696": {
       "type": "text-and-image",
       "settings": {
@@ -185,27 +209,16 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
-    },
-    "1664195030898aa5c1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Unstitched Suits",
-        "home_featured_products": "manbanaras",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "1659180325337d0a91",
     "background-image-text",
     "featured-collection",
+    "1664195030898aa5c1",
+    "1664195048bcec6709",
     "1658645152bb25d696",
     "blog-posts",
-    "1658644964bc53921a",
-    "1664195030898aa5c1"
+    "1658644964bc53921a"
   ]
 }
