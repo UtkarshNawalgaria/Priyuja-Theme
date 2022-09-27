@@ -17,7 +17,7 @@
   if page.metafields.custom.brand_banner == blank
     assign brand_banner_url = 'https://images.meesho.com/images/marketing/1630322640582_1024.jpg'
   else
-    assign brand_banner_url = page.metafields.custom.brand_banner | image_url: width: 1300, height: 350
+    assign brand_banner_url = page.metafields.custom.brand_banner | image_url
   endif
 
   if page.metafields.custom.brand_banner_mobile == blank
