@@ -22,25 +22,6 @@
             "focal_point": "center center"
           }
         },
-        "1659180325cecb808a-1": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/pages\/fida",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/2_4d10765f-b0f2-4a6b-9130-2e155f19e820.png",
-            "image_mobile": "shopify:\/\/shop_images\/2_cda653aa-736e-488d-90f2-76f4f94279dd.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73": {
           "type": "image",
           "settings": {
@@ -78,13 +59,32 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "1d75df50-1d0d-4043-b850-312d09ac4e7b": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_3d697846-d745-42cf-9051-faea1a6b8944.png",
+            "image_mobile": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_Mobile_b3397ab6-625a-4211-a52b-f5fd8ef61179.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "1659180325cecb808a-0",
-        "1659180325cecb808a-1",
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7"
+        "e23af650-d03c-4d4f-a2b3-1309e311f3a7",
+        "1d75df50-1d0d-4043-b850-312d09ac4e7b"
       ],
       "settings": {
         "section_height": "natural",
