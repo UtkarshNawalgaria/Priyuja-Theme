@@ -304,6 +304,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3_b22b420e-48b9-417c-bdb6-a174acb83be9.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -318,7 +319,7 @@
         "166437184454d9ad1d-2"
       ],
       "settings": {
-        "title": "",
+        "title": "Shop By Festive Collections",
         "align_text": "center",
         "divider": false
       }
