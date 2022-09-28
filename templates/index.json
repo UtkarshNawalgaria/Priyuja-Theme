@@ -164,6 +164,49 @@
         "divider": false
       }
     },
+    "1664371009f7d449ad": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1664371009b4e58eee-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "bills",
+            "title": "Cash On Delivery",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Express Shipping",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Easy Returns",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664371009b4e58eee-0",
+        "1664371009b4e58eee-1",
+        "1664371009b4e58eee-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#1c1d1d",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -229,49 +272,6 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
-    },
-    "1664371009f7d449ad": {
-      "type": "text-with-icons",
-      "blocks": {
-        "1664371009b4e58eee-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "bills",
-            "title": "Cash On Delivery",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "Express Shipping",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "ribbon",
-            "title": "Easy Returns",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664371009b4e58eee-0",
-        "1664371009b4e58eee-1",
-        "1664371009b4e58eee-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
     }
   },
   "order": [
@@ -281,9 +281,9 @@
     "1664195030898aa5c1",
     "1664195048bcec6709",
     "1658645152bb25d696",
+    "1664371009f7d449ad",
     "blog-posts",
     "1664370911cc56b3a3",
-    "1658644964bc53921a",
-    "1664371009f7d449ad"
+    "1658644964bc53921a"
   ]
 }
