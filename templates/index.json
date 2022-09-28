@@ -112,6 +112,57 @@
         "parallax": false
       }
     },
+    "1664371844032e463c": {
+      "type": "text-columns",
+      "blocks": {
+        "166437184454d9ad1d-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1_737ac11d-21aa-4b58-b2ad-9913ad786806.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "166437184454d9ad1d-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_6b6a798b-66b6-47cc-92bf-84b02eea9153.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "166437184454d9ad1d-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3_b22b420e-48b9-417c-bdb6-a174acb83be9.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166437184454d9ad1d-0",
+        "166437184454d9ad1d-1",
+        "166437184454d9ad1d-2"
+      ],
+      "settings": {
+        "title": "Shop By Festive Collections",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -272,62 +323,12 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
-    },
-    "1664371844032e463c": {
-      "type": "text-columns",
-      "blocks": {
-        "166437184454d9ad1d-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/1_737ac11d-21aa-4b58-b2ad-9913ad786806.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
-        "166437184454d9ad1d-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/2_6b6a798b-66b6-47cc-92bf-84b02eea9153.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        },
-        "166437184454d9ad1d-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/3_b22b420e-48b9-417c-bdb6-a174acb83be9.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "166437184454d9ad1d-0",
-        "166437184454d9ad1d-1",
-        "166437184454d9ad1d-2"
-      ],
-      "settings": {
-        "title": "Shop By Festive Collections",
-        "align_text": "center",
-        "divider": false
-      }
     }
   },
   "order": [
     "1659180325337d0a91",
     "background-image-text",
+    "1664371844032e463c",
     "featured-collection",
     "1664195030898aa5c1",
     "1664195048bcec6709",
@@ -335,7 +336,6 @@
     "1664371009f7d449ad",
     "blog-posts",
     "1664370911cc56b3a3",
-    "1658644964bc53921a",
-    "1664371844032e463c"
+    "1658644964bc53921a"
   ]
 }
