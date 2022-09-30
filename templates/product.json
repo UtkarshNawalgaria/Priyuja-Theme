@@ -49,7 +49,7 @@
           "type": "tab",
           "settings": {
             "title": "Return & Refund Policy",
-            "content": "<p>Customer can initiate return of their order, within<strong> 3 days<\/strong> of receiving their order. This can only be initiated if the product has been damaged.<\/p><p>A refund for the same will be initiated within <strong>7 days<\/strong> of the order being returned successfully.<\/p><p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Return Policy\">Return & Refund Policy<\/a><\/p>",
+            "content": "<p><em>Albeli Ekam offers an easy return policy. Within <\/em><em><strong>5 days<\/strong><\/em><em> of receiving the order, if you are not satisfied or there is an issue with the product, you can initiate a return. <\/em><\/p><p><em>Upon receiving the product back, a refund will be initiated. You can find detailed information here.<\/em><\/p><p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Return Policy\">Return & Refund Policy<\/a><\/p>",
             "page": ""
           }
         },
@@ -64,6 +64,14 @@
           "type": "share",
           "settings": {
           }
+        },
+        "1b7441b8-8f54-46c8-b7fc-32c8713e57a6": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -76,7 +84,8 @@
         "description",
         "tab",
         "contact",
-        "share"
+        "share",
+        "1b7441b8-8f54-46c8-b7fc-32c8713e57a6"
       ],
       "settings": {
         "sku_enable": true,
