@@ -163,6 +163,18 @@
         "divider": false
       }
     },
+    "1664563013d44f0e4e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sarees",
+        "home_featured_products": "saree",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
@@ -367,24 +379,13 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
-    },
-    "1664563013d44f0e4e": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Sarees",
-        "home_featured_products": "saree",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
     "1659180325337d0a91",
     "background-image-text",
     "1664371844032e463c",
+    "1664563013d44f0e4e",
     "featured-collection",
     "1664195030898aa5c1",
     "1664195048bcec6709",
@@ -393,7 +394,6 @@
     "1664372150d309856a",
     "blog-posts",
     "1664370911cc56b3a3",
-    "1658644964bc53921a",
-    "1664563013d44f0e4e"
+    "1658644964bc53921a"
   ]
 }
