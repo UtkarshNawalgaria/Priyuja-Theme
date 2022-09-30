@@ -678,6 +678,9 @@
             "enable_image": {
               "label": "Show image"
             },
+            "show_button": {
+              "label": "Show Button"
+            },
             "image": {
               "label": "Image"
             },
