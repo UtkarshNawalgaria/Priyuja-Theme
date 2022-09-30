@@ -175,7 +175,7 @@
                             {{ 1999 | money }}
                           {%- endunless -%}
                         </span>
-                        {%- if settings.product_save_amount -%}
+                        {%- if settings.product_save_amount and current_variant.compare_at_price > 0 -%}
                           {%- if settings.product_save_type == 'dollar' -%}
                             {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
                           {%- else -%}
