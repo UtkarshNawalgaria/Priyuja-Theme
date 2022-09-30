@@ -175,14 +175,14 @@
         "divider": false
       }
     },
-    "featured-collection": {
+    "1664195048bcec6709": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our Latest Products",
-        "home_featured_products": "featured",
+        "title": "Kurtis",
+        "home_featured_products": "fida",
         "per_row": 4,
-        "rows": 2,
-        "mobile_scrollable": false,
+        "rows": 1,
+        "mobile_scrollable": true,
         "view_all": true,
         "divider": false
       }
@@ -192,18 +192,6 @@
       "settings": {
         "title": "Unstitched Suits",
         "home_featured_products": "manbanaras",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1664195048bcec6709": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurtis",
-        "home_featured_products": "fida",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -386,9 +374,8 @@
     "background-image-text",
     "1664371844032e463c",
     "1664563013d44f0e4e",
-    "featured-collection",
-    "1664195030898aa5c1",
     "1664195048bcec6709",
+    "1664195030898aa5c1",
     "1658645152bb25d696",
     "1664371009f7d449ad",
     "1664372150d309856a",
