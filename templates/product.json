@@ -53,6 +53,14 @@
             "page": ""
           }
         },
+        "1b7441b8-8f54-46c8-b7fc-32c8713e57a6": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Shipping is free for all orders above Rs. 1000. All orders under Rs. 1000 are subject to a shipping charge of Rs. 99.<\/p><p>Domestic orders reach you within <strong>5-7 days <\/strong>after placing the order, and international orders within <strong>7-10 days.<\/strong><\/p><p>You can find detailed information here.<\/p><p><a href=\"\/pages\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\"><strong>Shipping Policy<\/strong><\/a><\/p>",
+            "page": ""
+          }
+        },
         "contact": {
           "type": "contact",
           "settings": {
@@ -63,14 +71,6 @@
         "share": {
           "type": "share",
           "settings": {
-          }
-        },
-        "1b7441b8-8f54-46c8-b7fc-32c8713e57a6": {
-          "type": "tab",
-          "settings": {
-            "title": "Shipping information",
-            "content": "<p>Shipping is free for all orders above Rs. 1000. All orders under Rs. 1000 are subject to a shipping charge of Rs. 99.<\/p><p>Domestic orders reach you within <strong>5-7 days <\/strong>after placing the order, and international orders within <strong>7-10 days.<\/strong><\/p><p>You can find detailed information here.<\/p><p><a href=\"\/pages\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\"><strong>Shipping Policy<\/strong><\/a><\/p>",
-            "page": ""
           }
         }
       },
@@ -83,9 +83,9 @@
         "buy_buttons",
         "description",
         "tab",
+        "1b7441b8-8f54-46c8-b7fc-32c8713e57a6",
         "contact",
-        "share",
-        "1b7441b8-8f54-46c8-b7fc-32c8713e57a6"
+        "share"
       ],
       "settings": {
         "sku_enable": true,
