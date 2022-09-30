@@ -678,9 +678,6 @@
             "enable_image": {
               "label": "Show image"
             },
-            "show_button": {
-              "label": "Show Button"
-            },
             "image": {
               "label": "Image"
             },
@@ -2351,6 +2348,9 @@
           "settings": {
             "enable_image": {
               "label": "Show image"
+            },
+            "show_button": {
+              "label": "Show Button"
             },
             "image": {
               "label": "Image"
