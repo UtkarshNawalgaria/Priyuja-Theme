@@ -231,8 +231,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "show_button": true,
-            "image_width": 650,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/6_a8f2e5ae-7ceb-4051-a09f-3fb81998462d.png",
+            "image_width": 300,
             "title": "",
             "text": "",
             "button_label": "",
@@ -244,7 +245,8 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image_width": 650,
+            "image": "shopify:\/\/shop_images\/9.png",
+            "image_width": 300,
             "title": "",
             "text": "",
             "button_label": "",
