@@ -16,27 +16,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/10_80b5fdc9-1567-4acd-a214-8549fb481223.png",
+            "image": "shopify:\/\/shop_images\/10_80cf2dfb-1806-4a16-b14d-027c0f818dd1.png",
             "image_mobile": "shopify:\/\/shop_images\/7_523a9be0-8ded-43d9-b2e4-fa2591fbdd03.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "1d75df50-1d0d-4043-b850-312d09ac4e7b": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/saree",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_3d697846-d745-42cf-9051-faea1a6b8944.png",
-            "image_mobile": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_Mobile_b3397ab6-625a-4211-a52b-f5fd8ef61179.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -60,6 +41,44 @@
             "focal_point": "center center"
           }
         },
+        "7887e436-2503-4a82-a687-ee4f33de4e74": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/11_a122cc20-db9b-4653-853f-ecc54909e28b.png",
+            "image_mobile": "shopify:\/\/shop_images\/8.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "1d75df50-1d0d-4043-b850-312d09ac4e7b": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/saree",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_3d697846-d745-42cf-9051-faea1a6b8944.png",
+            "image_mobile": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_Mobile_b3397ab6-625a-4211-a52b-f5fd8ef61179.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "1659180325cecb808a-0": {
           "type": "image",
           "settings": {
@@ -78,33 +97,14 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "7887e436-2503-4a82-a687-ee4f33de4e74": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/11.png",
-            "image_mobile": "shopify:\/\/shop_images\/8.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
-        "1d75df50-1d0d-4043-b850-312d09ac4e7b",
         "e23af650-d03c-4d4f-a2b3-1309e311f3a7",
-        "1659180325cecb808a-0",
-        "7887e436-2503-4a82-a687-ee4f33de4e74"
+        "7887e436-2503-4a82-a687-ee4f33de4e74",
+        "1d75df50-1d0d-4043-b850-312d09ac4e7b",
+        "1659180325cecb808a-0"
       ],
       "settings": {
         "section_height": "natural",
