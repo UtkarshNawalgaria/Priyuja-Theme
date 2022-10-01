@@ -115,23 +115,6 @@
         "autoplay_speed": 10
       }
     },
-    "background-image-text": {
-      "type": "background-image-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/Albeli_Ekam_Banner.png",
-        "focal_point": "center",
-        "layout": "left",
-        "height": 750,
-        "framed": false,
-        "parallax": false
-      }
-    },
     "1664371844032e463c": {
       "type": "text-columns",
       "blocks": {
@@ -462,7 +445,6 @@
   },
   "order": [
     "1659180325337d0a91",
-    "background-image-text",
     "1664371844032e463c",
     "1664563013d44f0e4e",
     "16646081516a0616db",
