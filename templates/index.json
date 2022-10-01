@@ -198,6 +198,72 @@
         "divider": false
       }
     },
+    "16646081516a0616db": {
+      "type": "text-columns",
+      "blocks": {
+        "16646081517f4ae908-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image": "shopify:\/\/shop_images\/7_18fe0725-8df3-49da-983f-39ec86e0b922.png",
+            "image_width": 300,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "16646081517f4ae908-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image": "shopify:\/\/shop_images\/8_37b20bd9-5bb4-41cd-9780-f4beaa373542.png",
+            "image_width": 300,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "16646081517f4ae908-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "3a8bd343-f52c-46d4-9a0c-a80f714cbfd0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16646081517f4ae908-0",
+        "16646081517f4ae908-1",
+        "16646081517f4ae908-2",
+        "3a8bd343-f52c-46d4-9a0c-a80f714cbfd0"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "1664195048bcec6709": {
       "type": "featured-collection",
       "settings": {
@@ -397,6 +463,7 @@
     "background-image-text",
     "1664371844032e463c",
     "1664563013d44f0e4e",
+    "16646081516a0616db",
     "1664195048bcec6709",
     "1664195030898aa5c1",
     "1658645152bb25d696",
