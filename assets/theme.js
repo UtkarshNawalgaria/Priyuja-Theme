@@ -4665,7 +4665,7 @@ lazySizesConfig.expFactor = 4;
         'resources[type]': theme.settings.predictiveSearchType,
         'resources[limit]': 4,
         'resources[options][unavailable_products]': 'last',
-        'resources[options][fields]': 'title,product_type,variants.title,vendor'
+        'resources[options][fields]': 'title,product_type,variants.title,variants.sku,vendor'
       };
 
       var params = paramUrl(searchObj);
