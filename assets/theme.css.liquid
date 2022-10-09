@@ -12102,3 +12102,18 @@ html[dir=rtl] .product-single__meta .rte{
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
+.product-video-container {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .product-video-container {
+    display: block;
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+    width: 150px;
+    height: auto;
+  }
+}

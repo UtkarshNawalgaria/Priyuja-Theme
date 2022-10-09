@@ -24,6 +24,7 @@
   endcase
 
   assign product_img_structure = product.featured_media | img_url: '1x1' | replace: '_1x1.', '_{width}x.'
+  assign product_video = product.media | where: 'media_type', 'video' | first
 -%}
 
 {%- liquid
@@ -72,7 +73,7 @@
       {%- if settings.show_breadcrumbs and isModal != true -%}
         {%- render 'breadcrumbs' -%}
       {%- endif -%}
-      
+
       <div class="grid{% unless image_position == 'left' %} grid--product-images-right{% endunless %}{% if mobile_layout == 'partial' %} grid--product-images--partial{% endif %}">
         {%- if image_position == 'left' -%}
           <div class="grid__item {{ product_image_width }} product-single__sticky">
@@ -424,7 +425,7 @@
           {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
         </div>
       </div>
-  
+
       {%- unless product.empty? -%}
         <div class="product-block button">
           {%- render 'product-form',
@@ -436,5 +437,19 @@
         </div>
       {%- endunless -%}
     </div>
+    {%- if product_video -%}
+      <div class="product-video-container">
+        <video
+          controls
+          playsinline
+          poster="{{ product.featured_media | img_url: '200x' }}"
+          width="150px"
+        >
+          {%- for source in product_video.sources -%}
+            <source src="{{ source.url }}" type="{{ source.mime_type }}">
+          {%- endfor -%}
+        </video>
+      </div>
+    {%- endif -%}
   </div>
 </div>
