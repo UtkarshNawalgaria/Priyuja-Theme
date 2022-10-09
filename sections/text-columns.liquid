@@ -7,7 +7,7 @@
     </div>
   {%- endif -%}
 
-  <div class="grid{% unless section.blocks.size == 5 %} grid--uniform{% endunless %} grid--flush-bottom">
+  <div class="text-columns-container">
     {%- liquid
       assign grid_item_width = 'medium-up--one-third'
       case section.blocks.size
@@ -25,21 +25,29 @@
       {%- else -%}
         {%- assign column_width = grid_item_width -%}
       {%- endif -%}
-      <div class="grid__item {{ column_width }} text-{{ section.settings.align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
+      <div class="text-{{ section.settings.align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
+        {%- style -%}
+          .text-columns-container .img-container-{{ block.id }} {
+            max-width: 300px;
+            width: 200px;
+          }
+
+          @media screen and (min-width: 769px) {
+            .text-columns-container .img-container-{{ block.id }} {
+              width: min({{ block.settings.image_width }}px, 400px);
+              max-width: 100%;
+            }
+          }
+        {%- endstyle -%}
         {%- if block.settings.enable_image -%}
-          <div style="{% if section.settings.align_text == 'center' %}margin: 0 auto;{% endif %} max-width: {{ block.settings.image_width }}px;">
+          <div class="img-container-{{ block.id }}">
             {%- if block.settings.button_link != blank -%}
               <a href="{{ block.settings.button_link }}">
             {%- endif -%}
             {%- if block.settings.image != blank -%}
               <div class="image-wrap text-spacing" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
                 {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-                <img class="lazyload"
-                    data-src="{{ img_url }}"
-                    data-widths="[180, 360, 540, 720, 900, 1080]"
-                    data-aspectratio="{{ block.settings.image.aspect_ratio }}"
-                    data-sizes="auto"
-                    alt="{{ block.settings.image.alt }}">
+                <img class="lazyload" data-src="{{ img_url }}" data-widths="[180, 360, 540, 720, 900, 1080]" data-aspectratio="{{ block.settings.image.aspect_ratio }}" data-sizes="auto" alt="{{ block.settings.image.alt }}">
               </div>
             {%- else -%}
               <div class="image-wrap text-spacing">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
@@ -71,6 +79,7 @@
 {
   "name": "t:sections.text-columns.name",
   "class": "index-section",
+  "max_blocks": 4,
   "settings": [
     {
       "type": "text",
