@@ -8,23 +8,7 @@
   {%- endif -%}
 
   <div class="text-columns-container">
-    {%- liquid
-      assign grid_item_width = 'medium-up--one-third'
-      case section.blocks.size
-        when 1
-          assign grid_item_width = 'medium-up--one-half'
-        when 2
-          assign grid_item_width = 'medium-up--one-half'
-        when 4
-          assign grid_item_width = 'medium-up--one-half'
-      endcase
-    -%}
     {%- for block in section.blocks -%}
-      {%- if section.blocks.size == 5 and forloop.index < 3 -%}
-        {%- assign column_width = 'medium-up--one-half' -%}
-      {%- else -%}
-        {%- assign column_width = grid_item_width -%}
-      {%- endif -%}
       <div class="text-{{ section.settings.align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
         {%- style -%}
           .text-columns-container .img-container-{{ block.id }} {
