@@ -459,6 +459,7 @@
 
         closeBtn.addEventListener('click', function() {
           videoContainer.style.display = 'none';
+          video.pause();
         })
 
         video.addEventListener("playing", function() {
