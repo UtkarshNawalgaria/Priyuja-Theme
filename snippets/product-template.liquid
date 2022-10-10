@@ -442,14 +442,29 @@
         <video
           controls
           playsinline
-          poster="{{ product.featured_media | img_url: '200x' }}"
+          poster="{{ product.featured_media | image_url: width: 150 }}"
           width="150px"
+          id="floating-video"
         >
           {%- for source in product_video.sources -%}
             <source src="{{ source.url }}" type="{{ source.mime_type }}">
           {%- endfor -%}
         </video>
+        <span id="close-video-container">x</span>
       </div>
+      <script>
+        const closeBtn = document.querySelector("#close-video-container");
+        const videoContainer = document.querySelector(".product-video-container");
+        const video = document.querySelector("#floating-video");
+
+        closeBtn.addEventListener('click', function() {
+          videoContainer.style.display = 'none';
+        })
+
+        video.addEventListener("playing", function() {
+          closeBtn.style.top = '-15px';
+        })
+      </script>
     {%- endif -%}
   </div>
 </div>

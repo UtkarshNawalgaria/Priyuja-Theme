@@ -12103,17 +12103,20 @@ html[dir=rtl] .product-single__meta .rte{
   flex-wrap: wrap;
 }
 
+
 .product-video-container {
-  display: none;
+  position: fixed;
+  bottom: 100px;
+  left: 20px;
+  z-index: 9999;
 }
 
-@media screen and (min-width: 769px) {
-  .product-video-container {
-    display: block;
-    position: fixed;
-    bottom: 100px;
-    left: 20px;
-    width: 150px;
-    height: auto;
-  }
+#close-video-container {
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  cursor: pointer;
+  padding: 4px 10px;
+  background: #e7e7e7;
+  border-radius: 50%;
 }
