@@ -261,38 +261,40 @@
         "divider": false
       }
     },
-    "b0790b94-bf74-4d20-a043-f85e6ebb3b8b": {
-      "type": "slideshow",
+    "1e595973-0c34-4edb-ace1-513c7fc4408b": {
+      "type": "promo-grid",
       "blocks": {
-        "template--16291979329781__b0790b94-bf74-4d20-a043-f85e6ebb3b8b-1666438610a5093839-0": {
-          "type": "image",
+        "template--16291979329781__1e595973-0c34-4edb-ace1-513c7fc4408b-16664393027940f2df-0": {
+          "type": "advanced",
           "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 53,
             "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
             "image": "shopify:\/\/shop_images\/KNOW_MORE.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "video_url": "",
+            "width": "100",
+            "height": 200,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
           }
         }
       },
       "block_order": [
-        "template--16291979329781__b0790b94-bf74-4d20-a043-f85e6ebb3b8b-1666438610a5093839-0"
+        "template--16291979329781__1e595973-0c34-4edb-ace1-513c7fc4408b-16664393027940f2df-0"
       ],
       "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
       }
     },
     "1664195030898aa5c1": {
@@ -483,7 +485,7 @@
     "1664563013d44f0e4e",
     "16646081516a0616db",
     "1664195048bcec6709",
-    "b0790b94-bf74-4d20-a043-f85e6ebb3b8b",
+    "1e595973-0c34-4edb-ace1-513c7fc4408b",
     "1664195030898aa5c1",
     "1658645152bb25d696",
     "1664371009f7d449ad",
