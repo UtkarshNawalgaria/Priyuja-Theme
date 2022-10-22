@@ -60,25 +60,6 @@
             "focal_point": "center center"
           }
         },
-        "1d75df50-1d0d-4043-b850-312d09ac4e7b": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/saree",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_3d697846-d745-42cf-9051-faea1a6b8944.png",
-            "image_mobile": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_Mobile_b3397ab6-625a-4211-a52b-f5fd8ef61179.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "e23af650-d03c-4d4f-a2b3-1309e311f3a7": {
           "type": "image",
           "settings": {
@@ -97,14 +78,33 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "1d75df50-1d0d-4043-b850-312d09ac4e7b": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/saree",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_a7564bdf-5cab-4db1-b972-8e7702097eaf.png",
+            "image_mobile": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_a7564bdf-5cab-4db1-b972-8e7702097eaf.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
         "1659180325cecb808a-0",
         "7887e436-2503-4a82-a687-ee4f33de4e74",
-        "1d75df50-1d0d-4043-b850-312d09ac4e7b",
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7"
+        "e23af650-d03c-4d4f-a2b3-1309e311f3a7",
+        "1d75df50-1d0d-4043-b850-312d09ac4e7b"
       ],
       "settings": {
         "section_height": "natural",
