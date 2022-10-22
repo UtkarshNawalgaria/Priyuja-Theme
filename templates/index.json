@@ -16,27 +16,27 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/10_80cf2dfb-1806-4a16-b14d-027c0f818dd1.png",
+            "image": "shopify:\/\/shop_images\/13.png",
             "image_mobile": "shopify:\/\/shop_images\/7_523a9be0-8ded-43d9-b2e4-fa2591fbdd03.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
         },
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7": {
+        "1659180325cecb808a-0": {
           "type": "image",
           "settings": {
             "top_subheading": "",
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "",
+            "link": "shopify:\/\/collections\/all",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners.png",
-            "image_mobile": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_Mobile.png",
+            "image": "shopify:\/\/shop_images\/12.png",
+            "image_mobile": "shopify:\/\/shop_images\/1_14a62cbd-ef08-431e-900e-05f2193123bb.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -54,7 +54,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/11_a122cc20-db9b-4653-853f-ecc54909e28b.png",
+            "image": "shopify:\/\/shop_images\/11_40397542-0016-4fd8-a42f-223330c6dc7e.png",
             "image_mobile": "shopify:\/\/shop_images\/8.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -79,21 +79,21 @@
             "focal_point": "center center"
           }
         },
-        "1659180325cecb808a-0": {
+        "e23af650-d03c-4d4f-a2b3-1309e311f3a7": {
           "type": "image",
           "settings": {
             "top_subheading": "",
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/collections\/all",
+            "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/1_772f0525-b66f-47eb-a184-48b67528ce53.png",
-            "image_mobile": "shopify:\/\/shop_images\/1_14a62cbd-ef08-431e-900e-05f2193123bb.png",
+            "image": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners.png",
+            "image_mobile": "shopify:\/\/shop_images\/Pujo_Special_Website_Banners_Mobile.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -101,10 +101,10 @@
       },
       "block_order": [
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7",
+        "1659180325cecb808a-0",
         "7887e436-2503-4a82-a687-ee4f33de4e74",
         "1d75df50-1d0d-4043-b850-312d09ac4e7b",
-        "1659180325cecb808a-0"
+        "e23af650-d03c-4d4f-a2b3-1309e311f3a7"
       ],
       "settings": {
         "section_height": "natural",
