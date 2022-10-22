@@ -254,7 +254,7 @@
       "settings": {
         "title": "Kurtis",
         "home_featured_products": "fida",
-        "per_row": 4,
+        "per_row": 5,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
