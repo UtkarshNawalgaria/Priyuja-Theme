@@ -309,22 +309,6 @@
         "divider": false
       }
     },
-    "1658645152bb25d696": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Join Us At Albeli Ekam",
-        "text": "<p><\/p><p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices. <\/p><p><\/p><p>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<\/p><p><\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p><p><\/p>",
-        "button_label": "Become A Vendor",
-        "button_link": "shopify:\/\/pages\/join-us",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "left",
-        "divider": false
-      }
-    },
     "1664371009f7d449ad": {
       "type": "text-with-icons",
       "blocks": {
@@ -361,10 +345,26 @@
       "settings": {
         "title": "",
         "align_text": "center",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 4,
         "icon_color": "#1c1d1d",
         "button_label": "",
         "button_link": "",
+        "divider": true
+      }
+    },
+    "1658645152bb25d696": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Join Us At Albeli Ekam",
+        "text": "<p><\/p><p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices. <\/p><p><\/p><p>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<\/p><p><\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p><p><\/p>",
+        "button_label": "Become A Vendor",
+        "button_link": "shopify:\/\/pages\/join-us",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
         "divider": false
       }
     },
@@ -487,8 +487,8 @@
     "1664195048bcec6709",
     "1e595973-0c34-4edb-ace1-513c7fc4408b",
     "1664195030898aa5c1",
-    "1658645152bb25d696",
     "1664371009f7d449ad",
+    "1658645152bb25d696",
     "1664372150d309856a",
     "blog-posts",
     "1664370911cc56b3a3",
