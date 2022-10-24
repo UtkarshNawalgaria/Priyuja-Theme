@@ -409,7 +409,7 @@
         "align_text": "center",
         "round_images": true,
         "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
+        "color_text": "#111111"
       }
     },
     "blog-posts": {
