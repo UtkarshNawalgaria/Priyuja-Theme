@@ -164,7 +164,7 @@
         "166437184454d9ad1d-2"
       ],
       "settings": {
-        "title": "Shop By Categories",
+        "title": "Shop By Category",
         "align_text": "center",
         "divider": false
       }
@@ -249,6 +249,18 @@
         "divider": false
       }
     },
+    "1664195048bcec6709": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Kurtis",
+        "home_featured_products": "fida",
+        "per_row": 5,
+        "rows": 2,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "f7ed8ae1-2746-407a-b381-a24c582b2ea2": {
       "type": "text-columns",
       "blocks": {
@@ -286,18 +298,6 @@
       "settings": {
         "title": "",
         "align_text": "center",
-        "divider": false
-      }
-    },
-    "1664195048bcec6709": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurtis",
-        "home_featured_products": "fida",
-        "per_row": 5,
-        "rows": 2,
-        "mobile_scrollable": true,
-        "view_all": true,
         "divider": false
       }
     },
@@ -536,8 +536,8 @@
     "1664371844032e463c",
     "1664563013d44f0e4e",
     "16646081516a0616db",
-    "f7ed8ae1-2746-407a-b381-a24c582b2ea2",
     "1664195048bcec6709",
+    "f7ed8ae1-2746-407a-b381-a24c582b2ea2",
     "727d5f64-ea61-44bf-9937-7fd55fcea717",
     "1e595973-0c34-4edb-ace1-513c7fc4408b",
     "1664195030898aa5c1",
