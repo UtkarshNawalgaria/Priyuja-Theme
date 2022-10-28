@@ -249,6 +249,46 @@
         "divider": false
       }
     },
+    "f7ed8ae1-2746-407a-b381-a24c582b2ea2": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/1_4f9100fc-25b8-4884-8c45-857528e21ac7.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/2_471a0841-21c2-4a69-95d4-e7cad312029a.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0",
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "1664195048bcec6709": {
       "type": "featured-collection",
       "settings": {
@@ -484,6 +524,7 @@
     "1664371844032e463c",
     "1664563013d44f0e4e",
     "16646081516a0616db",
+    "f7ed8ae1-2746-407a-b381-a24c582b2ea2",
     "1664195048bcec6709",
     "1e595973-0c34-4edb-ace1-513c7fc4408b",
     "1664195030898aa5c1",
