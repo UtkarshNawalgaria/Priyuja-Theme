@@ -181,6 +181,70 @@
         "divider": false
       }
     },
+    "1664195048bcec6709": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Kurtis",
+        "home_featured_products": "fida",
+        "per_row": 5,
+        "rows": 2,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "f7ed8ae1-2746-407a-b381-a24c582b2ea2": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/1_d3e196e0-b7db-46ab-9f5a-3df74cc02389.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/2_7b4696f8-4230-424f-baf3-4f9056eb3de6.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0",
+        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "727d5f64-ea61-44bf-9937-7fd55fcea717": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Kurti Sets",
+        "home_featured_products": "kurta-set",
+        "per_row": 4,
+        "rows": 2,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "16646081516a0616db": {
       "type": "text-columns",
       "blocks": {
@@ -246,70 +310,6 @@
       "settings": {
         "title": "Shop By Wedding Function",
         "align_text": "center",
-        "divider": false
-      }
-    },
-    "1664195048bcec6709": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurtis",
-        "home_featured_products": "fida",
-        "per_row": 5,
-        "rows": 2,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "f7ed8ae1-2746-407a-b381-a24c582b2ea2": {
-      "type": "text-columns",
-      "blocks": {
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": false,
-            "image": "shopify:\/\/shop_images\/1_d3e196e0-b7db-46ab-9f5a-3df74cc02389.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": false,
-            "image": "shopify:\/\/shop_images\/2_7b4696f8-4230-424f-baf3-4f9056eb3de6.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0",
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "727d5f64-ea61-44bf-9937-7fd55fcea717": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurti Sets",
-        "home_featured_products": "kurta-set",
-        "per_row": 4,
-        "rows": 2,
-        "mobile_scrollable": true,
-        "view_all": true,
         "divider": false
       }
     },
@@ -535,10 +535,10 @@
     "1659180325337d0a91",
     "1664371844032e463c",
     "1664563013d44f0e4e",
-    "16646081516a0616db",
     "1664195048bcec6709",
     "f7ed8ae1-2746-407a-b381-a24c582b2ea2",
     "727d5f64-ea61-44bf-9937-7fd55fcea717",
+    "16646081516a0616db",
     "1664195030898aa5c1",
     "1658645152bb25d696",
     "1e595973-0c34-4edb-ace1-513c7fc4408b",
