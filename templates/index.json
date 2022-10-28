@@ -164,7 +164,7 @@
         "166437184454d9ad1d-2"
       ],
       "settings": {
-        "title": "Shop By Festive Collections",
+        "title": "Shop By Categories",
         "align_text": "center",
         "divider": false
       }
@@ -172,7 +172,7 @@
     "1664563013d44f0e4e": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our Featured Collection",
+        "title": "Featured Saree Collection",
         "home_featured_products": "saree",
         "per_row": 5,
         "rows": 1,
