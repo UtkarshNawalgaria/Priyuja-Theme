@@ -41,46 +41,6 @@
         "autoplay_speed": 7
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
-      }
-    },
-    "1659352094ce3bfc0c": {
-      "type": "newsletter",
-      "blocks": {
-        "1659352094252530fb-0": {
-          "type": "title",
-          "settings": {
-            "title": "Signup for our Newsletter"
-          }
-        },
-        "1659352094252530fb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "1659352094252530fb-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1659352094252530fb-0",
-        "1659352094252530fb-1",
-        "1659352094252530fb-2"
-      ],
-      "settings": {
-        "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
-      }
-    },
     "1d35814d-4950-4271-8b9c-464d1db66fbb": {
       "type": "text-columns",
       "blocks": {
@@ -140,17 +100,57 @@
         "1ee6c7e8-33e4-4ce4-8326-8ba903669bc1"
       ],
       "settings": {
-        "title": "",
+        "title": "Browse By Cateogries",
         "align_text": "center",
         "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "1659352094ce3bfc0c": {
+      "type": "newsletter",
+      "blocks": {
+        "1659352094252530fb-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "1659352094252530fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659352094252530fb-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659352094252530fb-0",
+        "1659352094252530fb-1",
+        "1659352094252530fb-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
       }
     }
   },
   "order": [
     "main",
     "slideshow",
+    "1d35814d-4950-4271-8b9c-464d1db66fbb",
     "form",
-    "1659352094ce3bfc0c",
-    "1d35814d-4950-4271-8b9c-464d1db66fbb"
+    "1659352094ce3bfc0c"
   ]
 }
