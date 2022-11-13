@@ -164,6 +164,7 @@
     "41bd6721-0c3f-483d-b1c7-d983c8f270df": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/2_0dbe9c60-5ef1-4311-a16d-1674eb61b5eb.png",
         "image_width": 700,
         "subtitle": "",
         "title": "Step 2",
@@ -175,6 +176,22 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "1d42f8ff-0510-42de-97e3-a67fd485493d": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3_1def4869-ce4f-4afb-8661-f5b72a4d175d.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Step 3",
+        "text": "<p>Once your application is reviewed by our team, you can start selling with Albeli Ekam, whether you are a reseller, retailer or wholesaler.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -184,6 +201,7 @@
     "form",
     "1659352094ce3bfc0c",
     "45f4e4b0-4f25-434b-b4c8-ff524e6c916e",
-    "41bd6721-0c3f-483d-b1c7-d983c8f270df"
+    "41bd6721-0c3f-483d-b1c7-d983c8f270df",
+    "1d42f8ff-0510-42de-97e3-a67fd485493d"
   ]
 }
