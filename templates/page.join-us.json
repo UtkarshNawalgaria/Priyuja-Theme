@@ -80,12 +80,77 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
+    },
+    "1d35814d-4950-4271-8b9c-464d1db66fbb": {
+      "type": "text-columns",
+      "blocks": {
+        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/saree"
+          }
+        },
+        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/kurti"
+          }
+        },
+        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/kurta-set"
+          }
+        },
+        "1ee6c7e8-33e4-4ce4-8326-8ba903669bc1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/gown"
+          }
+        }
+      },
+      "block_order": [
+        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-0",
+        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-1",
+        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-2",
+        "1ee6c7e8-33e4-4ce4-8326-8ba903669bc1"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "slideshow",
     "form",
-    "1659352094ce3bfc0c"
+    "1659352094ce3bfc0c",
+    "1d35814d-4950-4271-8b9c-464d1db66fbb"
   ]
 }
