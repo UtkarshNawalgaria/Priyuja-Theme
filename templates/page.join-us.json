@@ -152,7 +152,7 @@
         "image_width": 700,
         "subtitle": "",
         "title": "Step 1",
-        "text": "<p>Visit our website at https:\/\/wholesale.albeliekam.com and go through our wide range of Sarees, Kurta Sets and Unstitched Suits.<\/p>",
+        "text": "<p>Visit our website at <a href=\"https:\/\/wholesale.albeliekam.com\" target=\"_blank\" title=\"https:\/\/wholesale.albeliekam.com\">https:\/\/wholesale.albeliekam.com<\/a> and go through our wide range of Sarees, Kurta Sets and Unstitched Suits.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
