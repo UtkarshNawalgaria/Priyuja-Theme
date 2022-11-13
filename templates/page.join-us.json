@@ -114,37 +114,6 @@
         "narrow_column": true
       }
     },
-    "1659352094ce3bfc0c": {
-      "type": "newsletter",
-      "blocks": {
-        "1659352094252530fb-0": {
-          "type": "title",
-          "settings": {
-            "title": "Signup for our Newsletter"
-          }
-        },
-        "1659352094252530fb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "1659352094252530fb-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1659352094252530fb-0",
-        "1659352094252530fb-1",
-        "1659352094252530fb-2"
-      ],
-      "settings": {
-        "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
-      }
-    },
     "45f4e4b0-4f25-434b-b4c8-ff524e6c916e": {
       "type": "text-and-image",
       "settings": {
@@ -226,6 +195,37 @@
         "autoplay": false,
         "autoplay_speed": 5
       }
+    },
+    "1659352094ce3bfc0c": {
+      "type": "newsletter",
+      "blocks": {
+        "1659352094252530fb-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "1659352094252530fb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659352094252530fb-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659352094252530fb-0",
+        "1659352094252530fb-1",
+        "1659352094252530fb-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
@@ -233,10 +233,10 @@
     "slideshow",
     "1d35814d-4950-4271-8b9c-464d1db66fbb",
     "form",
-    "1659352094ce3bfc0c",
     "45f4e4b0-4f25-434b-b4c8-ff524e6c916e",
     "41bd6721-0c3f-483d-b1c7-d983c8f270df",
     "1d42f8ff-0510-42de-97e3-a67fd485493d",
-    "142b02e5-ac58-49b0-804c-cdf7549b4709"
+    "142b02e5-ac58-49b0-804c-cdf7549b4709",
+    "1659352094ce3bfc0c"
   ]
 }
