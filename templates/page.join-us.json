@@ -105,15 +105,6 @@
         "divider": false
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
-      }
-    },
     "45f4e4b0-4f25-434b-b4c8-ff524e6c916e": {
       "type": "text-and-image",
       "settings": {
@@ -196,6 +187,15 @@
         "autoplay_speed": 5
       }
     },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
     "1659352094ce3bfc0c": {
       "type": "newsletter",
       "blocks": {
@@ -232,11 +232,11 @@
     "main",
     "slideshow",
     "1d35814d-4950-4271-8b9c-464d1db66fbb",
-    "form",
     "45f4e4b0-4f25-434b-b4c8-ff524e6c916e",
     "41bd6721-0c3f-483d-b1c7-d983c8f270df",
     "1d42f8ff-0510-42de-97e3-a67fd485493d",
     "142b02e5-ac58-49b0-804c-cdf7549b4709",
+    "form",
     "1659352094ce3bfc0c"
   ]
 }
