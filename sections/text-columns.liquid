@@ -7,9 +7,16 @@
     </div>
   {%- endif -%}
 
+  {%- assign block_count = section.blocks | size -%}
   <div class="text-columns-container">
     {%- for block in section.blocks -%}
       <div class="text-{{ section.settings.align_text }}" {{ block.shopify_attributes }} data-aos="row-of-3">
+        {%- if block_count == 3 -%}
+          {%- assign min_width = 400 -%}
+        {%- else -%}
+          {%- assign min_width = 300 -%}
+        {%- endif -%}
+
         {%- style -%}
           .text-columns-container .img-container-{{ block.id }} {
             max-width: 300px;
@@ -18,7 +25,7 @@
 
           @media screen and (min-width: 769px) {
             .text-columns-container .img-container-{{ block.id }} {
-              width: min({{ block.settings.image_width }}px, 400px);
+              width: min({{ block.settings.image_width }}px, {{ min_width }}px);
               max-width: 100%;
             }
           }
