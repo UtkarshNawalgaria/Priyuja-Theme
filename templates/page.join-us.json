@@ -144,6 +144,21 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
+    },
+    "45f4e4b0-4f25-434b-b4c8-ff524e6c916e": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "left",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -151,6 +166,7 @@
     "slideshow",
     "1d35814d-4950-4271-8b9c-464d1db66fbb",
     "form",
-    "1659352094ce3bfc0c"
+    "1659352094ce3bfc0c",
+    "45f4e4b0-4f25-434b-b4c8-ff524e6c916e"
   ]
 }
