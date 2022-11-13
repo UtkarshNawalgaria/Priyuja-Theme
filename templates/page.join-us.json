@@ -160,6 +160,21 @@
         "layout": "left",
         "divider": false
       }
+    },
+    "41bd6721-0c3f-483d-b1c7-d983c8f270df": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Step 2",
+        "text": "<p>Go to the Join as Reseller tab on the website and fill out all the details given in the Reseller Application Form.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "layout": "right",
+        "divider": false
+      }
     }
   },
   "order": [
@@ -168,6 +183,7 @@
     "1d35814d-4950-4271-8b9c-464d1db66fbb",
     "form",
     "1659352094ce3bfc0c",
-    "45f4e4b0-4f25-434b-b4c8-ff524e6c916e"
+    "45f4e4b0-4f25-434b-b4c8-ff524e6c916e",
+    "41bd6721-0c3f-483d-b1c7-d983c8f270df"
   ]
 }
