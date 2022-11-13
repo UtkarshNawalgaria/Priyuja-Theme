@@ -192,6 +192,40 @@
         "layout": "left",
         "divider": false
       }
+    },
+    "142b02e5-ac58-49b0-804c-cdf7549b4709": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16317185622261__142b02e5-ac58-49b0-804c-cdf7549b4709-1668363747da593397-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Reseller_Page_Banner_2.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16317185622261__142b02e5-ac58-49b0-804c-cdf7549b4709-1668363747da593397-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
     }
   },
   "order": [
@@ -202,6 +236,7 @@
     "1659352094ce3bfc0c",
     "45f4e4b0-4f25-434b-b4c8-ff524e6c916e",
     "41bd6721-0c3f-483d-b1c7-d983c8f270df",
-    "1d42f8ff-0510-42de-97e3-a67fd485493d"
+    "1d42f8ff-0510-42de-97e3-a67fd485493d",
+    "142b02e5-ac58-49b0-804c-cdf7549b4709"
   ]
 }
