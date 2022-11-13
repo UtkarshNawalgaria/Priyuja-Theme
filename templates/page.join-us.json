@@ -148,10 +148,11 @@
     "45f4e4b0-4f25-434b-b4c8-ff524e6c916e": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/1_71e249d3-adb0-458e-8da8-78b67feea83d.png",
         "image_width": 700,
         "subtitle": "",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "title": "Step 1",
+        "text": "<p>Visit our website at https:\/\/wholesale.albeliekam.com and go through our wide range of Sarees, Kurta Sets and Unstitched Suits.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
