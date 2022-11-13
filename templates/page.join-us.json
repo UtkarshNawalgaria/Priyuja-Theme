@@ -13,7 +13,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Join Us At Albeli Ekam",
+            "title": "",
             "title_size": 70,
             "subheading": "",
             "link": "",
@@ -22,7 +22,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659346116sW0P.jpg",
+            "image": "shopify:\/\/shop_images\/Reseller_Page_Banner.png",
             "image_mobile": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659346116sW0P.jpg",
             "overlay_opacity": 38,
             "focal_point": "20% 0"
@@ -68,6 +68,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "show_button": true,
             "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659347073OPFv.jpg",
             "image_width": 300,
             "title": "Product Showcase",
@@ -80,6 +81,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "show_button": true,
             "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659347159FtzR.jpg",
             "image_width": 300,
             "title": "Professional Photoshoot",
@@ -92,6 +94,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "show_button": true,
             "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-16593473297T5D.jpg",
             "image_width": 300,
             "title": "Brand Promotion",
