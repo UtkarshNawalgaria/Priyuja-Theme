@@ -187,13 +187,24 @@
         "autoplay_speed": 5
       }
     },
-    "form": {
-      "type": "contact-form",
+    "11adb022-b184-483a-b5e9-9d0b388a4dfb": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16317185622261__11adb022-b184-483a-b5e9-9d0b388a4dfb-166836388353cacbda-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Wholesale Women Clothing At Albeli Ekam<\/strong><br\/><br\/>Albeli Ekam is Kolkata's first women's clothing marketplace for retailers, wholesalers, distributors, exporters and suppliers. You can buy bulk wholesale women clothing online. What makes us unique is our wide range Indian ethnic wear and quality products, available at cheap and reasonable prices.<br\/><\/p><p><strong>Kurtis & Kurtas for Women<\/strong><br\/><br\/>Indian Kurtis – The go to attire of every Indian Girl, be it pairing it up with jeans and stepping out to college, choosing<br\/>neutral coloured ones to wear to work, or pair them up with a churidar and heavy junk jewel pieces to grace a festive<br\/>occasion, Indian Kurtas are every wardrobe must-have. At Albeli Ekam, we share your obsession with Kurtas and pairing<br\/>it up in a multitude of ways, and have a collection you cannot get enough of. From subtle minimal ones to embroidered<br\/>heavens, we have a collection traveling all corners of ethnic fashion. So it does not matter what aesthetic you resonate<br\/>with, you will find something that suits your outlook here. <br\/>One of the most common additions to every girl’s wardrobe, these appeal to women across generations because of their<br\/>fashionable outlook and comfort quotient. Equal parts loved by the generations of our mothers, ourselves, and our<br\/>daughters, Kurtis are a no-brainer. India’s weather also plays a perfect companion for this attire. So whether you are<br\/>looking for an ethnic wear to work on a daily basis, or you are in a mood to drench in junk-jewelleries head to toe and<br\/>click some aesthetic snaps for your social media, Kurtis understands the assignment. <br\/>At Albeli Ekam, we have the latest collection of kurtis for women with us and our site is regularly updated to keep up with<br\/>the latest trends, so your fashion express never arrives at a halt.<\/p><p><\/p><p><strong>Buy Ethnic And Designer Shararas at Albeli Ekam<\/strong><br\/><br\/>Festive season is here, and so is our urge to showcase all flares and twirl. What better to do that than a dazzling Sharara.<br\/>Stylish, Comfortable, Chique, Shararas are a festival favorite amongst millennials and GenZs for all the right reasons. From<br\/>long kurtas to embroidered crop tops and shrugs, these dazzling outfits make any ensemble phenomenal and at Albeli<br\/>Ekam, we have innumerable Sharara Designs to choose from.<br\/><br\/>Super-stylish and comfy festive attires like sharara suits, sharara dresses or sharara crop top outfits are what you will<br\/>completely love to go for, and we have plenty of choices to spoil you. No matter what aesthetic you gravitate towards, you<br\/>will find something that suits your finesse. <br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16317185622261__11adb022-b184-483a-b5e9-9d0b388a4dfb-166836388353cacbda-1"
+      ],
       "settings": {
-        "title": "Contact us",
-        "text": "",
-        "show_phone": false,
-        "narrow_column": true
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "1659352094ce3bfc0c": {
@@ -236,7 +247,7 @@
     "41bd6721-0c3f-483d-b1c7-d983c8f270df",
     "1d42f8ff-0510-42de-97e3-a67fd485493d",
     "142b02e5-ac58-49b0-804c-cdf7549b4709",
-    "form",
+    "11adb022-b184-483a-b5e9-9d0b388a4dfb",
     "1659352094ce3bfc0c"
   ]
 }
