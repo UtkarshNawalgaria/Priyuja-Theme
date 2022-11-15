@@ -129,7 +129,7 @@
           "announcement_compact": true,
           "announcement_above_header": true,
           "toolbar_menu": "",
-          "toolbar_social": true,
+          "toolbar_social": false,
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_currency_flags": true
