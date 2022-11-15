@@ -106,6 +106,26 @@
         "max_width": true
       }
     },
+    "1668529155f0880224": {
+      "type": "apps",
+      "blocks": {
+        "9651a7a7-06db-46d2-94be-5dae26131d40": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "9651a7a7-06db-46d2-94be-5dae26131d40"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -124,45 +144,14 @@
       "type": "collection-return",
       "settings": {
       }
-    },
-    "165935223461708268": {
-      "type": "newsletter",
-      "blocks": {
-        "16593522342254eca0-0": {
-          "type": "title",
-          "settings": {
-            "title": "Signup for our Newsletter"
-          }
-        },
-        "16593522342254eca0-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "16593522342254eca0-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "16593522342254eca0-0",
-        "16593522342254eca0-1",
-        "16593522342254eca0-2"
-      ],
-      "settings": {
-        "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
-      }
     }
   },
   "order": [
     "main",
     "sub",
+    "1668529155f0880224",
     "product-recommendations",
     "recently-viewed",
-    "collection-return",
-    "165935223461708268"
+    "collection-return"
   ]
 }
