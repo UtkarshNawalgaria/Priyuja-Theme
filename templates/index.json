@@ -529,6 +529,64 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
+    },
+    "31f44f7f-f12f-4c39-aaf8-7f9d03c21663": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--16291979329781__31f44f7f-f12f-4c39-aaf8-7f9d03c21663-16686691389ab286e6-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/1_4f9100fc-25b8-4884-8c45-857528e21ac7.png",
+            "video_url": "",
+            "width": "50",
+            "height": 260,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--16291979329781__31f44f7f-f12f-4c39-aaf8-7f9d03c21663-16686691389ab286e6-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16291979329781__31f44f7f-f12f-4c39-aaf8-7f9d03c21663-16686691389ab286e6-0",
+        "template--16291979329781__31f44f7f-f12f-4c39-aaf8-7f9d03c21663-16686691389ab286e6-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": true
+      }
     }
   },
   "order": [
@@ -546,6 +604,7 @@
     "1664371009f7d449ad",
     "blog-posts",
     "1664370911cc56b3a3",
-    "1658644964bc53921a"
+    "1658644964bc53921a",
+    "31f44f7f-f12f-4c39-aaf8-7f9d03c21663"
   ]
 }
