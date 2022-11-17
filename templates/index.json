@@ -193,46 +193,6 @@
         "divider": false
       }
     },
-    "f7ed8ae1-2746-407a-b381-a24c582b2ea2": {
-      "type": "text-columns",
-      "blocks": {
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": false,
-            "image": "shopify:\/\/shop_images\/1_d3e196e0-b7db-46ab-9f5a-3df74cc02389.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/saree"
-          }
-        },
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": false,
-            "image": "shopify:\/\/shop_images\/2_7b4696f8-4230-424f-baf3-4f9056eb3de6.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/kurta-set"
-          }
-        }
-      },
-      "block_order": [
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0",
-        "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-1"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "divider": false
-      }
-    },
     "727d5f64-ea61-44bf-9937-7fd55fcea717": {
       "type": "featured-collection",
       "settings": {
@@ -536,7 +496,6 @@
     "1664371844032e463c",
     "1664563013d44f0e4e",
     "1664195048bcec6709",
-    "f7ed8ae1-2746-407a-b381-a24c582b2ea2",
     "727d5f64-ea61-44bf-9937-7fd55fcea717",
     "16646081516a0616db",
     "1664195030898aa5c1",
