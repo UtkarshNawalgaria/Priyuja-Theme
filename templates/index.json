@@ -195,7 +195,6 @@
     },
     "f7ed8ae1-2746-407a-b381-a24c582b2ea2": {
       "type": "text-columns",
-      "disabled": true,
       "blocks": {
         "template--16291979329781__f7ed8ae1-2746-407a-b381-a24c582b2ea2-16669400842a5f66c4-0": {
           "type": "text_block",
