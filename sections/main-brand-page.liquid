@@ -1,6 +1,4 @@
 {% liquid
-  assign page_handle = page.handle
-  assign brand_collection = collections[page.handle]
   assign brand_name = page.metafields.custom.brand_name
   assign brand_address = page.metafields.custom.brand_address
   assign brand_email = page.metafields.custom.brand_email
@@ -69,8 +67,10 @@
 </div>
 
 {% schema %}
-  {
-    "name": "Brand Page",
-    "settings": []
-  }
+{
+  "name": "Brand Page",
+  "settings": [
+
+  ]
+}
 {% endschema %}

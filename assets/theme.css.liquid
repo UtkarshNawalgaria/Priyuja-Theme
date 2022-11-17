@@ -12120,3 +12120,25 @@ html[dir=rtl] .product-single__meta .rte{
   background: #e7e7e7;
   border-radius: 50%;
 }
+
+.section-two-image-columns {
+  margin: 40px 0;
+}
+
+.section-two-image-columns .image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  .section-two-image-columns .image-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .section-two-image-columns .image-container div {
+    width: 48%;
+  }
+}
