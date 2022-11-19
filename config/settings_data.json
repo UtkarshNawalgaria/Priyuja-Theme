@@ -122,7 +122,7 @@
         "settings": {
           "main_menu_link_list": "menu",
           "mega_menu_images": true,
-          "main_menu_alignment": "center",
+          "main_menu_alignment": "left",
           "header_style": "sticky",
           "sticky_index": false,
           "sticky_collection": false,
