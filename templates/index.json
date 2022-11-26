@@ -116,12 +116,26 @@
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/kurta-set"
           }
+        },
+        "36120ad2-e565-4aa4-8ddc-127e2def212d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image": "shopify:\/\/shop_images\/Shop_By_Category_Banners.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "166437184454d9ad1d-0",
         "166437184454d9ad1d-1",
-        "166437184454d9ad1d-2"
+        "166437184454d9ad1d-2",
+        "36120ad2-e565-4aa4-8ddc-127e2def212d"
       ],
       "settings": {
         "title": "Shop By Category",
