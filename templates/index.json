@@ -59,32 +59,12 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "https:\/\/wholesale.albeliekam.com",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/22.png",
-            "image_mobile": "shopify:\/\/shop_images\/16_d22837cc-110b-4ceb-bbc1-649794ab7260.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
         "1659180325cecb808a-0",
-        "7887e436-2503-4a82-a687-ee4f33de4e74",
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7"
+        "7887e436-2503-4a82-a687-ee4f33de4e74"
       ],
       "settings": {
         "section_height": "natural",
