@@ -167,7 +167,7 @@
         "title": "Kurtis",
         "home_featured_products": "fida",
         "per_row": 4,
-        "rows": 2,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -184,7 +184,7 @@
         "title": "Kurti Sets",
         "home_featured_products": "kurta-set",
         "per_row": 4,
-        "rows": 2,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
