@@ -171,11 +171,12 @@
               "container_width": 20
             }
           },
-          "ceba44b0-72f7-4df5-b5f1-7150483b2e89": {
-            "type": "social",
+          "9e31a01b-ceeb-4ba7-bf35-572c569d8115": {
+            "type": "newsletter",
             "settings": {
               "show_footer_title": true,
-              "title": "Follow Us",
+              "title": "Sign up and save",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "container_width": 20
             }
           }
@@ -185,7 +186,7 @@
           "1494301487049",
           "2fcbcdc3-0c6e-46d1-bc44-058efed0d218",
           "04b91eed-5b63-4cdc-8818-a70cdbb67efa",
-          "ceba44b0-72f7-4df5-b5f1-7150483b2e89"
+          "9e31a01b-ceeb-4ba7-bf35-572c569d8115"
         ],
         "settings": {
           "show_locale_selector": true,
