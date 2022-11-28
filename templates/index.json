@@ -10,7 +10,7 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/pages\/join-us",
+            "link": "shopify:\/\/pages\/shivamani",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -29,7 +29,7 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/pages\/join-us",
+            "link": "shopify:\/\/collections\/saree",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -59,32 +59,12 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/saree",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/22.png",
-            "image_mobile": "shopify:\/\/shop_images\/16_d22837cc-110b-4ceb-bbc1-649794ab7260.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
         "1659180325cecb808a-0",
-        "7887e436-2503-4a82-a687-ee4f33de4e74",
-        "e23af650-d03c-4d4f-a2b3-1309e311f3a7"
+        "7887e436-2503-4a82-a687-ee4f33de4e74"
       ],
       "settings": {
         "section_height": "natural",
@@ -136,12 +116,26 @@
             "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections\/kurta-set"
           }
+        },
+        "36120ad2-e565-4aa4-8ddc-127e2def212d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image": "shopify:\/\/shop_images\/Shop_By_Category_Banners.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/gown"
+          }
         }
       },
       "block_order": [
         "166437184454d9ad1d-0",
         "166437184454d9ad1d-1",
-        "166437184454d9ad1d-2"
+        "166437184454d9ad1d-2",
+        "36120ad2-e565-4aa4-8ddc-127e2def212d"
       ],
       "settings": {
         "title": "Shop By Category",
@@ -154,8 +148,8 @@
       "settings": {
         "title": "Featured Collection",
         "home_featured_products": "saree",
-        "per_row": 5,
-        "rows": 1,
+        "per_row": 4,
+        "rows": 2,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -167,7 +161,7 @@
         "title": "Kurtis",
         "home_featured_products": "fida",
         "per_row": 4,
-        "rows": 2,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -184,7 +178,7 @@
         "title": "Kurti Sets",
         "home_featured_products": "kurta-set",
         "per_row": 4,
-        "rows": 2,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -263,8 +257,8 @@
       "settings": {
         "title": "Unstitched Suits",
         "home_featured_products": "manbanaras",
-        "per_row": 5,
-        "rows": 2,
+        "per_row": 4,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -320,50 +314,6 @@
         "gutter_size": 20,
         "space_above": false,
         "space_below": false
-      }
-    },
-    "1664372150d309856a": {
-      "type": "testimonials",
-      "blocks": {
-        "166437215075f74646-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "4-stars",
-            "testimonial": "<p>There is lot of variety kurtis,long kurtis,palazzo set at the affordable prices.<\/p>",
-            "author": "AMIT KUMAR SINGH",
-            "author_info": "Kolkata"
-          }
-        },
-        "166437215075f74646-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>A well known online store with enormous collection of trendy, classy and elegant ethnic wear.<\/p>",
-            "author": "Aar Kay",
-            "author_info": "Kolkata"
-          }
-        },
-        "166437215075f74646-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>My wife, she is one of the regular customers. Here, you can find variety and styles Kurtis and dresses.<\/p>",
-            "author": "Aranyak Patnaik",
-            "author_info": "Durgapur"
-          }
-        }
-      },
-      "block_order": [
-        "166437215075f74646-0",
-        "166437215075f74646-1",
-        "166437215075f74646-2"
-      ],
-      "settings": {
-        "title": "Reviews By Our Customers",
-        "align_text": "center",
-        "round_images": true,
-        "color_background": "#ffe300",
-        "color_text": "#111111"
       }
     },
     "1664371009f7d449ad": {
@@ -444,35 +394,48 @@
         "space_around": true
       }
     },
-    "1658644964bc53921a": {
-      "type": "newsletter",
+    "1664372150d309856a": {
+      "type": "testimonials",
       "blocks": {
-        "1658644964be116f47-0": {
-          "type": "title",
+        "166437215075f74646-0": {
+          "type": "testimonial",
           "settings": {
-            "title": "Signup for our Newsletter"
+            "icon": "4-stars",
+            "testimonial": "<p>There is lot of variety kurtis,long kurtis,palazzo set at the affordable prices.<\/p>",
+            "author": "AMIT KUMAR SINGH",
+            "author_info": "Kolkata"
           }
         },
-        "1658644964be116f47-1": {
-          "type": "text",
+        "166437215075f74646-1": {
+          "type": "testimonial",
           "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+            "icon": "5-stars",
+            "testimonial": "<p>A well known online store with enormous collection of trendy, classy and elegant ethnic wear.<\/p>",
+            "author": "Aar Kay",
+            "author_info": "Kolkata"
           }
         },
-        "1658644964be116f47-2": {
-          "type": "form",
+        "166437215075f74646-2": {
+          "type": "testimonial",
           "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>My wife, she is one of the regular customers. Here, you can find variety and styles Kurtis and dresses.<\/p>",
+            "author": "Aranyak Patnaik",
+            "author_info": "Durgapur"
           }
         }
       },
       "block_order": [
-        "1658644964be116f47-0",
-        "1658644964be116f47-1",
-        "1658644964be116f47-2"
+        "166437215075f74646-0",
+        "166437215075f74646-1",
+        "166437215075f74646-2"
       ],
       "settings": {
+        "title": "Reviews By Our Customers",
+        "align_text": "center",
+        "round_images": true,
         "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
+        "color_text": "#111111"
       }
     }
   },
@@ -487,10 +450,9 @@
     "1664195030898aa5c1",
     "1658645152bb25d696",
     "1e595973-0c34-4edb-ace1-513c7fc4408b",
-    "1664372150d309856a",
     "1664371009f7d449ad",
     "blog-posts",
     "1664370911cc56b3a3",
-    "1658644964bc53921a"
+    "1664372150d309856a"
   ]
 }
