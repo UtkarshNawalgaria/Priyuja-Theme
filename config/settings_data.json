@@ -76,6 +76,7 @@
     "search_type": "product",
     "predictive_image_size": "portrait",
     "show_breadcrumbs": true,
+    "show_breadcrumbs_collection_link": true,
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",

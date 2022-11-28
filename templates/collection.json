@@ -44,42 +44,10 @@
         "enable_color_swatches": true,
         "enable_sort": true
       }
-    },
-    "1659352258cd5ea4a2": {
-      "type": "newsletter",
-      "blocks": {
-        "1659352258a2b72072-0": {
-          "type": "title",
-          "settings": {
-            "title": "Signup for our Newsletter"
-          }
-        },
-        "1659352258a2b72072-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "1659352258a2b72072-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1659352258a2b72072-0",
-        "1659352258a2b72072-1",
-        "1659352258a2b72072-2"
-      ],
-      "settings": {
-        "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
-      }
     }
   },
   "order": [
     "collection-header",
-    "main-collection",
-    "1659352258cd5ea4a2"
+    "main-collection"
   ]
 }
