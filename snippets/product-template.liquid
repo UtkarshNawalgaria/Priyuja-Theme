@@ -57,7 +57,7 @@
   data-product-id="{{ product.id }}"
   data-section-type="product"
   data-product-handle="{{ product.handle }}"
-  data-product-title="{{ product.title | escape }}"
+  data-product-title="{{ ee | escape }}"
   data-product-url="{{ product.url | within: collection }}"
   data-aspect-ratio="{{ 100 | divided_by: product.featured_media.aspect_ratio }}"
   data-img-url="{{ product_img_structure }}"
@@ -123,6 +123,7 @@
                   {%- endunless -%}
                 </h1>
               {%- endif -%}
+              {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
 
               {%- if sku_enable -%}
                 <p data-sku class="product-single__sku">
