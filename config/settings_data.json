@@ -271,6 +271,57 @@
           "review": "",
           "pattern": ""
         }
+      },
+      "9389739334699838615": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/search\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "searchVariable": "search?q={search_term}"
+        }
+      },
+      "15640154714208799765": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/localBusiness\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "businessType": "AccountingService",
+          "businessName": "",
+          "servesCuisine": "",
+          "streetAddress": "",
+          "addressLocality": "",
+          "region": "",
+          "postalCode": "",
+          "telephone": "",
+          "priceRangeFrom": "",
+          "priceRangeto": "",
+          "DaysOfWeek": "",
+          "opens": "",
+          "closes": ""
+        }
+      },
+      "6039927293107162517": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/logo\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+          "businessName": "",
+          "url": "",
+          "description": "",
+          "twitterUrl": "",
+          "facebookUrl": "",
+          "instagramUrl": "",
+          "pinterestUrl": "",
+          "linkedinUrl": "",
+          "telephone": "",
+          "streetAddress": "",
+          "city": "",
+          "state": "",
+          "country": "",
+          "zipCode": "",
+          "isReviewAvailable": "no",
+          "reviewCount": "",
+          "ratingValue": "",
+          "bestRating": "",
+          "worstRating": ""
+        }
       }
     }
   },
