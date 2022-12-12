@@ -252,6 +252,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "6472724134860490182": {
+        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/breadcrumb\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
