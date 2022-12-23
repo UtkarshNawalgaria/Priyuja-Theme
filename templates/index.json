@@ -17,7 +17,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Banner_4.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_4.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/13_b5ba95f8-1451-4edd-bc8d-6b322bfdf4f3.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -35,7 +35,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/20_23d1c112-01d5-4b39-a268-61042d840dd5.png",
+            "image": "shopify:\/\/shop_images\/Banner_5.jpg",
             "image_mobile": "shopify:\/\/shop_images\/14_2c7d83c1-df17-4e97-88cd-a36df00a9d9c.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -54,8 +54,44 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/21_821fb78b-a3d9-49aa-a01f-2bf245d70efc.png",
+            "image": "shopify:\/\/shop_images\/Banner_2.jpg",
             "image_mobile": "shopify:\/\/shop_images\/15.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "2ee809d5-1921-4f97-848f-e0854ef311dd": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Banner_1.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "478eca94-2b36-4a89-a844-eee960b36322": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Banner_3.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -64,7 +100,9 @@
       "block_order": [
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
         "1659180325cecb808a-0",
-        "7887e436-2503-4a82-a687-ee4f33de4e74"
+        "7887e436-2503-4a82-a687-ee4f33de4e74",
+        "2ee809d5-1921-4f97-848f-e0854ef311dd",
+        "478eca94-2b36-4a89-a844-eee960b36322"
       ],
       "settings": {
         "section_height": "natural",
