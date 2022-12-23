@@ -48,14 +48,13 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/collections\/fida",
+            "link": "shopify:\/\/collections\/shivamani",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Banner_2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/15.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
