@@ -272,7 +272,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Unstitched Suits",
-        "home_featured_products": "manbanaras",
+        "home_featured_products": "unstitched-suits",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
