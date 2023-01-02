@@ -195,18 +195,6 @@
         "divider": false
       }
     },
-    "1664195048bcec6709": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurtis",
-        "home_featured_products": "fida",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "1664370911cc5sdfdf": {
       "type": "image-columns",
       "settings": {
@@ -483,7 +471,6 @@
     "1659180325337d0a91",
     "1664371844032e463c",
     "1664563013d44f0e4e",
-    "1664195048bcec6709",
     "1664370911cc5sdfdf",
     "727d5f64-ea61-44bf-9937-7fd55fcea717",
     "16646081516a0616db",
