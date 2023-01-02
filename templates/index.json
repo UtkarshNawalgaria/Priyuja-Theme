@@ -187,7 +187,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured Collection",
-        "home_featured_products": "saree",
+        "home_featured_products": "featured",
         "per_row": 4,
         "rows": 2,
         "mobile_scrollable": true,
