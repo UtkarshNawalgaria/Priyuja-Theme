@@ -200,18 +200,6 @@
       "settings": {
       }
     },
-    "727d5f64-ea61-44bf-9937-7fd55fcea717": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurti Sets",
-        "home_featured_products": "kurta-set",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "16646081516a0616db": {
       "type": "text-columns",
       "blocks": {
@@ -472,7 +460,6 @@
     "1664371844032e463c",
     "1664563013d44f0e4e",
     "1664370911cc5sdfdf",
-    "727d5f64-ea61-44bf-9937-7fd55fcea717",
     "16646081516a0616db",
     "1664195030898aa5c1",
     "1658645152bb25d696",
