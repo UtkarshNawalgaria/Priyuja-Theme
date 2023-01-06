@@ -242,7 +242,7 @@
                       </div>
                     </div>
                   {%- when 'quantity_selector' -%}
-                    <div class="product-block show-desktop" {{ block.shopify_attributes }}>
+                    <div class="product-block" {{ block.shopify_attributes }}>
                       <div class="product__quantity">
                         {% assign qty_id = section_id | append: product.id %}
                         <label for="Quantity-{{ qty_id }}">{{ 'products.product.quantity' | t }}</label>
@@ -423,13 +423,16 @@
       </div>
     </div>
     <div class="sticky-add-to-cart"  data-sticky-add-to-cart>
-      <div class="product-block qty-selector" {{ block.shopify_attributes }}>
-        <div class="product__quantity">
-          {% assign qty_id = section_id | append: product.id %}
-          {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
-        </div>
+      <div class="whatsapp-btn">
+        <a href="https://api.whatsapp.com/send?phone=919831044277&text=Hey, I want to buy this product.%0Ahttps://{{ shop.domain }}{{ product.url }}" target="_black" class="whatsapp-btn-link">
+          <div class="whatsapp-btn-icon">
+            <img src="https://whatsapp.seedgrow.net/images/whatsapp_logo.svg" alt="Order on Whatsapp">
+          </div>
+          <div class="whatsapp-btn-text">
+            Order
+          </div>
+        </a>
       </div>
-
       {%- unless product.empty? -%}
         <div class="product-block button">
           {%- render 'product-form',
