@@ -110,6 +110,7 @@
 
       <main class="main-content" id="MainContent">
         {{ content_for_layout }}
+        {% liquid render 'mobile-menu' %}
       </main>
 
       {%- section 'footer-promotions' -%}
