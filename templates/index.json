@@ -16,7 +16,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/19_80371fa0-a2aa-443f-910e-88aa382f3da9.png",
+            "image": "shopify:\/\/shop_images\/Banner_4.jpg",
             "image_mobile": "shopify:\/\/shop_images\/13_b5ba95f8-1451-4edd-bc8d-6b322bfdf4f3.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -35,7 +35,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/20_23d1c112-01d5-4b39-a268-61042d840dd5.png",
+            "image": "shopify:\/\/shop_images\/Banner_5.jpg",
             "image_mobile": "shopify:\/\/shop_images\/14_2c7d83c1-df17-4e97-88cd-a36df00a9d9c.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -48,14 +48,52 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/collections\/fida",
+            "link": "shopify:\/\/collections\/shivamani",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/21_821fb78b-a3d9-49aa-a01f-2bf245d70efc.png",
-            "image_mobile": "shopify:\/\/shop_images\/15.png",
+            "image": "shopify:\/\/shop_images\/Banner_2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/15_a261dea8-a4a4-4b35-a744-33adc7d4869a.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "2ee809d5-1921-4f97-848f-e0854ef311dd": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Banner_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/16_5528a652-3040-4eb8-a4f3-d99e79d7fdbe.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "478eca94-2b36-4a89-a844-eee960b36322": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Banner_3.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/17_45857a9b-a4a9-471c-b3aa-999c5aca97b4.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -64,7 +102,9 @@
       "block_order": [
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
         "1659180325cecb808a-0",
-        "7887e436-2503-4a82-a687-ee4f33de4e74"
+        "7887e436-2503-4a82-a687-ee4f33de4e74",
+        "2ee809d5-1921-4f97-848f-e0854ef311dd",
+        "478eca94-2b36-4a89-a844-eee960b36322"
       ],
       "settings": {
         "section_height": "natural",
@@ -147,21 +187,9 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured Collection",
-        "home_featured_products": "saree",
+        "home_featured_products": "featured",
         "per_row": 4,
         "rows": 2,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1664195048bcec6709": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurtis",
-        "home_featured_products": "fida",
-        "per_row": 4,
-        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -170,18 +198,6 @@
     "1664370911cc5sdfdf": {
       "type": "image-columns",
       "settings": {
-      }
-    },
-    "727d5f64-ea61-44bf-9937-7fd55fcea717": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Kurti Sets",
-        "home_featured_products": "kurta-set",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
       }
     },
     "16646081516a0616db": {
@@ -256,7 +272,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Unstitched Suits",
-        "home_featured_products": "manbanaras",
+        "home_featured_products": "unstitched-suits",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
@@ -443,9 +459,7 @@
     "1659180325337d0a91",
     "1664371844032e463c",
     "1664563013d44f0e4e",
-    "1664195048bcec6709",
     "1664370911cc5sdfdf",
-    "727d5f64-ea61-44bf-9937-7fd55fcea717",
     "16646081516a0616db",
     "1664195030898aa5c1",
     "1658645152bb25d696",
