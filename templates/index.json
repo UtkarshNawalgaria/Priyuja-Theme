@@ -397,8 +397,8 @@
         "title": "Reviews By Our Customers",
         "align_text": "center",
         "round_images": true,
-        "color_background": "#ffe300",
-        "color_text": "#111111"
+        "color_background": "#fdf697",
+        "color_text": "#a91c0c"
       }
     }
   },
