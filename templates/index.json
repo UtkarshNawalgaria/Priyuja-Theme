@@ -203,6 +203,7 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
+            "image": "shopify:\/\/shop_images\/haldi.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -215,6 +216,7 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
+            "image": "shopify:\/\/shop_images\/mehendi.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -227,6 +229,7 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
+            "image": "shopify:\/\/shop_images\/sangeet.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -239,6 +242,7 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
+            "image": "shopify:\/\/shop_images\/reception.png",
             "image_width": 300,
             "title": "",
             "text": "",
