@@ -93,7 +93,6 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Website_Logo.png",
               "desktop_logo_width": 180,
               "mobile_logo_width": 110
             }
@@ -121,10 +120,10 @@
           "1d917be8-8530-41c5-9a60-9ee75ce1021c"
         ],
         "settings": {
-          "main_menu_link_list": "menu",
+          "main_menu_link_list": "main-menu",
           "mega_menu_images": true,
           "main_menu_alignment": "left",
-          "header_style": "sticky",
+          "header_style": "normal",
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
@@ -152,7 +151,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer-products-menu",
+              "menu": "",
               "container_width": 20
             }
           },
@@ -160,7 +159,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer-policy-menu",
+              "menu": "",
               "container_width": 20
             }
           },
@@ -168,7 +167,7 @@
             "type": "menu",
             "settings": {
               "show_footer_title": true,
-              "menu": "footer-help-menu",
+              "menu": "",
               "container_width": 20
             }
           },
@@ -245,85 +244,7 @@
     },
     "content_for_index": [
 
-    ],
-    "blocks": {
-      "judgeme_core_aa5783ed": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "6472724134860490182": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/breadcrumb\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "9389739334699838615": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/search\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "searchVariable": "search?q={search_term}"
-        }
-      },
-      "15640154714208799765": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/localBusiness\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "businessType": "AccountingService",
-          "businessName": "",
-          "servesCuisine": "",
-          "streetAddress": "",
-          "addressLocality": "",
-          "region": "",
-          "postalCode": "",
-          "telephone": "",
-          "priceRangeFrom": "",
-          "priceRangeto": "",
-          "DaysOfWeek": "",
-          "opens": "",
-          "closes": ""
-        }
-      },
-      "6039927293107162517": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/logo\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "businessName": "",
-          "url": "",
-          "description": "",
-          "twitterUrl": "",
-          "facebookUrl": "",
-          "instagramUrl": "",
-          "pinterestUrl": "",
-          "linkedinUrl": "",
-          "telephone": "",
-          "streetAddress": "",
-          "city": "",
-          "state": "",
-          "country": "",
-          "zipCode": "",
-          "isReviewAvailable": "no",
-          "reviewCount": "",
-          "ratingValue": "",
-          "bestRating": "",
-          "worstRating": ""
-        }
-      },
-      "13647546867862338453": {
-        "type": "shopify:\/\/apps\/seo-json-ld-schema\/blocks\/product\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
-        "settings": {
-          "isShopifyName": "seo",
-          "reviewsFrom": "judgeme",
-          "moneyFormat": "amount",
-          "globalIdentifier": "none",
-          "reviewAuthor": "",
-          "review": "",
-          "pattern": ""
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Modern": {
