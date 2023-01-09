@@ -278,6 +278,7 @@
     "1658645152bb25d696": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Join us at Priyuja",
@@ -288,41 +289,6 @@
         "align_text": "left",
         "layout": "left",
         "divider": false
-      }
-    },
-    "1e595973-0c34-4edb-ace1-513c7fc4408b": {
-      "type": "promo-grid",
-      "blocks": {
-        "template--16291979329781__1e595973-0c34-4edb-ace1-513c7fc4408b-16664393027940f2df-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "",
-            "cta_link1": "shopify:\/\/pages\/join-us",
-            "cta_text2": "",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 200,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16291979329781__1e595973-0c34-4edb-ace1-513c7fc4408b-16664393027940f2df-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
       }
     },
     "1664371009f7d449ad": {
@@ -370,6 +336,7 @@
     },
     "blog-posts": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "Style Updates by Albeli Ekam",
         "blog": "style-updates-by-albeliekam",
@@ -443,7 +410,6 @@
     "16646081516a0616db",
     "1664195030898aa5c1",
     "1658645152bb25d696",
-    "1e595973-0c34-4edb-ace1-513c7fc4408b",
     "1664371009f7d449ad",
     "blog-posts",
     "1664370911cc56b3a3",
