@@ -10,7 +10,7 @@
     "color_cart_dot": "#ff4f33",
     "color_small_image_bg": "#ffffff",
     "color_large_image_bg": "#0f0f0f",
-    "color_header": "#ffe300",
+    "color_header": "#ffffff",
     "color_header_text": "#000000",
     "color_announcement": "#0f0f0f",
     "color_announcement_text": "#ffffff",
@@ -94,6 +94,7 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
+              "logo": "shopify:\/\/shop_images\/Priyuja.png",
               "desktop_logo_width": 180,
               "mobile_logo_width": 110
             }
@@ -124,7 +125,7 @@
           "main_menu_link_list": "main-menu",
           "mega_menu_images": true,
           "main_menu_alignment": "left",
-          "header_style": "normal",
+          "header_style": "sticky",
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
