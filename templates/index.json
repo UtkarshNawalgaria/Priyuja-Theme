@@ -17,7 +17,6 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Banner_4.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/13_b5ba95f8-1451-4edd-bc8d-6b322bfdf4f3.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -36,7 +35,6 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Banner_5.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/14_2c7d83c1-df17-4e97-88cd-a36df00a9d9c.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -55,7 +53,6 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Banner_2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/15_a261dea8-a4a4-4b35-a744-33adc7d4869a.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -74,7 +71,6 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Banner_1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/16_5528a652-3040-4eb8-a4f3-d99e79d7fdbe.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -93,7 +89,6 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Banner_3.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/17_45857a9b-a4a9-471c-b3aa-999c5aca97b4.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -123,7 +118,6 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/1_737ac11d-21aa-4b58-b2ad-9913ad786806.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -136,7 +130,6 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/2_6b6a798b-66b6-47cc-92bf-84b02eea9153.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -149,7 +142,6 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/3_b22b420e-48b9-417c-bdb6-a174acb83be9.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -162,7 +154,6 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image": "shopify:\/\/shop_images\/Shop_By_Category_Banners.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -208,7 +199,6 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image": "shopify:\/\/shop_images\/7_18fe0725-8df3-49da-983f-39ec86e0b922.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -221,7 +211,6 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image": "shopify:\/\/shop_images\/8_37b20bd9-5bb4-41cd-9780-f4beaa373542.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -234,7 +223,6 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/6_a8f2e5ae-7ceb-4051-a09f-3fb81998462d.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -247,7 +235,6 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image": "shopify:\/\/shop_images\/9.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -283,7 +270,6 @@
     "1658645152bb25d696": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Join Us At Albeli Ekam",
@@ -309,7 +295,6 @@
             "cta_link1": "shopify:\/\/pages\/join-us",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/KNOW_MORE.png",
             "video_url": "",
             "width": "100",
             "height": 200,
@@ -392,19 +377,6 @@
     },
     "1664370911cc56b3a3": {
       "type": "apps",
-      "blocks": {
-        "32764e4c-d732-406d-8739-6d8924e87096": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "32764e4c-d732-406d-8739-6d8924e87096"
-      ],
       "settings": {
         "full_width": false,
         "space_around": true
