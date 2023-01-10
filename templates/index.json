@@ -309,6 +309,50 @@
         "divider": false
       }
     },
+    "1664372150d309856a": {
+      "type": "testimonials",
+      "blocks": {
+        "166437215075f74646-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4-stars",
+            "testimonial": "<p>There is lot of variety kurtis,long kurtis,palazzo set at the affordable prices.<\/p>",
+            "author": "AMIT KUMAR SINGH",
+            "author_info": "Kolkata"
+          }
+        },
+        "166437215075f74646-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>A well known online store with enormous collection of trendy, classy and elegant ethnic wear.<\/p>",
+            "author": "Aar Kay",
+            "author_info": "Kolkata"
+          }
+        },
+        "166437215075f74646-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>My wife, she is one of the regular customers. Here, you can find variety and styles Kurtis and dresses.<\/p>",
+            "author": "Aranyak Patnaik",
+            "author_info": "Durgapur"
+          }
+        }
+      },
+      "block_order": [
+        "166437215075f74646-0",
+        "166437215075f74646-1",
+        "166437215075f74646-2"
+      ],
+      "settings": {
+        "title": "Reviews By Our Customers",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#fdf697",
+        "color_text": "#a91c0c"
+      }
+    },
     "1658645152bb25d696": {
       "type": "text-and-image",
       "settings": {
@@ -390,50 +434,6 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "1664372150d309856a": {
-      "type": "testimonials",
-      "blocks": {
-        "166437215075f74646-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "4-stars",
-            "testimonial": "<p>There is lot of variety kurtis,long kurtis,palazzo set at the affordable prices.<\/p>",
-            "author": "AMIT KUMAR SINGH",
-            "author_info": "Kolkata"
-          }
-        },
-        "166437215075f74646-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>A well known online store with enormous collection of trendy, classy and elegant ethnic wear.<\/p>",
-            "author": "Aar Kay",
-            "author_info": "Kolkata"
-          }
-        },
-        "166437215075f74646-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>My wife, she is one of the regular customers. Here, you can find variety and styles Kurtis and dresses.<\/p>",
-            "author": "Aranyak Patnaik",
-            "author_info": "Durgapur"
-          }
-        }
-      },
-      "block_order": [
-        "166437215075f74646-0",
-        "166437215075f74646-1",
-        "166437215075f74646-2"
-      ],
-      "settings": {
-        "title": "Reviews By Our Customers",
-        "align_text": "center",
-        "round_images": true,
-        "color_background": "#fdf697",
-        "color_text": "#a91c0c"
-      }
     }
   },
   "order": [
@@ -444,10 +444,10 @@
     "1664370911cc5sdfdf",
     "16646081516a0616db",
     "1664195030898aa5c1",
+    "1664372150d309856a",
     "1658645152bb25d696",
     "1664371009f7d449ad",
     "blog-posts",
-    "1664370911cc56b3a3",
-    "1664372150d309856a"
+    "1664370911cc56b3a3"
   ]
 }
