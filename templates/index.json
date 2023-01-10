@@ -3,24 +3,6 @@
     "1659180325337d0a91": {
       "type": "slideshow",
       "blocks": {
-        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/pages\/shivamani",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Banner_4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "1659180325cecb808a-0": {
           "type": "image",
           "settings": {
@@ -34,7 +16,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Banner_5.jpg",
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners_1.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -52,7 +34,25 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Banner_2.jpg",
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners_2.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/pages\/shivamani",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -70,7 +70,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Banner_1.jpg",
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners_3.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -88,16 +88,16 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Banner_3.jpg",
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners_4.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
         "1659180325cecb808a-0",
         "7887e436-2503-4a82-a687-ee4f33de4e74",
+        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
         "2ee809d5-1921-4f97-848f-e0854ef311dd",
         "478eca94-2b36-4a89-a844-eee960b36322"
       ],
