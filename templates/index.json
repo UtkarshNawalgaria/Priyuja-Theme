@@ -190,6 +190,58 @@
         "divider": false
       }
     },
+    "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-0",
+        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-1"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
     "1664370911cc5sdfdf": {
       "type": "image-columns",
       "settings": {
@@ -406,6 +458,7 @@
     "1659180325337d0a91",
     "1664371844032e463c",
     "1664563013d44f0e4e",
+    "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e",
     "1664370911cc5sdfdf",
     "16646081516a0616db",
     "1664195030898aa5c1",
