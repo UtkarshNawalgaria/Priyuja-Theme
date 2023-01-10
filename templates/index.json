@@ -241,7 +241,7 @@
             "image_width": 300,
             "title": "",
             "text": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "button_link": "shopify:\/\/collections\/mehendi-special-collection"
           }
         },
@@ -254,7 +254,7 @@
             "image_width": 300,
             "title": "",
             "text": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "button_link": "shopify:\/\/collections\/haldi-special-collection"
           }
         },
@@ -280,7 +280,7 @@
             "image_width": 300,
             "title": "",
             "text": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "button_link": "shopify:\/\/collections\/reception-special-collection"
           }
         }
