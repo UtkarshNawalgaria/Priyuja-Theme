@@ -82,7 +82,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/Priyuja.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
-    "checkout_body_background_color": "#ffffff",
+    "checkout_body_background_color": "#f9f8ef",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_accent_color": "#111111",
