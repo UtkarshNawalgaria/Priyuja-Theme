@@ -118,7 +118,7 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/sarees.png",
+            "image": "shopify:\/\/shop_images\/17.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -131,7 +131,7 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/kurta-sharara.png",
+            "image": "shopify:\/\/shop_images\/20.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -144,7 +144,7 @@
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/kurta-dupatta.png",
+            "image": "shopify:\/\/shop_images\/18.png",
             "image_width": 650,
             "title": "",
             "text": "",
@@ -157,7 +157,7 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image": "shopify:\/\/shop_images\/gowns.png",
+            "image": "shopify:\/\/shop_images\/19.png",
             "image_width": 650,
             "title": "",
             "text": "",
