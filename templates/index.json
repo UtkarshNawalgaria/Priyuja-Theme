@@ -232,25 +232,12 @@
     "16646081516a0616db": {
       "type": "text-columns",
       "blocks": {
-        "16646081517f4ae908-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": true,
-            "image": "shopify:\/\/shop_images\/haldi.png",
-            "image_width": 300,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/haldi-special-collection"
-          }
-        },
         "16646081517f4ae908-1": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image": "shopify:\/\/shop_images\/mehendi.png",
+            "image": "shopify:\/\/shop_images\/11.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -258,12 +245,25 @@
             "button_link": "shopify:\/\/collections\/mehendi-special-collection"
           }
         },
+        "16646081517f4ae908-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image": "shopify:\/\/shop_images\/10.png",
+            "image_width": 300,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/haldi-special-collection"
+          }
+        },
         "16646081517f4ae908-2": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "show_button": false,
-            "image": "shopify:\/\/shop_images\/sangeet.png",
+            "image": "shopify:\/\/shop_images\/9.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -276,7 +276,7 @@
           "settings": {
             "enable_image": true,
             "show_button": true,
-            "image": "shopify:\/\/shop_images\/reception.png",
+            "image": "shopify:\/\/shop_images\/12.png",
             "image_width": 300,
             "title": "",
             "text": "",
@@ -286,8 +286,8 @@
         }
       },
       "block_order": [
-        "16646081517f4ae908-0",
         "16646081517f4ae908-1",
+        "16646081517f4ae908-0",
         "16646081517f4ae908-2",
         "3a8bd343-f52c-46d4-9a0c-a80f714cbfd0"
       ],
