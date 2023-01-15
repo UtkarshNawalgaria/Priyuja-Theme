@@ -17,6 +17,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Priyuja_Banners_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_1.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -35,6 +36,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Priyuja_Banners_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_2.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -53,6 +55,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Priyuja_Banners.png",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_3.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -71,6 +74,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Priyuja_Banners_3.png",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_4.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -89,6 +93,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Priyuja_Banners_4.png",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_5.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
