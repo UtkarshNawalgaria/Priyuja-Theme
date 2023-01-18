@@ -111,8 +111,8 @@
           "1d917be8-8530-41c5-9a60-9ee75ce1021c": {
             "type": "announcement",
             "settings": {
-              "text": "extra 20% off for first time customers",
-              "link_text": "Apply Coupon Code-FIRST20",
+              "text": "extra 10% off for first time customers",
+              "link_text": "Apply Coupon Code-FIRST10",
               "link": ""
             }
           }
