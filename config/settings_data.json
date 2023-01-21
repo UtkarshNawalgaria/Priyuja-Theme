@@ -87,7 +87,7 @@
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_accent_color": "#111111",
     "checkout_button_color": "#a91c0c",
-    "checkout_error_color": "#ff6d6d",
+    "checkout_error_color": "#ff0000",
     "breadcrumb": false,
     "sections": {
       "header": {
