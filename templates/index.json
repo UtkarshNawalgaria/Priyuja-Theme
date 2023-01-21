@@ -303,56 +303,6 @@
         "divider": false
       }
     },
-    "74ffb494-75b4-44a6-bc49-e44c99e1680e": {
-      "type": "featured-product",
-      "blocks": {
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-0": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-1": {
-          "type": "description",
-          "settings": {
-            "is_tab": true
-          }
-        },
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-2": {
-          "type": "variant_picker",
-          "settings": {
-            "variant_labels": true,
-            "picker_type": "dropdown",
-            "color_swatches": false
-          }
-        },
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-3": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "surface_pickup_enable": true
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-0",
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-1",
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-2",
-        "template--17454619459892__74ffb494-75b4-44a6-bc49-e44c99e1680e-1674282579459c68d8-3"
-      ],
-      "settings": {
-        "featured_product": "black-and-white-tie-dye-print-saree",
-        "divider": true,
-        "sku_enable": false,
-        "image_position": "left",
-        "image_size": "small",
-        "product_zoom_enable": true,
-        "thumbnail_position": "below",
-        "thumbnail_arrows": true,
-        "mobile_layout": "partial",
-        "enable_video_looping": true,
-        "product_video_style": "muted"
-      }
-    },
     "1664195030898aa5c1": {
       "type": "featured-collection",
       "settings": {
@@ -483,7 +433,6 @@
     "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e",
     "1664370911cc5sdfdf",
     "16646081516a0616db",
-    "74ffb494-75b4-44a6-bc49-e44c99e1680e",
     "1664195030898aa5c1",
     "1664372150d309856a",
     "1658645152bb25d696",
