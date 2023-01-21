@@ -125,14 +125,14 @@
         "settings": {
           "main_menu_link_list": "main-menu",
           "mega_menu_images": true,
-          "main_menu_alignment": "left",
+          "main_menu_alignment": "center",
           "header_style": "sticky",
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
           "announcement_above_header": true,
           "toolbar_menu": "",
-          "toolbar_social": false,
+          "toolbar_social": true,
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_currency_flags": true
