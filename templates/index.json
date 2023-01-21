@@ -110,7 +110,7 @@
         "section_height": "natural",
         "mobile_height": "400px",
         "parallax": false,
-        "style": "arrows",
+        "style": "dots",
         "autoplay": true,
         "autoplay_speed": 10
       }
