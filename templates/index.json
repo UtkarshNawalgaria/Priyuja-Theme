@@ -212,6 +212,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
+            "image_mobile": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
