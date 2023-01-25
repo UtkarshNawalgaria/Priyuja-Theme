@@ -1,5 +1,40 @@
 {
   "sections": {
+    "c4bcf165-6f1f-4290-88b2-64056412a257": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454619722036__c4bcf165-6f1f-4290-88b2-64056412a257-16746663499a062e39-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/26th_Jan_to_2nd_Feb_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/26th_Jan_to_2nd_Feb_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619722036__c4bcf165-6f1f-4290-88b2-64056412a257-16746663499a062e39-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
     "collection-header": {
       "type": "collection-header",
       "settings": {
@@ -74,6 +109,7 @@
     }
   },
   "order": [
+    "c4bcf165-6f1f-4290-88b2-64056412a257",
     "collection-header",
     "main-collection",
     "1674478354d96dab8f"
