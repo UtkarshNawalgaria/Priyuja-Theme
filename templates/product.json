@@ -99,25 +99,11 @@
         "product_video_style": "unmuted"
       }
     },
-    "judgeme_section_review_widget_c028": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
       "settings": {
         "max_width": true
-      }
-    },
-    "1668529155f0880224": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
       }
     },
     "product-recommendations": {
@@ -142,9 +128,7 @@
   },
   "order": [
     "main",
-    "judgeme_section_review_widget_c028",
     "sub",
-    "1668529155f0880224",
     "product-recommendations",
     "recently-viewed",
     "collection-return"
