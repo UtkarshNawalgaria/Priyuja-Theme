@@ -239,31 +239,13 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "template--17454619459892__801695d7-c6eb-4edc-b977-d6193b5de067-16750874147605c1d6-1": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "Two line\ntitle slide.",
-            "title_size": 80,
-            "subheading": "And big, beautiful imagery",
-            "link": "",
-            "link_text": "Optional button",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
-        "template--17454619459892__801695d7-c6eb-4edc-b977-d6193b5de067-16750874147605c1d6-0",
-        "template--17454619459892__801695d7-c6eb-4edc-b977-d6193b5de067-16750874147605c1d6-1"
+        "template--17454619459892__801695d7-c6eb-4edc-b977-d6193b5de067-16750874147605c1d6-0"
       ],
       "settings": {
-        "section_height": "450px",
+        "section_height": "natural",
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
