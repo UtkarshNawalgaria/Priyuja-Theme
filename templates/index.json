@@ -115,6 +115,49 @@
         "autoplay_speed": 10
       }
     },
+    "1664371009f7d449ad": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1664371009b4e58eee-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "bills",
+            "title": "Cash On Delivery",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Express Shipping",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Easy Returns",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664371009b4e58eee-0",
+        "1664371009b4e58eee-1",
+        "1664371009b4e58eee-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#1c1d1d",
+        "button_label": "",
+        "button_link": "",
+        "divider": true
+      }
+    },
     "167447743475c4c20c": {
       "type": "apps",
       "blocks": {
@@ -434,22 +477,6 @@
         "autoplay_speed": 5
       }
     },
-    "1658645152bb25d696": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Join us at Priyuja",
-        "text": "<p><\/p><p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices. <\/p><p><\/p><p>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<\/p><p><\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p><p><\/p>",
-        "button_label": "Become A Vendor",
-        "button_link": "shopify:\/\/pages\/join-us",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "left",
-        "divider": false
-      }
-    },
     "1664372150d309856a": {
       "type": "testimonials",
       "blocks": {
@@ -494,6 +521,22 @@
         "color_text": "#a91c0c"
       }
     },
+    "1658645152bb25d696": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Join us at Priyuja",
+        "text": "<p><\/p><p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices. <\/p><p><\/p><p>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<\/p><p><\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p><p><\/p>",
+        "button_label": "Become A Vendor",
+        "button_link": "shopify:\/\/pages\/join-us",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
     "ea82b11e-98e1-42c9-a8a8-970bc124569b": {
       "type": "slideshow",
       "blocks": {
@@ -529,49 +572,6 @@
         "autoplay_speed": 5
       }
     },
-    "1664371009f7d449ad": {
-      "type": "text-with-icons",
-      "blocks": {
-        "1664371009b4e58eee-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "bills",
-            "title": "Cash On Delivery",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "Express Shipping",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "ribbon",
-            "title": "Easy Returns",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664371009b4e58eee-0",
-        "1664371009b4e58eee-1",
-        "1664371009b4e58eee-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 4,
-        "icon_color": "#1c1d1d",
-        "button_label": "",
-        "button_link": "",
-        "divider": true
-      }
-    },
     "1664370911cc56b3a3": {
       "type": "apps",
       "settings": {
@@ -582,6 +582,7 @@
   },
   "order": [
     "1659180325337d0a91",
+    "1664371009f7d449ad",
     "167447743475c4c20c",
     "1664371844032e463c",
     "1664563013d44f0e4e",
@@ -591,10 +592,9 @@
     "737b31f2-535a-48a7-b453-40d05031afc5",
     "1664195030898aa5c1",
     "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e",
-    "1658645152bb25d696",
     "1664372150d309856a",
+    "1658645152bb25d696",
     "ea82b11e-98e1-42c9-a8a8-970bc124569b",
-    "1664371009f7d449ad",
     "1664370911cc56b3a3"
   ]
 }
