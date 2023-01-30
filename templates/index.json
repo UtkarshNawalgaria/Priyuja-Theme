@@ -236,6 +236,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px.png",
+            "image_mobile": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px_800_x_800_px.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
