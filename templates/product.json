@@ -54,6 +54,11 @@
           "settings": {
           }
         },
+        "28bf1614-dfca-4d04-86fa-ecdec2cb4b48": {
+          "type": "product_waitlist_form",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -113,6 +118,7 @@
         "price",
         "4b7490db-7985-4767-ac45-7bd22e77004d",
         "separator",
+        "28bf1614-dfca-4d04-86fa-ecdec2cb4b48",
         "variant_picker",
         "fe0a3ed7-4d52-40b2-9aa3-1839ae4f1d32",
         "buy_buttons",
@@ -124,6 +130,7 @@
       ],
       "settings": {
         "sku_enable": true,
+        "show_product_waitlist_form": true,
         "image_position": "left",
         "image_size": "medium",
         "product_zoom_enable": true,
