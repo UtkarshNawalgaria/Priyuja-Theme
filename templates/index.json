@@ -115,6 +115,74 @@
         "autoplay_speed": 10
       }
     },
+    "1664371844032e463c": {
+      "type": "text-columns",
+      "blocks": {
+        "166437184454d9ad1d-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/17.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/saree"
+          }
+        },
+        "166437184454d9ad1d-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/20.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/kurta-set"
+          }
+        },
+        "166437184454d9ad1d-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": false,
+            "image": "shopify:\/\/shop_images\/18.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/kurta-set"
+          }
+        },
+        "36120ad2-e565-4aa4-8ddc-127e2def212d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "show_button": true,
+            "image": "shopify:\/\/shop_images\/19.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/gown"
+          }
+        }
+      },
+      "block_order": [
+        "166437184454d9ad1d-0",
+        "166437184454d9ad1d-1",
+        "166437184454d9ad1d-2",
+        "36120ad2-e565-4aa4-8ddc-127e2def212d"
+      ],
+      "settings": {
+        "title": "Shop By Category",
+        "align_text": "center",
+        "divider": false
+      }
+    },
     "1664371009f7d449ad": {
       "type": "text-with-icons",
       "blocks": {
@@ -200,74 +268,6 @@
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "1664371844032e463c": {
-      "type": "text-columns",
-      "blocks": {
-        "166437184454d9ad1d-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": false,
-            "image": "shopify:\/\/shop_images\/17.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/saree"
-          }
-        },
-        "166437184454d9ad1d-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": false,
-            "image": "shopify:\/\/shop_images\/20.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/kurta-set"
-          }
-        },
-        "166437184454d9ad1d-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": false,
-            "image": "shopify:\/\/shop_images\/18.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/kurta-set"
-          }
-        },
-        "36120ad2-e565-4aa4-8ddc-127e2def212d": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": true,
-            "image": "shopify:\/\/shop_images\/19.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/gown"
-          }
-        }
-      },
-      "block_order": [
-        "166437184454d9ad1d-0",
-        "166437184454d9ad1d-1",
-        "166437184454d9ad1d-2",
-        "36120ad2-e565-4aa4-8ddc-127e2def212d"
-      ],
-      "settings": {
-        "title": "Shop By Category",
-        "align_text": "center",
-        "divider": false
       }
     },
     "1664563013d44f0e4e": {
@@ -602,10 +602,10 @@
   },
   "order": [
     "1659180325337d0a91",
+    "1664371844032e463c",
     "1664371009f7d449ad",
     "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
-    "1664371844032e463c",
     "1664563013d44f0e4e",
     "801695d7-c6eb-4edc-b977-d6193b5de067",
     "1664370911cc5sdfdf",
