@@ -270,6 +270,42 @@
         "divider": false
       }
     },
+    "0e28ebab-92e6-4297-8159-c9dcecad1d12": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--17454619459892__0e28ebab-92e6-4297-8159-c9dcecad1d12-167517435825a27b8e-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px.png",
+            "video_url": "",
+            "width": "100",
+            "height": 360,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__0e28ebab-92e6-4297-8159-c9dcecad1d12-167517435825a27b8e-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
     "1664563013d44f0e4e": {
       "type": "featured-collection",
       "settings": {
@@ -282,45 +318,69 @@
         "divider": false
       }
     },
-    "801695d7-c6eb-4edc-b977-d6193b5de067": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17454619459892__801695d7-c6eb-4edc-b977-d6193b5de067-16750874147605c1d6-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px.png",
-            "image_mobile": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px_800_x_800_px.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__801695d7-c6eb-4edc-b977-d6193b5de067-16750874147605c1d6-0"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5
-      }
-    },
     "1664370911cc5sdfdf": {
       "type": "image-columns",
       "disabled": true,
       "settings": {
+      }
+    },
+    "737b31f2-535a-48a7-b453-40d05031afc5": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/pages\/shivamani",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/1_c37079ee-846d-46bf-8b62-1c0658028d86.png",
+            "video_url": "",
+            "width": "50",
+            "height": 640,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/pages\/sprriyaah",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2_158b7bf3-15d1-463c-bdf0-206f5960e8c4.png",
+            "video_url": "",
+            "width": "50",
+            "height": 640,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-0",
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": true,
+        "space_below": true
       }
     },
     "16646081516a0616db": {
@@ -391,77 +451,6 @@
         "divider": false
       }
     },
-    "737b31f2-535a-48a7-b453-40d05031afc5": {
-      "type": "promo-grid",
-      "blocks": {
-        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-0": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "",
-            "cta_link1": "shopify:\/\/pages\/shivamani",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/1_c37079ee-846d-46bf-8b62-1c0658028d86.png",
-            "video_url": "",
-            "width": "50",
-            "height": 640,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "",
-            "cta_link1": "shopify:\/\/pages\/sprriyaah",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/2_158b7bf3-15d1-463c-bdf0-206f5960e8c4.png",
-            "video_url": "",
-            "width": "50",
-            "height": 640,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-0",
-        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": true,
-        "space_below": true
-      }
-    },
-    "1664195030898aa5c1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Unstitched Suits",
-        "home_featured_products": "unstitched-suits",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e": {
       "type": "slideshow",
       "blocks": {
@@ -493,52 +482,20 @@
         "mobile_height": "auto",
         "parallax": false,
         "style": "bars",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 5
       }
     },
-    "1664372150d309856a": {
-      "type": "testimonials",
-      "blocks": {
-        "166437215075f74646-0": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "4-stars",
-            "testimonial": "<p>There is lot of variety kurtis,long kurtis,palazzo set at the affordable prices.<\/p>",
-            "author": "AMIT KUMAR SINGH",
-            "author_info": "Kolkata"
-          }
-        },
-        "166437215075f74646-1": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>A well known online store with enormous collection of trendy, classy and elegant ethnic wear.<\/p>",
-            "author": "Aar Kay",
-            "author_info": "Kolkata"
-          }
-        },
-        "166437215075f74646-2": {
-          "type": "testimonial",
-          "settings": {
-            "icon": "5-stars",
-            "testimonial": "<p>My wife, she is one of the regular customers. Here, you can find variety and styles Kurtis and dresses.<\/p>",
-            "author": "Aranyak Patnaik",
-            "author_info": "Durgapur"
-          }
-        }
-      },
-      "block_order": [
-        "166437215075f74646-0",
-        "166437215075f74646-1",
-        "166437215075f74646-2"
-      ],
+    "1664195030898aa5c1": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Reviews By Our Customers",
-        "align_text": "center",
-        "round_images": true,
-        "color_background": "#fdf695",
-        "color_text": "#a91c0c"
+        "title": "Unstitched Suits",
+        "home_featured_products": "unstitched-suits",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "1658645152bb25d696": {
@@ -592,11 +549,48 @@
         "autoplay_speed": 5
       }
     },
-    "1664370911cc56b3a3": {
-      "type": "apps",
+    "1664372150d309856a": {
+      "type": "testimonials",
+      "blocks": {
+        "166437215075f74646-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "4-stars",
+            "testimonial": "<p>There is lot of variety kurtis,long kurtis,palazzo set at the affordable prices.<\/p>",
+            "author": "AMIT KUMAR SINGH",
+            "author_info": "Kolkata"
+          }
+        },
+        "166437215075f74646-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>A well known online store with enormous collection of trendy, classy and elegant ethnic wear.<\/p>",
+            "author": "Aar Kay",
+            "author_info": "Kolkata"
+          }
+        },
+        "166437215075f74646-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>My wife, she is one of the regular customers. Here, you can find variety and styles Kurtis and dresses.<\/p>",
+            "author": "Aranyak Patnaik",
+            "author_info": "Durgapur"
+          }
+        }
+      },
+      "block_order": [
+        "166437215075f74646-0",
+        "166437215075f74646-1",
+        "166437215075f74646-2"
+      ],
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "title": "Reviews By Our Customers",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f8ef",
+        "color_text": "#a91c0c"
       }
     }
   },
@@ -606,16 +600,15 @@
     "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
     "1664371844032e463c",
+    "0e28ebab-92e6-4297-8159-c9dcecad1d12",
     "1664563013d44f0e4e",
-    "801695d7-c6eb-4edc-b977-d6193b5de067",
     "1664370911cc5sdfdf",
-    "16646081516a0616db",
     "737b31f2-535a-48a7-b453-40d05031afc5",
-    "1664195030898aa5c1",
+    "16646081516a0616db",
     "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e",
-    "1664372150d309856a",
+    "1664195030898aa5c1",
     "1658645152bb25d696",
     "ea82b11e-98e1-42c9-a8a8-970bc124569b",
-    "1664370911cc56b3a3"
+    "1664372150d309856a"
   ]
 }
