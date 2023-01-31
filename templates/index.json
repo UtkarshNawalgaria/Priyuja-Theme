@@ -130,7 +130,7 @@
           "type": "text_block",
           "settings": {
             "icon": "package",
-            "title": "Express Shipping",
+            "title": "Free Shipping",
             "text": ""
           }
         },
@@ -138,7 +138,7 @@
           "type": "text_block",
           "settings": {
             "icon": "ribbon",
-            "title": "Easy Returns",
+            "title": "7 Day Easy Returns",
             "text": ""
           }
         }
