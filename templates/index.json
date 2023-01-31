@@ -115,6 +115,49 @@
         "autoplay_speed": 10
       }
     },
+    "1664371009f7d449ad": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1664371009b4e58eee-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "bills",
+            "title": "Cash On Delivery",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Free Shipping",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "7 Day Easy Returns",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664371009b4e58eee-0",
+        "1664371009b4e58eee-1",
+        "1664371009b4e58eee-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#1c1d1d",
+        "button_label": "",
+        "button_link": "",
+        "divider": true
+      }
+    },
     "bfbca987-2bae-4a14-b774-dec881be8e37": {
       "type": "advanced-content",
       "blocks": {
@@ -157,49 +200,6 @@
       "settings": {
         "full_width": false,
         "space_around": true
-      }
-    },
-    "1664371009f7d449ad": {
-      "type": "text-with-icons",
-      "blocks": {
-        "1664371009b4e58eee-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "bills",
-            "title": "Cash On Delivery",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "Free Shipping",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "ribbon",
-            "title": "7 Day Easy Returns",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664371009b4e58eee-0",
-        "1664371009b4e58eee-1",
-        "1664371009b4e58eee-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 4,
-        "icon_color": "#1c1d1d",
-        "button_label": "",
-        "button_link": "",
-        "divider": true
       }
     },
     "1664371844032e463c": {
@@ -602,9 +602,9 @@
   },
   "order": [
     "1659180325337d0a91",
+    "1664371009f7d449ad",
     "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
-    "1664371009f7d449ad",
     "1664371844032e463c",
     "1664563013d44f0e4e",
     "801695d7-c6eb-4edc-b977-d6193b5de067",
