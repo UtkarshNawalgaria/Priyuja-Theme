@@ -588,7 +588,7 @@
       "settings": {
         "title": "Reviews By Our Customers",
         "align_text": "center",
-        "round_images": true,
+        "round_images": false,
         "color_background": "#f9f8ef",
         "color_text": "#a91c0c"
       }
