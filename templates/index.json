@@ -164,7 +164,7 @@
         "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2 align=\"center\"><b>Shop & View<\/b><\/h2>",
+            "code": "<h2 align=\"center\">Shop & View<\/h2>",
             "width": "100%",
             "alignment": "center"
           }
