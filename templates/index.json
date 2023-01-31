@@ -115,6 +115,93 @@
         "autoplay_speed": 10
       }
     },
+    "bfbca987-2bae-4a14-b774-dec881be8e37": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 align=\"center\">Shop & View<\/h2>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "167447743475c4c20c": {
+      "type": "apps",
+      "blocks": {
+        "2802dfb0-fe81-4eb8-a772-797dfb1e43a7": {
+          "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-cards-block\/150d2781-732b-4020-a9fb-1368e974e6bb",
+          "settings": {
+            "layer_number": "1",
+            "card_spacing_desktop": 20,
+            "card_spacing_mobile": 10,
+            "card_margins_desktop": "0",
+            "card_margins_mobile": "0",
+            "card_padding_desktop": "0",
+            "card_padding_mobile": "0"
+          }
+        }
+      },
+      "block_order": [
+        "2802dfb0-fe81-4eb8-a772-797dfb1e43a7"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1664371009f7d449ad": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1664371009b4e58eee-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "bills",
+            "title": "Cash On Delivery",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Free Shipping",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "7 Day Easy Returns",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664371009b4e58eee-0",
+        "1664371009b4e58eee-1",
+        "1664371009b4e58eee-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#1c1d1d",
+        "button_label": "",
+        "button_link": "",
+        "divider": true
+      }
+    },
     "1664371844032e463c": {
       "type": "text-columns",
       "blocks": {
@@ -181,93 +268,6 @@
         "title": "Shop By Category",
         "align_text": "center",
         "divider": false
-      }
-    },
-    "1664371009f7d449ad": {
-      "type": "text-with-icons",
-      "blocks": {
-        "1664371009b4e58eee-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "bills",
-            "title": "Cash On Delivery",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "Free Shipping",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "ribbon",
-            "title": "7 Day Easy Returns",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664371009b4e58eee-0",
-        "1664371009b4e58eee-1",
-        "1664371009b4e58eee-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 4,
-        "icon_color": "#1c1d1d",
-        "button_label": "",
-        "button_link": "",
-        "divider": true
-      }
-    },
-    "bfbca987-2bae-4a14-b774-dec881be8e37": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2 align=\"center\">Shop & View<\/h2>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "167447743475c4c20c": {
-      "type": "apps",
-      "blocks": {
-        "2802dfb0-fe81-4eb8-a772-797dfb1e43a7": {
-          "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-cards-block\/150d2781-732b-4020-a9fb-1368e974e6bb",
-          "settings": {
-            "layer_number": "1",
-            "card_spacing_desktop": 20,
-            "card_spacing_mobile": 10,
-            "card_margins_desktop": "0",
-            "card_margins_mobile": "0",
-            "card_padding_desktop": "0",
-            "card_padding_mobile": "0"
-          }
-        }
-      },
-      "block_order": [
-        "2802dfb0-fe81-4eb8-a772-797dfb1e43a7"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
       }
     },
     "1664563013d44f0e4e": {
@@ -602,10 +602,10 @@
   },
   "order": [
     "1659180325337d0a91",
-    "1664371844032e463c",
-    "1664371009f7d449ad",
     "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
+    "1664371009f7d449ad",
+    "1664371844032e463c",
     "1664563013d44f0e4e",
     "801695d7-c6eb-4edc-b977-d6193b5de067",
     "1664370911cc5sdfdf",
