@@ -59,6 +59,11 @@
           "settings": {
           }
         },
+        "e827023f-829b-43fc-bfae-94f1c3e70114": {
+          "type": "separator",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -83,6 +88,11 @@
           "type": "description",
           "settings": {
             "is_tab": false
+          }
+        },
+        "9c13f905-ff8a-4141-8ab6-32b736aec64b": {
+          "type": "separator",
+          "settings": {
           }
         },
         "tab": {
@@ -119,10 +129,12 @@
         "4b7490db-7985-4767-ac45-7bd22e77004d",
         "separator",
         "28bf1614-dfca-4d04-86fa-ecdec2cb4b48",
+        "e827023f-829b-43fc-bfae-94f1c3e70114",
         "variant_picker",
         "fe0a3ed7-4d52-40b2-9aa3-1839ae4f1d32",
         "buy_buttons",
         "description",
+        "9c13f905-ff8a-4141-8ab6-32b736aec64b",
         "tab",
         "1b7441b8-8f54-46c8-b7fc-32c8713e57a6",
         "contact",
