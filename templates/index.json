@@ -273,31 +273,17 @@
     "0e28ebab-92e6-4297-8159-c9dcecad1d12": {
       "type": "promo-grid",
       "blocks": {
-        "template--17454619459892__0e28ebab-92e6-4297-8159-c9dcecad1d12-167517435825a27b8e-1": {
-          "type": "advanced",
+        "35afd0be-ead2-461e-82db-2ab9ee4a88ce": {
+          "type": "image",
           "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
             "image": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px.png",
-            "video_url": "",
-            "width": "100",
-            "height": 360,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
+            "link": "",
+            "width": "100"
           }
         }
       },
       "block_order": [
-        "template--17454619459892__0e28ebab-92e6-4297-8159-c9dcecad1d12-167517435825a27b8e-1"
+        "35afd0be-ead2-461e-82db-2ab9ee4a88ce"
       ],
       "settings": {
         "full_width": false,
@@ -451,42 +437,6 @@
         "divider": false
       }
     },
-    "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e": {
-      "type": "slideshow",
-      "disabled": true,
-      "blocks": {
-        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 40,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/beige-sarees",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
-            "image_mobile": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-0"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": false,
-        "autoplay_speed": 5
-      }
-    },
     "1664195030898aa5c1": {
       "type": "featured-collection",
       "settings": {
@@ -593,6 +543,28 @@
         "color_background": "#f9f8ef",
         "color_text": "#a91c0c"
       }
+    },
+    "4a3dba94-2ae0-4356-b799-6683a072ff8a": {
+      "type": "promo-grid",
+      "blocks": {
+        "d46a0814-406c-404a-abe5-aa1a2582c550": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
+            "link": "shopify:\/\/collections\/beige-sarees",
+            "width": "100"
+          }
+        }
+      },
+      "block_order": [
+        "d46a0814-406c-404a-abe5-aa1a2582c550"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 1,
+        "space_above": true,
+        "space_below": true
+      }
     }
   },
   "order": [
@@ -606,10 +578,10 @@
     "1664370911cc5sdfdf",
     "737b31f2-535a-48a7-b453-40d05031afc5",
     "16646081516a0616db",
-    "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e",
     "1664195030898aa5c1",
     "1658645152bb25d696",
     "ea82b11e-98e1-42c9-a8a8-970bc124569b",
-    "1664372150d309856a"
+    "1664372150d309856a",
+    "4a3dba94-2ae0-4356-b799-6683a072ff8a"
   ]
 }
