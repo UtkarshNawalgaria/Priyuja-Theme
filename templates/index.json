@@ -158,6 +158,26 @@
         "divider": true
       }
     },
+    "bfbca987-2bae-4a14-b774-dec881be8e37": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 align=\"center\"><b>Shop & View<\/b><\/h2>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
     "167447743475c4c20c": {
       "type": "apps",
       "blocks": {
@@ -583,6 +603,7 @@
   "order": [
     "1659180325337d0a91",
     "1664371009f7d449ad",
+    "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
     "1664371844032e463c",
     "1664563013d44f0e4e",
