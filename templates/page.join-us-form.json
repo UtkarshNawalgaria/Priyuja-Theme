@@ -6,199 +6,42 @@
       "settings": {
       }
     },
-    "slideshow": {
-      "type": "slideshow",
+    "032b41ee-0e59-42c7-bc29-59ce4339ae6f": {
+      "type": "advanced-content",
       "blocks": {
-        "slideshow-0": {
-          "type": "image",
+        "template--17867453464884__032b41ee-0e59-42c7-bc29-59ce4339ae6f-1675336147ed0cd75f-1": {
+          "type": "liquid",
           "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 70,
-            "subheading": "",
-            "link": "https:\/\/wholesale.albeliekam.com\/",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 10,
-            "focal_point": "center center"
+            "code": "<h1 style=\"text-align: center\" class=\"section-header__title\">Become a vendor<\/h1>",
+            "width": "100%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "slideshow-0"
+        "template--17867453464884__032b41ee-0e59-42c7-bc29-59ce4339ae6f-1675336147ed0cd75f-1"
       ],
       "settings": {
-        "section_height": "750px",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 7
+        "full_width": false,
+        "space_around": true
       }
     },
-    "1d35814d-4950-4271-8b9c-464d1db66fbb": {
-      "type": "text-columns",
+    "16753355547cc2ff46": {
+      "type": "apps",
       "blocks": {
-        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-0": {
-          "type": "text_block",
+        "1f5915f6-d0db-412c-938c-5a374bebfff4": {
+          "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "enable_image": true,
-            "show_button": true,
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/saree"
-          }
-        },
-        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": true,
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/kurti"
-          }
-        },
-        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": true,
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/kurta-set"
-          }
-        },
-        "1ee6c7e8-33e4-4ce4-8326-8ba903669bc1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "show_button": true,
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/gown"
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA0ODkz\"><\/div>"
           }
         }
       },
       "block_order": [
-        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-0",
-        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-1",
-        "template--16317185622261__1d35814d-4950-4271-8b9c-464d1db66fbb-166836121777b0b86e-2",
-        "1ee6c7e8-33e4-4ce4-8326-8ba903669bc1"
+        "1f5915f6-d0db-412c-938c-5a374bebfff4"
       ],
       "settings": {
-        "title": "Browse By Cateogries",
-        "align_text": "center",
-        "divider": false
-      }
-    },
-    "45f4e4b0-4f25-434b-b4c8-ff524e6c916e": {
-      "type": "text-and-image",
-      "settings": {
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Step 1",
-        "text": "<p>Visit our website at <a href=\"https:\/\/wholesale.albeliekam.com\" target=\"_blank\" title=\"https:\/\/wholesale.albeliekam.com\">https:\/\/wholesale.albeliekam.com<\/a> and go through our wide range of Sarees, Kurta Sets and Unstitched Suits.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "41bd6721-0c3f-483d-b1c7-d983c8f270df": {
-      "type": "text-and-image",
-      "settings": {
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Step 2",
-        "text": "<p>Go to the Join as Reseller tab on the website and fill out all the details given in the Reseller Application Form.<\/p>",
-        "button_label": "",
-        "button_link": "https:\/\/wholesale.albeliekam.com\/",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "right",
-        "divider": false
-      }
-    },
-    "1d42f8ff-0510-42de-97e3-a67fd485493d": {
-      "type": "text-and-image",
-      "settings": {
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Step 3",
-        "text": "<p>Once your application is reviewed by our team, you can start selling with Albeli Ekam, whether you are a reseller, retailer or wholesaler.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "primary",
-        "align_text": "center",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "142b02e5-ac58-49b0-804c-cdf7549b4709": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16317185622261__142b02e5-ac58-49b0-804c-cdf7549b4709-1668363747da593397-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "https:\/\/wholesale.albeliekam.com\/",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16317185622261__142b02e5-ac58-49b0-804c-cdf7549b4709-1668363747da593397-0"
-      ],
-      "settings": {
-        "section_height": "550px",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": false,
-        "autoplay_speed": 5
-      }
-    },
-    "11adb022-b184-483a-b5e9-9d0b388a4dfb": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16317185622261__11adb022-b184-483a-b5e9-9d0b388a4dfb-166836388353cacbda-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p><strong>Wholesale Women Clothing At Albeli Ekam<\/strong><br\/><br\/>Albeli Ekam is Kolkata's first women's clothing marketplace for retailers, wholesalers, distributors, exporters and suppliers. You can buy bulk wholesale women clothing online. What makes us unique is our wide range Indian ethnic wear and quality products, available at cheap and reasonable prices.<br\/><\/p><p><strong>Kurtis & Kurtas for Women<\/strong><br\/><br\/>Indian Kurtis – The go to attire of every Indian Girl, be it pairing it up with jeans and stepping out to college, choosing<br\/>neutral coloured ones to wear to work, or pair them up with a churidar and heavy junk jewel pieces to grace a festive<br\/>occasion, Indian Kurtas are every wardrobe must-have. At Albeli Ekam, we share your obsession with Kurtas and pairing<br\/>it up in a multitude of ways, and have a collection you cannot get enough of. From subtle minimal ones to embroidered<br\/>heavens, we have a collection traveling all corners of ethnic fashion. So it does not matter what aesthetic you resonate<br\/>with, you will find something that suits your outlook here. <br\/>One of the most common additions to every girl’s wardrobe, these appeal to women across generations because of their<br\/>fashionable outlook and comfort quotient. Equal parts loved by the generations of our mothers, ourselves, and our<br\/>daughters, Kurtis are a no-brainer. India’s weather also plays a perfect companion for this attire. So whether you are<br\/>looking for an ethnic wear to work on a daily basis, or you are in a mood to drench in junk-jewelleries head to toe and<br\/>click some aesthetic snaps for your social media, Kurtis understands the assignment. <br\/>At Albeli Ekam, we have the latest collection of kurtis for women with us and our site is regularly updated to keep up with<br\/>the latest trends, so your fashion express never arrives at a halt.<\/p><p><\/p><p><strong>Buy Ethnic And Designer Shararas at Albeli Ekam<\/strong><br\/><br\/>Festive season is here, and so is our urge to showcase all flares and twirl. What better to do that than a dazzling Sharara.<br\/>Stylish, Comfortable, Chique, Shararas are a festival favorite amongst millennials and GenZs for all the right reasons. From<br\/>long kurtas to embroidered crop tops and shrugs, these dazzling outfits make any ensemble phenomenal and at Albeli<br\/>Ekam, we have innumerable Sharara Designs to choose from.<br\/><br\/>Super-stylish and comfy festive attires like sharara suits, sharara dresses or sharara crop top outfits are what you will<br\/>completely love to go for, and we have plenty of choices to spoil you. No matter what aesthetic you gravitate towards, you<br\/>will find something that suits your finesse. <br\/><\/p><p><strong>Buy Sarees Online At Albeli Ekam<\/strong><br\/><br\/>There might be a plethora of options when it comes to choosing the best ethnic wear for traditional events, wedding<br\/>functions, or festivals, but the timelessness this six feet of pure grace provides is unparalleled. With myriads of options to<br\/>choose from, whether you like a minimal, toned down appeal, or a royal one, sarees will give you exactly what you want.<br\/>As Vogue says, when you wear a saree, you become them and they become you. <br\/><br\/>Here, At Albeli Ekam, we have sarees in a plethora of categories, from Silk to Organza, to Georgette, in all the colors you<br\/>can possibly imagine in premium qualities. Well, we take pride in spoiling you for choice, and we know your wardrobe<br\/>deserves these timeless pieces.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16317185622261__11adb022-b184-483a-b5e9-9d0b388a4dfb-166836388353cacbda-1"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "divider": false
+        "full_width": false,
+        "space_around": true
       }
     },
     "1659352094ce3bfc0c": {
@@ -235,13 +78,8 @@
   },
   "order": [
     "main",
-    "slideshow",
-    "1d35814d-4950-4271-8b9c-464d1db66fbb",
-    "45f4e4b0-4f25-434b-b4c8-ff524e6c916e",
-    "41bd6721-0c3f-483d-b1c7-d983c8f270df",
-    "1d42f8ff-0510-42de-97e3-a67fd485493d",
-    "142b02e5-ac58-49b0-804c-cdf7549b4709",
-    "11adb022-b184-483a-b5e9-9d0b388a4dfb",
+    "032b41ee-0e59-42c7-bc29-59ce4339ae6f",
+    "16753355547cc2ff46",
     "1659352094ce3bfc0c"
   ]
 }
