@@ -3,7 +3,7 @@
     "main": {
       "type": "article-template",
       "settings": {
-        "image_hero": false,
+        "image_hero": true,
         "blog_show_tags": true,
         "blog_show_date": true,
         "blog_show_comments": false,
