@@ -45,14 +45,14 @@
         "1659349331812d39ca-0": {
           "type": "heading",
           "settings": {
-            "title": "Our Background"
+            "title": "Our Story:"
           }
         },
         "1659349331812d39ca-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Priyuja is a new online boutique marketplace brought to you by the 30-year-old business group, Albeli. Founded in 1990 by Mr. Sharad and Mr. Samir Nawalgaria in Varanasi, Albeli started as a manufacturer of silk fabrics and sarees. They later moved to Kolkata and built a reputation for themselves as a trusted supplier of embroidered unstitched suits and sarees to major retailers like Meena Bazar, Amarsons, and Premsons.<\/p>"
+            "text": "<p>Founded in 1990 by Mr. Sharad and Mr. Samir Nawalgaria in Varanasi, Albeli started as a manufacturer of silk fabrics and sarees. They later moved to Kolkata and built a reputation for themselves as a trusted supplier of embroidered unstitched suits and sarees to major retailers like Meena Bazar, Amarsons, and Premsons. In 2004, the group ventured into retail with the brand Fida and now, with Priyuja, they are entering the online space.<\/p>"
           }
         }
       },
@@ -66,20 +66,45 @@
         "divider": false
       }
     },
+    "1659348964d401dad3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1659348964c874d33e-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "Our Mission",
+            "text": "<p>Our goal is to help manufacturers and designers in Kolkata sell their products directly to customers, bypassing intermediaries and offering genuine products at an affordable price. At Priyuja, we continue Albeli's legacy by discovering and supporting emerging talent in the fashion industry.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659348964c874d33e-0"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 2,
+        "icon_color": "#ffe300",
+        "button_label": "",
+        "button_link": "",
+        "divider": true
+      }
+    },
     "1659349393172e187e": {
       "type": "rich-text",
       "blocks": {
         "1659349393f78d2d47-0": {
           "type": "heading",
           "settings": {
-            "title": "Our Offerings"
+            "title": "Assured Quality:"
           }
         },
         "1659349393f78d2d47-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>In 2004, the group ventured into retail with the brand Fida and now, with Priyuja, they are entering the online space. Our goal is to help manufacturers and designers in Kolkata sell their products directly to customers, bypassing intermediaries and offering genuine products at an affordable price.<\/p><p>At Priyuja, we continue Albeli's legacy by discovering and supporting emerging talent in the fashion industry and curating the latest collections from the best manufacturers and designers across India. We guarantee 100% authenticity of all products on our platform, and our in-house team of fashion experts curates key pieces for each season to ensure you always have access to the latest and best in ethnic Indian fashion.<\/p>"
+            "text": "<p>Guarantee 100% authenticity of all products on our platform, curating key pieces for each season to ensure customers always have access to the latest and best in ethnic Indian fashion.<\/p>"
           }
         }
       },
@@ -95,6 +120,7 @@
     },
     "165935010517705749": {
       "type": "background-image-text",
+      "disabled": true,
       "settings": {
         "subtitle": "",
         "title": "",
@@ -106,62 +132,6 @@
         "height": 550,
         "framed": false,
         "parallax": true
-      }
-    },
-    "1659348964d401dad3": {
-      "type": "text-with-icons",
-      "blocks": {
-        "1659348964c874d33e-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "globe",
-            "title": "Our Mission",
-            "text": "<p>Join us on our mission to bring authentic and high-quality ethnic Indian fashion to customers all over the world. With our roots in the textile industry and commitment to supporting local artisans and designers, Priyuja is poised to become a leading name in the e-commerce space.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1659348964c874d33e-0"
-      ],
-      "settings": {
-        "title": "What Does Priyuja Stands For?",
-        "align_text": "center",
-        "desktop_columns_per_row": 2,
-        "icon_color": "#ffe300",
-        "button_label": "",
-        "button_link": "",
-        "divider": true
-      }
-    },
-    "16593519192598339d": {
-      "type": "newsletter",
-      "blocks": {
-        "1659351919ca745579-0": {
-          "type": "title",
-          "settings": {
-            "title": "Signup for our Newsletter"
-          }
-        },
-        "1659351919ca745579-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "1659351919ca745579-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1659351919ca745579-0",
-        "1659351919ca745579-1",
-        "1659351919ca745579-2"
-      ],
-      "settings": {
-        "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
       }
     },
     "8be977fe-474e-405e-8f2e-4edc4f157611": {
@@ -203,16 +173,47 @@
         "space_above": true,
         "space_below": true
       }
+    },
+    "16593519192598339d": {
+      "type": "newsletter",
+      "blocks": {
+        "1659351919ca745579-0": {
+          "type": "title",
+          "settings": {
+            "title": "Signup for our Newsletter"
+          }
+        },
+        "1659351919ca745579-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "1659351919ca745579-2": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1659351919ca745579-0",
+        "1659351919ca745579-1",
+        "1659351919ca745579-2"
+      ],
+      "settings": {
+        "color_background": "#ffe300",
+        "color_text": "#1c1d1d"
+      }
     }
   },
   "order": [
     "main",
     "16593494910529f367",
     "1659349331abbcfcda",
+    "1659348964d401dad3",
     "1659349393172e187e",
     "165935010517705749",
-    "1659348964d401dad3",
-    "16593519192598339d",
-    "8be977fe-474e-405e-8f2e-4edc4f157611"
+    "8be977fe-474e-405e-8f2e-4edc4f157611",
+    "16593519192598339d"
   ]
 }
