@@ -206,6 +206,39 @@
         "color_background": "#ffe300",
         "color_text": "#1c1d1d"
       }
+    },
+    "8dc0447c-876f-4d27-82d7-ffe1626bce9e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454618935604__8dc0447c-876f-4d27-82d7-ffe1626bce9e-16756102914f309e90-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454618935604__8dc0447c-876f-4d27-82d7-ffe1626bce9e-16756102914f309e90-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
     }
   },
   "order": [
@@ -216,6 +249,7 @@
     "2c81d91d-b3ff-4ede-90b2-23c46c24a139",
     "8be977fe-474e-405e-8f2e-4edc4f157611",
     "1659348964d401dad3",
-    "16593519192598339d"
+    "16593519192598339d",
+    "8dc0447c-876f-4d27-82d7-ffe1626bce9e"
   ]
 }
