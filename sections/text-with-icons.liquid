@@ -85,13 +85,14 @@
 
 {% style %}
   #shopify-section-{{ section.id }} .icon {
-    color: {{ section.settings.icon_color }};
+    color: var(--colorBtnPrimaryLight);
   }
 {% endstyle %}
 
 {% schema %}
 {
   "name": "Text columns with icons",
+  "class": "text-with-icons",
   "settings": [
     {
       "type": "text",
