@@ -23,6 +23,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/1_effef5e1-7b0a-4209-b5d3-ef5a466ef41e.png",
             "overlay_opacity": 60,
             "focal_point": "top center"
           }
@@ -193,6 +194,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Your_paragraph_text.png",
+            "image_mobile": "shopify:\/\/shop_images\/2_498a1c3e-d385-4849-8a61-b20b37aa1922.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
