@@ -22,8 +22,6 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
             "overlay_opacity": 10,
             "focal_point": "center center"
           }
@@ -54,7 +52,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Albeli is a brand that is inspired by the many different traditions and cultures of India. The brand offers a wide variety of colors, fabrics, and designs that are all influenced by Indian culture. The house of Albeli was founded by brothers Mr. Sharad and Mr. Samir Nawalgaria, out of their love and admiration for Indian textiles, when they started off as handloom manufacturers in Banaras in 1990.<\/p>"
+            "text": "<p>Priyuja is a new online boutique marketplace brought to you by the 30-year-old business group, Albeli. Founded in 1990 by Mr. Sharad and Mr. Samir Nawalgaria in Varanasi, Albeli started as a manufacturer of silk fabrics and sarees. They later moved to Kolkata and built a reputation for themselves as a trusted supplier of embroidered unstitched suits and sarees to major retailers like Meena Bazar, Amarsons, and Premsons.<\/p>"
           }
         }
       },
@@ -74,14 +72,14 @@
         "1659349393f78d2d47-0": {
           "type": "heading",
           "settings": {
-            "title": "The Shift To Priyuja"
+            "title": "Our Offerings"
           }
         },
         "1659349393f78d2d47-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Kolkata is famous worldwide for its hand-stitched embroidered outfits, block and screen prints, and colourfully dyed garments. The city has become synonymous with a certain sense of style.<\/p><p>We are trying to bring the best of women's ethnic wear produced in this region and make it available at the price of manufacturers directly to consumers. We believe that this will provide a great opportunity for women to enjoy beautiful and stylish clothing at a fair price.<\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the ecommerce domain and give people access to products that they might otherwise not have seen–designed by local tailors and karigars of West Bengal.<\/p>"
+            "text": "<p>In 2004, the group ventured into retail with the brand Fida and now, with Priyuja, they are entering the online space. Our goal is to help manufacturers and designers in Kolkata sell their products directly to customers, bypassing intermediaries and offering genuine products at an affordable price.<\/p><p>At Priyuja, we continue Albeli's legacy by discovering and supporting emerging talent in the fashion industry and curating the latest collections from the best manufacturers and designers across India. We guarantee 100% authenticity of all products on our platform, and our in-house team of fashion experts curates key pieces for each season to ensure you always have access to the latest and best in ethnic Indian fashion.<\/p>"
           }
         }
       },
@@ -103,7 +101,6 @@
         "text": "",
         "button_label": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659350250k2lR.jpg",
         "focal_point": "center",
         "layout": "left",
         "height": 550,
@@ -119,26 +116,17 @@
           "settings": {
             "icon": "globe",
             "title": "Our Mission",
-            "text": "<p>Our mission is to bring the best of women's ethnic wear, produced here in West Bengal, and make it available to our patrons at the lowest prices, directly from manufacturers.<\/p>"
-          }
-        },
-        "1659348964c874d33e-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "shield",
-            "title": "Our Vision",
-            "text": "<p>We strive to become the one stop destination for women all around India, to get the best of the intricate styles of West Bengal's striving ethnic fashion industry.<\/p>"
+            "text": "<p>Join us on our mission to bring authentic and high-quality ethnic Indian fashion to customers all over the world. With our roots in the textile industry and commitment to supporting local artisans and designers, Priyuja is poised to become a leading name in the e-commerce space.<\/p>"
           }
         }
       },
       "block_order": [
-        "1659348964c874d33e-0",
-        "1659348964c874d33e-1"
+        "1659348964c874d33e-0"
       ],
       "settings": {
         "title": "What Does Priyuja Stands For?",
         "align_text": "center",
-        "desktop_columns_per_row": 3,
+        "desktop_columns_per_row": 2,
         "icon_color": "#ffe300",
         "button_label": "",
         "button_link": "",
