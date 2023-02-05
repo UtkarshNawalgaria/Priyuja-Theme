@@ -14,18 +14,18 @@
           "settings": {
             "top_subheading": "",
             "title": "About Priyuja",
-            "title_size": 60,
-            "subheading": "Kolkata's Own Online Marketplace",
+            "title_size": 70,
+            "subheading": "Kolkata's Own Online Boutique Marketplace",
             "link": "",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659349687PjNR.jpg",
-            "overlay_opacity": 10,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "image_mobile": "shopify:\/\/shop_images\/1_effef5e1-7b0a-4209-b5d3-ef5a466ef41e.png",
+            "overlay_opacity": 60,
+            "focal_point": "top center"
           }
         }
       },
@@ -33,9 +33,9 @@
         "16593494916e097ea1-0"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "natural",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5
@@ -47,14 +47,14 @@
         "1659349331812d39ca-0": {
           "type": "heading",
           "settings": {
-            "title": "Our Background"
+            "title": "Our Story:"
           }
         },
         "1659349331812d39ca-1": {
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Albeli is a brand that is inspired by the many different traditions and cultures of India. The brand offers a wide variety of colors, fabrics, and designs that are all influenced by Indian culture. The house of Albeli was founded by brothers Mr. Sharad and Mr. Samir Nawalgaria, out of their love and admiration for Indian textiles, when they started off as handloom manufacturers in Banaras in 1990.<\/p>"
+            "text": "<p>Priyuja is a new online boutique marketplace brought to you by the 30-year-old business group, Albeli.<\/p><p>Founded in 1990 by Mr. Sharad and Mr. Samir Nawalgaria in Varanasi, Albeli started as a manufacturer of silk fabrics and sarees. They later moved to Kolkata and built a reputation for themselves as a trusted supplier of embroidered unstitched suits and sarees to major retailers like Meena Bazar, Amarsons, and Premsons. In 2004, the group ventured into retail with the brand Fida and now, with Priyuja, they are entering the online space.<\/p>"
           }
         }
       },
@@ -68,49 +68,6 @@
         "divider": false
       }
     },
-    "1659349393172e187e": {
-      "type": "rich-text",
-      "blocks": {
-        "1659349393f78d2d47-0": {
-          "type": "heading",
-          "settings": {
-            "title": "The Shift To Priyuja"
-          }
-        },
-        "1659349393f78d2d47-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Kolkata is famous worldwide for its hand-stitched embroidered outfits, block and screen prints, and colourfully dyed garments. The city has become synonymous with a certain sense of style.<\/p><p>We are trying to bring the best of women's ethnic wear produced in this region and make it available at the price of manufacturers directly to consumers. We believe that this will provide a great opportunity for women to enjoy beautiful and stylish clothing at a fair price.<\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the ecommerce domain and give people access to products that they might otherwise not have seen–designed by local tailors and karigars of West Bengal.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1659349393f78d2d47-0",
-        "1659349393f78d2d47-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
-    },
-    "165935010517705749": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "",
-        "title": "",
-        "text": "",
-        "button_label": "",
-        "button_link": "",
-        "image": "shopify:\/\/shop_images\/dl.beatsnoop.com-1659350250k2lR.jpg",
-        "focal_point": "center",
-        "layout": "left",
-        "height": 550,
-        "framed": false,
-        "parallax": true
-      }
-    },
     "1659348964d401dad3": {
       "type": "text-with-icons",
       "blocks": {
@@ -119,30 +76,140 @@
           "settings": {
             "icon": "globe",
             "title": "Our Mission",
-            "text": "<p>Our mission is to bring the best of women's ethnic wear, produced here in West Bengal, and make it available to our patrons at the lowest prices, directly from manufacturers.<\/p>"
+            "text": "<p>Our goal is to help manufacturers and designers in Kolkata sell their products directly to customers, bypassing intermediaries and offering genuine products at an affordable price. At Priyuja, we continue Albeli's legacy by discovering and supporting emerging talent in the fashion industry.<\/p>"
           }
         },
-        "1659348964c874d33e-1": {
+        "f2bfeed3-8a7a-4460-b06b-80db97a8ec5c": {
           "type": "text_block",
           "settings": {
-            "icon": "shield",
-            "title": "Our Vision",
-            "text": "<p>We strive to become the one stop destination for women all around India, to get the best of the intricate styles of West Bengal's striving ethnic fashion industry.<\/p>"
+            "icon": "trophy",
+            "title": "Quality Assurance",
+            "text": "<p>Guarantee 100% authenticity of all products on our platform, curating key pieces for each season to ensure customers always have access to the latest and best in ethnic Indian fashion.<\/p>"
           }
         }
       },
       "block_order": [
         "1659348964c874d33e-0",
-        "1659348964c874d33e-1"
+        "f2bfeed3-8a7a-4460-b06b-80db97a8ec5c"
       ],
       "settings": {
-        "title": "What Does Priyuja Stands For?",
+        "title": "",
         "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#ffe300",
+        "desktop_columns_per_row": 2,
+        "icon_color": "#a91d0c",
         "button_label": "",
         "button_link": "",
         "divider": true
+      }
+    },
+    "165935010517705749": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true
+      }
+    },
+    "2c81d91d-b3ff-4ede-90b2-23c46c24a139": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17454618935604__2c81d91d-b3ff-4ede-90b2-23c46c24a139-1675609822c63cf81d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Awards"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454618935604__2c81d91d-b3ff-4ede-90b2-23c46c24a139-1675609822c63cf81d-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "8be977fe-474e-405e-8f2e-4edc4f157611": {
+      "type": "promo-grid",
+      "blocks": {
+        "2cbf8eb5-eb3d-4125-9fde-5102a4af03b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_f2aba7dd-0085-47ac-b078-ad8a1161f36f.png",
+            "link": "",
+            "width": "33"
+          }
+        },
+        "4c73e265-0918-47bd-91b9-b13378238619": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_69c8839b-9784-4e8e-be65-e8c274b4a56f.png",
+            "link": "",
+            "width": "33"
+          }
+        },
+        "6b4e46a1-b513-41e9-8c83-2bd12bdd996d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_032e94b7-ef49-4c1c-a57c-260b7a40193b.png",
+            "link": "",
+            "width": "33"
+          }
+        }
+      },
+      "block_order": [
+        "2cbf8eb5-eb3d-4125-9fde-5102a4af03b6",
+        "4c73e265-0918-47bd-91b9-b13378238619",
+        "6b4e46a1-b513-41e9-8c83-2bd12bdd996d"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 14,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "8dc0447c-876f-4d27-82d7-ffe1626bce9e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454618935604__8dc0447c-876f-4d27-82d7-ffe1626bce9e-16756102914f309e90-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Your_paragraph_text.png",
+            "image_mobile": "shopify:\/\/shop_images\/2_498a1c3e-d385-4849-8a61-b20b37aa1922.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454618935604__8dc0447c-876f-4d27-82d7-ffe1626bce9e-16756102914f309e90-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
       }
     },
     "16593519192598339d": {
@@ -181,9 +248,11 @@
     "main",
     "16593494910529f367",
     "1659349331abbcfcda",
-    "1659349393172e187e",
-    "165935010517705749",
     "1659348964d401dad3",
+    "165935010517705749",
+    "2c81d91d-b3ff-4ede-90b2-23c46c24a139",
+    "8be977fe-474e-405e-8f2e-4edc4f157611",
+    "8dc0447c-876f-4d27-82d7-ffe1626bce9e",
     "16593519192598339d"
   ]
 }
