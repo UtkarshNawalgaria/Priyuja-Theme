@@ -14,7 +14,7 @@
           "settings": {
             "top_subheading": "",
             "title": "About Priyuja",
-            "title_size": 60,
+            "title_size": 70,
             "subheading": "Kolkata's Own Online Marketplace",
             "link": "",
             "link_text": "",
@@ -22,8 +22,9 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "overlay_opacity": 10,
-            "focal_point": "center center"
+            "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "overlay_opacity": 60,
+            "focal_point": "top center"
           }
         }
       },
@@ -31,9 +32,9 @@
         "16593494916e097ea1-0"
       ],
       "settings": {
-        "section_height": "650px",
+        "section_height": "natural",
         "mobile_height": "auto",
-        "parallax": true,
+        "parallax": false,
         "style": "bars",
         "autoplay": true,
         "autoplay_speed": 5
@@ -52,7 +53,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Founded in 1990 by Mr. Sharad and Mr. Samir Nawalgaria in Varanasi, Albeli started as a manufacturer of silk fabrics and sarees. They later moved to Kolkata and built a reputation for themselves as a trusted supplier of embroidered unstitched suits and sarees to major retailers like Meena Bazar, Amarsons, and Premsons. In 2004, the group ventured into retail with the brand Fida and now, with Priyuja, they are entering the online space.<\/p>"
+            "text": "<p>Priyuja is a new online boutique marketplace brought to you by the 30-year-old business group, Albeli.<\/p><p>Founded in 1990 by Mr. Sharad and Mr. Samir Nawalgaria in Varanasi, Albeli started as a manufacturer of silk fabrics and sarees. They later moved to Kolkata and built a reputation for themselves as a trusted supplier of embroidered unstitched suits and sarees to major retailers like Meena Bazar, Amarsons, and Premsons. In 2004, the group ventured into retail with the brand Fida and now, with Priyuja, they are entering the online space.<\/p>"
           }
         }
       },
@@ -91,33 +92,6 @@
         "divider": true
       }
     },
-    "1659349393172e187e": {
-      "type": "rich-text",
-      "blocks": {
-        "1659349393f78d2d47-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Assured Quality:"
-          }
-        },
-        "1659349393f78d2d47-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Guarantee 100% authenticity of all products on our platform, curating key pieces for each season to ensure customers always have access to the latest and best in ethnic Indian fashion.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1659349393f78d2d47-0",
-        "1659349393f78d2d47-1"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": true
-      }
-    },
     "165935010517705749": {
       "type": "background-image-text",
       "disabled": true,
@@ -132,6 +106,25 @@
         "height": 550,
         "framed": false,
         "parallax": true
+      }
+    },
+    "2c81d91d-b3ff-4ede-90b2-23c46c24a139": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17454618935604__2c81d91d-b3ff-4ede-90b2-23c46c24a139-1675609822c63cf81d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Awards"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454618935604__2c81d91d-b3ff-4ede-90b2-23c46c24a139-1675609822c63cf81d-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
       }
     },
     "8be977fe-474e-405e-8f2e-4edc4f157611": {
@@ -170,8 +163,35 @@
       "settings": {
         "full_width": false,
         "gutter_size": 14,
-        "space_above": true,
-        "space_below": true
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "1659349393172e187e": {
+      "type": "rich-text",
+      "blocks": {
+        "1659349393f78d2d47-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Assured Quality:"
+          }
+        },
+        "1659349393f78d2d47-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Guarantee 100% authenticity of all products on our platform, curating key pieces for each season to ensure customers always have access to the latest and best in ethnic Indian fashion.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1659349393f78d2d47-0",
+        "1659349393f78d2d47-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": true
       }
     },
     "16593519192598339d": {
@@ -211,9 +231,10 @@
     "16593494910529f367",
     "1659349331abbcfcda",
     "1659348964d401dad3",
-    "1659349393172e187e",
     "165935010517705749",
+    "2c81d91d-b3ff-4ede-90b2-23c46c24a139",
     "8be977fe-474e-405e-8f2e-4edc4f157611",
+    "1659349393172e187e",
     "16593519192598339d"
   ]
 }
