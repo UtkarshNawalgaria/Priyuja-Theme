@@ -472,7 +472,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Unstitched Suits",
-        "home_featured_products": "unstitched-suits",
+        "home_featured_products": "unstitched-dress-material",
         "per_row": 4,
         "rows": 1,
         "mobile_scrollable": true,
