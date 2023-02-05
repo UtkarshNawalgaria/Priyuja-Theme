@@ -67,31 +67,6 @@
         "divider": false
       }
     },
-    "1659348964d401dad3": {
-      "type": "text-with-icons",
-      "blocks": {
-        "1659348964c874d33e-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "globe",
-            "title": "Our Mission",
-            "text": "<p>Our goal is to help manufacturers and designers in Kolkata sell their products directly to customers, bypassing intermediaries and offering genuine products at an affordable price. At Priyuja, we continue Albeli's legacy by discovering and supporting emerging talent in the fashion industry.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1659348964c874d33e-0"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 2,
-        "icon_color": "#ffe300",
-        "button_label": "",
-        "button_link": "",
-        "divider": true
-      }
-    },
     "165935010517705749": {
       "type": "background-image-text",
       "disabled": true,
@@ -167,30 +142,37 @@
         "space_below": false
       }
     },
-    "1659349393172e187e": {
-      "type": "rich-text",
+    "1659348964d401dad3": {
+      "type": "text-with-icons",
       "blocks": {
-        "1659349393f78d2d47-0": {
-          "type": "heading",
+        "1659348964c874d33e-0": {
+          "type": "text_block",
           "settings": {
-            "title": "Assured Quality:"
+            "icon": "globe",
+            "title": "Our Mission",
+            "text": "<p>Our goal is to help manufacturers and designers in Kolkata sell their products directly to customers, bypassing intermediaries and offering genuine products at an affordable price. At Priyuja, we continue Albeli's legacy by discovering and supporting emerging talent in the fashion industry.<\/p>"
           }
         },
-        "1659349393f78d2d47-1": {
-          "type": "text",
+        "f2bfeed3-8a7a-4460-b06b-80db97a8ec5c": {
+          "type": "text_block",
           "settings": {
-            "enlarge_text": false,
+            "icon": "trophy",
+            "title": "Quality Assurance",
             "text": "<p>Guarantee 100% authenticity of all products on our platform, curating key pieces for each season to ensure customers always have access to the latest and best in ethnic Indian fashion.<\/p>"
           }
         }
       },
       "block_order": [
-        "1659349393f78d2d47-0",
-        "1659349393f78d2d47-1"
+        "1659348964c874d33e-0",
+        "f2bfeed3-8a7a-4460-b06b-80db97a8ec5c"
       ],
       "settings": {
+        "title": "",
         "align_text": "center",
-        "narrow_column": true,
+        "desktop_columns_per_row": 2,
+        "icon_color": "#a91d0c",
+        "button_label": "",
+        "button_link": "",
         "divider": true
       }
     },
@@ -230,11 +212,10 @@
     "main",
     "16593494910529f367",
     "1659349331abbcfcda",
-    "1659348964d401dad3",
     "165935010517705749",
     "2c81d91d-b3ff-4ede-90b2-23c46c24a139",
     "8be977fe-474e-405e-8f2e-4edc4f157611",
-    "1659349393172e187e",
+    "1659348964d401dad3",
     "16593519192598339d"
   ]
 }
