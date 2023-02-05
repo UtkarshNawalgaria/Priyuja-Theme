@@ -121,7 +121,7 @@
         "1664371009b4e58eee-0": {
           "type": "text_block",
           "settings": {
-            "icon": "bills",
+            "icon": "package",
             "title": "Cash On Delivery",
             "text": ""
           }
@@ -129,7 +129,7 @@
         "1664371009b4e58eee-1": {
           "type": "text_block",
           "settings": {
-            "icon": "package",
+            "icon": "truck",
             "title": "Free Shipping",
             "text": ""
           }
@@ -137,7 +137,7 @@
         "1664371009b4e58eee-2": {
           "type": "text_block",
           "settings": {
-            "icon": "ribbon",
+            "icon": "stopwatch",
             "title": "7 Day Easy Returns",
             "text": ""
           }
@@ -455,8 +455,8 @@
       "settings": {
         "full_width": false,
         "gutter_size": 1,
-        "space_above": true,
-        "space_below": true
+        "space_above": false,
+        "space_below": false
       }
     },
     "1664195030898aa5c1": {

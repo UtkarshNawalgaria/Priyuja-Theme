@@ -809,48 +809,32 @@ tool-tip[data-tool-tip-open=true] .tool-tip__inner{
 }
 
 .tool-tip-trigger .icon{
-  width:28px;
-  height:28px;
+  width: 28px;
+  height: 28px;
 }
 
 .tool-tip-trigger__title{
-  display:inline-block;
+  display: inline-block;
 }
 
 .tool-tip-trigger__title:focus,.tool-tip-trigger__title:hover{
-  text-decoration:underline;
-  text-underline-offset:2px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .tool-tip-trigger__content{
-  display:none !important;
+  display: none !important;
 }
 
 .size-chart__standalone{
-  margin:25px 0;
-  margin:var(--sizeChartMargin)
+  margin: 25px 0;
+  margin: var(--sizeChartMargin)
 }
 
 .size-chart__standalone svg{
-    margin-left:5px;
-    margin-left:var(--sizeChartIconMargin);
-  }
-
-.text-with-icons__blocks{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  margin-left:-30px;
-  margin-right:-30px
+  margin-left: 5px;
+  margin-left: var(--sizeChartIconMargin);
 }
-
-@media only screen and (max-width:768px){
-
-.text-with-icons__blocks{
-    flex-direction:column;
-    margin:0
-}
-  }
 
 .has-1-per-row .text-with-icons__block{
   width:100%;
@@ -872,44 +856,56 @@ tool-tip[data-tool-tip-open=true] .tool-tip__inner{
   width:20%;
 }
 
-.text-with-icons__blocks .text-with-icons__block{
-  display:flex;
-  flex-direction:column;
-  flex:none;
-  padding:30px
+.text-with-icons__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -30px;
+  margin-right: -30px;
 }
 
-@media only screen and (max-width:768px) {
-  .text-with-icons__blocks .text-with-icons__block{
-      width:100%;
-      padding:0 0 60px
-  }
+.text-with-icons__blocks .text-with-icons__block {
+  display: flex;
+  flex-direction: column;
+  flex: none;
 }
 
-.text-with-icons__block-icon{
-  display:block;
-  margin-bottom:10px
+.text-with-icons__block-icon {
+  display: block;
+  margin-bottom: 10px
 }
 
-.text-with-icons__block-icon .icon{
-    width:70px;
-    height:70px
-  }
+.text-with-icons__block-icon .icon {
+  width: 70px;
+  height: 70px;
+}
+
+.text-with-icons__button {
+  display: flex;
+  justify-content: center;
+}
 
 @media only screen and (max-width:768px){
-
-.text-with-icons__block-icon .icon{
-      width:60px;
-      height:60px
+  .text-with-icons__blocks {
+    justify-content: space-between;
+    margin: 0;
   }
-    }
 
-.text-with-icons__button{
-  display:flex;
-  justify-content:center;
+  .text-with-icons__blocks .text-with-icons__block {
+    padding: 0;
+  }
+
+  .text-with-icons__block-icon .icon {
+    width: 40px;
+    height: 40px
+  }
+
+  .text-with-icons__block-title h3 {
+    font-size: 14px;
+  }
 }
 
-newsletter-reminder{
+newsletter-reminder {
   position:fixed;
   left:20px;
   bottom:20px;
@@ -920,28 +916,27 @@ newsletter-reminder{
 }
 
 @media only screen and (max-width:768px){
-
-newsletter-reminder{
+  newsletter-reminder{
     max-width:calc(100% - 40px)
+  }
 }
-  }
 
-newsletter-reminder[data-enabled=false]{
-    opacity:0;
-    visibility:hidden;
-    pointer-events:none;
-  }
+newsletter-reminder[data-enabled=false] {
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+}
 
 newsletter-reminder[class*=color-scheme-]:not(.color-scheme-none){
-    position:fixed;
-  }
+  position:fixed;
+}
 
-newsletter-reminder .color-scheme-none{
-    color:{{ settings.color_button_text | default: "#fff" }};
-    color:var(--colorBtnPrimaryText);
-    background-color:{{ settings.color_button | default: "#000" }};
-    background-color:var(--colorBtnPrimary);
-  }
+newsletter-reminder .color-scheme-none {
+  color:{{ settings.color_button_text | default: "#fff" }};
+  color:var(--colorBtnPrimaryText);
+  background-color:{{ settings.color_button | default: "#000" }};
+  background-color:var(--colorBtnPrimary);
+}
 
 .newsletter-reminder__message.h3{
   cursor:pointer;
@@ -12166,7 +12161,7 @@ html[dir=rtl] .product-single__meta .rte{
 
 /* Product Waitlist Form */
 .product-waitlist-block {
-  margin-top: 20px;  
+  margin-top: 20px;
 }
 
 .product-waitlist-block .product-waitlist-field {
