@@ -1,5 +1,40 @@
 {
   "sections": {
+    "c4bcf165-6f1f-4290-88b2-64056412a257": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454619722036__c4bcf165-6f1f-4290-88b2-64056412a257-16746663499a062e39-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/26th_Jan_to_2nd_Feb_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/26th_Jan_to_2nd_Feb_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619722036__c4bcf165-6f1f-4290-88b2-64056412a257-16746663499a062e39-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
     "collection-header": {
       "type": "collection-header",
       "settings": {
@@ -44,10 +79,39 @@
         "enable_color_swatches": true,
         "enable_sort": true
       }
+    },
+    "1674478354d96dab8f": {
+      "type": "apps",
+      "blocks": {
+        "7a3bb086-8b02-4903-96bf-9ef7a2c0ad7a": {
+          "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-collection-block\/150d2781-732b-4020-a9fb-1368e974e6bb",
+          "settings": {
+            "page_size": 12,
+            "enable_product_grid": false,
+            "collection_card_desktop_template": "<div><\/div>",
+            "collection_card_mobile_template": "<div><\/div>",
+            "card_spacing_desktop": 20,
+            "card_spacing_mobile": 10,
+            "card_margins_desktop": "0",
+            "card_margins_mobile": "0",
+            "section_padding_mobile": "0",
+            "section_padding_desktop": "0"
+          }
+        }
+      },
+      "block_order": [
+        "7a3bb086-8b02-4903-96bf-9ef7a2c0ad7a"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
     }
   },
   "order": [
+    "c4bcf165-6f1f-4290-88b2-64056412a257",
     "collection-header",
-    "main-collection"
+    "main-collection",
+    "1674478354d96dab8f"
   ]
 }

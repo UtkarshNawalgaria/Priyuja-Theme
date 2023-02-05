@@ -1,0 +1,54 @@
+<div class="product-block product-waitlist-block">
+  <div class="form-info">
+    <div class="form-header">
+      <h3>Join the Waitlist</h3>
+    </div>
+    <div class="form-text">
+      <p>Due to high demand, the product is currently unavailable. please enter your details to get notified.</p>
+    </div>
+  </div>
+  <div class="popup-button">
+    <button class="globo-formbuilder-open" data-id="MTA0Njc4">Join Waitlist</button>
+  </div>
+  {% comment %}
+  <div class="form-vertical">
+    
+    {% form 'contact', id: "product-waitlist"  %}
+      <div class="form-header">
+        <h3>Join the Waitlist</h3>
+      </div>
+      <div class="form-text">
+        <p>Due to high demand, the product is currently unavailable. please enter your details to get notified.</p>
+      </div>
+      {%- if form.posted_successfully? -%}
+        <p class="note note--success">
+          {{ 'product_waitlist_form.form.post_success' | t }}
+        </p>
+      {%- endif -%}
+
+      {{ form.errors | default_errors }}
+
+      <input type="hidden" name="contact['product']" value="{{ product.title }}">
+      <div class="flex">
+        <div>
+          <label for="ProductWaitlistForm-email">{{ 'product_waitlist_form.form.email' | t }}</label>
+          <input type="email" class="input-full product-waitlist-field" name="contact['email']" id="ProductWaitlistForm-email" required>
+        </div>
+        <div>
+          <label for="ProductWaitlistForm-phone">{{ 'product_waitlist_form.form.phone' | t }}</label>
+          <input type="text" class="input-full product-waitlist-field" name="contact['phone']" id="ProductWaitlistForm-phone" required>
+        </div>
+      </div>
+      <div>
+        <label for="ProductWaitlistForm-body">{{ 'product_waitlist_form.form.notes' | t }}</label>
+        <textarea rows="5" class="input-full product-waitlist-field" name="contact['body']" id="ProductWaitlistForm-body"></textarea>
+      </div>
+      <div>
+        <button type="submit" class="btn">
+          {{ 'product_waitlist_form.form.send' | t }}
+        </button>
+      </div>
+    {% endform %}
+  </div>
+  {% endcomment %}
+</div>

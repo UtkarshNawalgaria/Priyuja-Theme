@@ -29,7 +29,7 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/collections\/shivamani",
+            "link": "shopify:\/\/pages\/shivamani",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -48,7 +48,7 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "shopify:\/\/pages\/shivamani",
+            "link": "shopify:\/\/collections\/saree",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -67,7 +67,7 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "",
+            "link": "shopify:\/\/collections\/pink-sarees",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
@@ -86,14 +86,14 @@
             "title": "",
             "title_size": 80,
             "subheading": "",
-            "link": "",
+            "link": "shopify:\/\/collections\/georgette-sarees",
             "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/Priyuja_Banners_4.png",
-            "image_mobile": "shopify:\/\/shop_images\/Artboard_5.png",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_5.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -113,6 +113,93 @@
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 10
+      }
+    },
+    "1664371009f7d449ad": {
+      "type": "text-with-icons",
+      "blocks": {
+        "1664371009b4e58eee-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "bills",
+            "title": "Cash On Delivery",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Free Shipping",
+            "text": ""
+          }
+        },
+        "1664371009b4e58eee-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "7 Day Easy Returns",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664371009b4e58eee-0",
+        "1664371009b4e58eee-1",
+        "1664371009b4e58eee-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 4,
+        "icon_color": "#1c1d1d",
+        "button_label": "",
+        "button_link": "",
+        "divider": true
+      }
+    },
+    "bfbca987-2bae-4a14-b774-dec881be8e37": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2 align=\"center\">Shop & View<\/h2>",
+            "width": "100%",
+            "alignment": "bottom-middle"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__bfbca987-2bae-4a14-b774-dec881be8e37-16751731369ef9a3d5-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "167447743475c4c20c": {
+      "type": "apps",
+      "blocks": {
+        "2802dfb0-fe81-4eb8-a772-797dfb1e43a7": {
+          "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-cards-block\/150d2781-732b-4020-a9fb-1368e974e6bb",
+          "settings": {
+            "layer_number": "1",
+            "card_spacing_desktop": 20,
+            "card_spacing_mobile": 10,
+            "card_margins_desktop": "0",
+            "card_margins_mobile": "0",
+            "card_padding_desktop": "0",
+            "card_padding_mobile": "0"
+          }
+        }
+      },
+      "block_order": [
+        "2802dfb0-fe81-4eb8-a772-797dfb1e43a7"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
       }
     },
     "1664371844032e463c": {
@@ -183,6 +270,28 @@
         "divider": false
       }
     },
+    "0e28ebab-92e6-4297-8159-c9dcecad1d12": {
+      "type": "promo-grid",
+      "blocks": {
+        "35afd0be-ead2-461e-82db-2ab9ee4a88ce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px.png",
+            "link": "",
+            "width": "100"
+          }
+        }
+      },
+      "block_order": [
+        "35afd0be-ead2-461e-82db-2ab9ee4a88ce"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
     "1664563013d44f0e4e": {
       "type": "featured-collection",
       "settings": {
@@ -195,43 +304,69 @@
         "divider": false
       }
     },
-    "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e": {
-      "type": "slideshow",
+    "1664370911cc5sdfdf": {
+      "type": "image-columns",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "737b31f2-535a-48a7-b453-40d05031afc5": {
+      "type": "promo-grid",
       "blocks": {
-        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-0": {
-          "type": "image",
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-0": {
+          "type": "advanced",
           "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 40,
             "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/pages\/shivamani",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/1_c37079ee-846d-46bf-8b62-1c0658028d86.png",
+            "video_url": "",
+            "width": "50",
+            "height": 640,
+            "text_size": 100,
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "shopify:\/\/pages\/sprriyaah",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/2_158b7bf3-15d1-463c-bdf0-206f5960e8c4.png",
+            "video_url": "",
+            "width": "50",
+            "height": 640,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
           }
         }
       },
       "block_order": [
-        "template--17454619459892__0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e-1673369628b5d26163-0"
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-0",
+        "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-1"
       ],
       "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5
-      }
-    },
-    "1664370911cc5sdfdf": {
-      "type": "image-columns",
-      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
       }
     },
     "16646081516a0616db": {
@@ -247,7 +382,7 @@
             "title": "",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/mehendi-special-collection"
+            "button_link": "shopify:\/\/collections\/saree-for-mehendi-function"
           }
         },
         "16646081517f4ae908-0": {
@@ -260,7 +395,7 @@
             "title": "",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/haldi-special-collection"
+            "button_link": "shopify:\/\/collections\/haldi-sarees"
           }
         },
         "16646081517f4ae908-2": {
@@ -273,7 +408,7 @@
             "title": "",
             "text": "",
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/sangeet-special-collection"
+            "button_link": "shopify:\/\/collections\/sangeet-sarees"
           }
         },
         "3a8bd343-f52c-46d4-9a0c-a80f714cbfd0": {
@@ -286,7 +421,7 @@
             "title": "",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/reception-special-collection"
+            "button_link": "shopify:\/\/collections\/reception-sarees"
           }
         }
       },
@@ -302,6 +437,28 @@
         "divider": false
       }
     },
+    "4a3dba94-2ae0-4356-b799-6683a072ff8a": {
+      "type": "promo-grid",
+      "blocks": {
+        "d46a0814-406c-404a-abe5-aa1a2582c550": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Priyuja_Banners_5.png",
+            "link": "shopify:\/\/collections\/beige-sarees",
+            "width": "100"
+          }
+        }
+      },
+      "block_order": [
+        "d46a0814-406c-404a-abe5-aa1a2582c550"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 1,
+        "space_above": true,
+        "space_below": true
+      }
+    },
     "1664195030898aa5c1": {
       "type": "featured-collection",
       "settings": {
@@ -312,6 +469,57 @@
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
+      }
+    },
+    "1658645152bb25d696": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Join us at Priyuja",
+        "text": "<p><\/p><p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices. <\/p><p><\/p><p>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<\/p><p><\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p><p><\/p>",
+        "button_label": "Become A Vendor",
+        "button_link": "shopify:\/\/pages\/join-us",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "divider": false
+      }
+    },
+    "ea82b11e-98e1-42c9-a8a8-970bc124569b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454619459892__ea82b11e-98e1-42c9-a8a8-970bc124569b-16742846724a9b6109-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "https:\/\/www.instagram.com\/priyujafashion\/",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Add_a_subheading.png",
+            "image_mobile": "shopify:\/\/shop_images\/FOLLOW_INSTA_BANNER_500_x_340_px.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__ea82b11e-98e1-42c9-a8a8-970bc124569b-16742846724a9b6109-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
       }
     },
     "1664372150d309856a": {
@@ -353,89 +561,27 @@
       "settings": {
         "title": "Reviews By Our Customers",
         "align_text": "center",
-        "round_images": true,
-        "color_background": "#fdf697",
+        "round_images": false,
+        "color_background": "#f9f8ef",
         "color_text": "#a91c0c"
-      }
-    },
-    "1658645152bb25d696": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "Join us at Priyuja",
-        "text": "<p><\/p><p>Nowadays with rising internet accessibility and growing customer demand, it's easy to reach customers directly and provide them with the best products available at affordable prices. <\/p><p><\/p><p>We aim to take advantage of this, providing you with a beautiful collection of Designer Sarees, Salwar Suits, Unstitched, Lehengas and many more in women’s ethnicwear.<\/p><p><\/p><p>We are a Kolkata based fashion portal, that looks to bring in afresh perspective to the e-<br\/>commerce domain and give people access to<br\/>products that they might otherwise not have<br\/>seen–designed by local tailors and karigars of West Bengal.<\/p><p><\/p>",
-        "button_label": "Become A Vendor",
-        "button_link": "shopify:\/\/pages\/join-us",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "left",
-        "divider": false
-      }
-    },
-    "1664371009f7d449ad": {
-      "type": "text-with-icons",
-      "blocks": {
-        "1664371009b4e58eee-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "bills",
-            "title": "Cash On Delivery",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "package",
-            "title": "Express Shipping",
-            "text": ""
-          }
-        },
-        "1664371009b4e58eee-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "ribbon",
-            "title": "Easy Returns",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664371009b4e58eee-0",
-        "1664371009b4e58eee-1",
-        "1664371009b4e58eee-2"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center",
-        "desktop_columns_per_row": 4,
-        "icon_color": "#1c1d1d",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
-    "1664370911cc56b3a3": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
       }
     }
   },
   "order": [
     "1659180325337d0a91",
-    "1664371844032e463c",
-    "1664563013d44f0e4e",
-    "0ecdc5f8-f66e-4a68-b9ef-9cf9b5ad314e",
-    "1664370911cc5sdfdf",
-    "16646081516a0616db",
-    "1664195030898aa5c1",
-    "1664372150d309856a",
-    "1658645152bb25d696",
     "1664371009f7d449ad",
-    "1664370911cc56b3a3"
+    "bfbca987-2bae-4a14-b774-dec881be8e37",
+    "167447743475c4c20c",
+    "1664371844032e463c",
+    "0e28ebab-92e6-4297-8159-c9dcecad1d12",
+    "1664563013d44f0e4e",
+    "1664370911cc5sdfdf",
+    "737b31f2-535a-48a7-b453-40d05031afc5",
+    "16646081516a0616db",
+    "4a3dba94-2ae0-4356-b799-6683a072ff8a",
+    "1664195030898aa5c1",
+    "1658645152bb25d696",
+    "ea82b11e-98e1-42c9-a8a8-970bc124569b",
+    "1664372150d309856a"
   ]
 }

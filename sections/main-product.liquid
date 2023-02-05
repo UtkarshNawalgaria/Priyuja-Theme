@@ -32,6 +32,12 @@
       "label": "t:sections.main-product.settings.sku_enable.label"
     },
     {
+      "type": "checkbox",
+      "id": "show_product_waitlist_form",
+      "label": "t:sections.main-product.settings.show_product_waitlist_form.label",
+      "info": "t:sections.main-product.settings.show_product_waitlist_form.info"
+    },
+    {
       "type": "header",
       "content": "t:sections.main-product.settings.header_media"
     },
@@ -145,6 +151,11 @@
   "blocks": [{
   "type": "@app"
 },
+    {
+    "type": "product_waitlist_form",
+    "name": "t:product_block.product_waitlist_form.name",
+    "limit": 1
+  },
 {
   "type": "price",
   "name": "t:product_block.price.name",

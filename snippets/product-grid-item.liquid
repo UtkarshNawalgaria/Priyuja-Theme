@@ -56,11 +56,13 @@ Arguments
         {{ custom_label }}
       </div>
     {%- else -%}
+      {% comment %}
       {%- unless product.available -%}
         <div class="grid-product__tag grid-product__tag--sold-out">
           {{ 'products.product.sold_out' | t }}
         </div>
       {%- endunless -%}
+      {% endcomment %}
     {%- endif -%}
 
     {%- liquid

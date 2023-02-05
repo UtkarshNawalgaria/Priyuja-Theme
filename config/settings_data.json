@@ -43,7 +43,7 @@
     "type_product_capitalize": false,
     "type_collection_font": "body",
     "type_collection_size": 20,
-    "button_style": "round-slight",
+    "button_style": "square",
     "icon_weight": "4px",
     "icon_linecaps": "round",
     "product_save_type": "percent",
@@ -74,19 +74,20 @@
     "social_instagram_link": "https:\/\/instagram.com\/priyujafashion\/",
     "social_linkedin_link": "https:\/\/www.linkedin.com\/in\/priyujafashion",
     "social_youtube_link": "https:\/\/www.youtube.com\/@priyujafashion",
-    "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "favicon": "shopify:\/\/shop_images\/FAVICON.png",
     "search_type": "product",
     "predictive_image_size": "portrait",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
-    "checkout_logo_position": "left",
-    "checkout_logo_size": "small",
-    "checkout_body_background_color": "#ffffff",
-    "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Priyuja.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#f9f8ef",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#f9f8ef",
     "checkout_accent_color": "#111111",
-    "checkout_button_color": "#111111",
-    "checkout_error_color": "#ff6d6d",
+    "checkout_button_color": "#a91c0c",
+    "checkout_error_color": "#ff0000",
     "breadcrumb": false,
     "sections": {
       "header": {
@@ -104,15 +105,15 @@
             "type": "announcement",
             "settings": {
               "text": "Free shipping In India",
-              "link_text": "Valid till December 2022 on orders above Rs 1000",
+              "link_text": "Valid on all orders above Rs 1000",
               "link": ""
             }
           },
           "1d917be8-8530-41c5-9a60-9ee75ce1021c": {
             "type": "announcement",
             "settings": {
-              "text": "extra 10% off for first time customers",
-              "link_text": "Apply Coupon Code-FIRST10",
+              "text": "Flat 20% Off Sitewide Sale - LIVE NOW",
+              "link_text": "Apply Coupon Code-FIRST20",
               "link": ""
             }
           }
@@ -125,14 +126,14 @@
         "settings": {
           "main_menu_link_list": "main-menu",
           "mega_menu_images": true,
-          "main_menu_alignment": "left",
+          "main_menu_alignment": "left-center",
           "header_style": "sticky",
           "sticky_index": false,
           "sticky_collection": false,
           "announcement_compact": true,
           "announcement_above_header": true,
           "toolbar_menu": "",
-          "toolbar_social": false,
+          "toolbar_social": true,
           "show_locale_selector": true,
           "show_currency_selector": true,
           "show_currency_flags": true
@@ -247,7 +248,22 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "11905432258600982856": {
+        "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-embed\/150d2781-732b-4020-a9fb-1368e974e6bb",
+        "disabled": false,
+        "settings": {
+          "custom_swatch_code": "<script><\/script>"
+        }
+      },
+      "6279071938380501511": {
+        "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Modern": {

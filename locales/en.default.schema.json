@@ -1215,6 +1215,10 @@
         "sku_enable": {
           "label": "Show SKU"
         },
+        "show_product_waitlist_form": {
+          "label": "Show Product Waitlist Form",
+          "info": "Form shown when product is out of stock"
+        },
         "header_media": "Media",
         "content": "Learn more about [media types](https:\/\/help.shopify.com\/en\/manual\/products\/product-media)",
         "image_position": {
@@ -3329,6 +3333,9 @@
     },
     "quantity_selector": {
       "name": "Quantity selector"
+    },
+    "product_waitlist_form": {
+      "name": "Product Waitlist Form"
     },
     "size_chart": {
       "name": "Size chart",

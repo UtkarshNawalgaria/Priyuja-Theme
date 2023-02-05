@@ -1,5 +1,40 @@
 {
   "sections": {
+    "f79a5096-19c8-454f-b761-c1551288f642": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454619558196__f79a5096-19c8-454f-b761-c1551288f642-16746663499a062e39-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/26th_Jan_to_2nd_Feb_1.png",
+            "image_mobile": "shopify:\/\/shop_images\/26th_Jan_to_2nd_Feb_1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619558196__f79a5096-19c8-454f-b761-c1551288f642-16746663499a062e39-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -15,6 +50,16 @@
           }
         },
         "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "28bf1614-dfca-4d04-86fa-ecdec2cb4b48": {
+          "type": "product_waitlist_form",
+          "settings": {
+          }
+        },
+        "e827023f-829b-43fc-bfae-94f1c3e70114": {
           "type": "separator",
           "settings": {
           }
@@ -43,6 +88,11 @@
           "type": "description",
           "settings": {
             "is_tab": false
+          }
+        },
+        "9c13f905-ff8a-4141-8ab6-32b736aec64b": {
+          "type": "separator",
+          "settings": {
           }
         },
         "tab": {
@@ -78,10 +128,13 @@
         "price",
         "4b7490db-7985-4767-ac45-7bd22e77004d",
         "separator",
+        "28bf1614-dfca-4d04-86fa-ecdec2cb4b48",
+        "e827023f-829b-43fc-bfae-94f1c3e70114",
         "variant_picker",
         "fe0a3ed7-4d52-40b2-9aa3-1839ae4f1d32",
         "buy_buttons",
         "description",
+        "9c13f905-ff8a-4141-8ab6-32b736aec64b",
         "tab",
         "1b7441b8-8f54-46c8-b7fc-32c8713e57a6",
         "contact",
@@ -89,6 +142,7 @@
       ],
       "settings": {
         "sku_enable": true,
+        "show_product_waitlist_form": true,
         "image_position": "left",
         "image_size": "medium",
         "product_zoom_enable": true,
@@ -99,25 +153,11 @@
         "product_video_style": "unmuted"
       }
     },
-    "judgeme_section_review_widget_c028": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "sub": {
       "type": "product-full-width",
       "disabled": true,
       "settings": {
         "max_width": true
-      }
-    },
-    "1668529155f0880224": {
-      "type": "apps",
-      "settings": {
-        "full_width": false,
-        "space_around": true
       }
     },
     "product-recommendations": {
@@ -141,10 +181,9 @@
     }
   },
   "order": [
+    "f79a5096-19c8-454f-b761-c1551288f642",
     "main",
-    "judgeme_section_review_widget_c028",
     "sub",
-    "1668529155f0880224",
     "product-recommendations",
     "recently-viewed",
     "collection-return"

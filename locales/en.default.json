@@ -168,6 +168,16 @@
       "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
     }
   },
+  "product_waitlist_form": {
+    "form": {
+      "name": "Product Waitlist Form",
+      "email": "Email",
+      "phone": "Phone number",
+      "notes": "Message",
+      "send": "Join Waitlist",
+      "post_success": "Thanks for contacting us. We'll get back to you as soon as possible."
+    }
+  },
   "customer": {
     "account": {
       "title": "My account",
