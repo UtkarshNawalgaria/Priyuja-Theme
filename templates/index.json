@@ -141,12 +141,21 @@
             "title": "7 Day Easy Returns",
             "text": ""
           }
+        },
+        "d82a8508-e52c-424f-b78f-96f9a6015d05": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "Assured Quality",
+            "text": ""
+          }
         }
       },
       "block_order": [
         "1664371009b4e58eee-0",
         "1664371009b4e58eee-1",
-        "1664371009b4e58eee-2"
+        "1664371009b4e58eee-2",
+        "d82a8508-e52c-424f-b78f-96f9a6015d05"
       ],
       "settings": {
         "title": "",
