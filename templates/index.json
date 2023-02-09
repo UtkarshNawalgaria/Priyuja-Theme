@@ -24,6 +24,7 @@
         },
         "7887e436-2503-4a82-a687-ee4f33de4e74": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
@@ -43,6 +44,7 @@
         },
         "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "top_subheading": "",
             "title": "",
