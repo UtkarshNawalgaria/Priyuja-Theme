@@ -33,13 +33,11 @@
     </div>
     <div class="brand-info">
       <div class="brand-logo-block">
-        <img src="{{ brand_logo_url }}" alt="">
+        <img src="{{ brand_logo_url }}" alt="{{ brand_name }} - Priyuja">
       </div>
       <div class="brand-details">
         <h1 class="brand-name">{{ brand_name }}</h1>
         <p class="brand-description">{{ brand_description }}</p>
-      </div>
-      <div class="brand-contact">
         <ul class="icon-list">
           {% if brand_phone_number != blank %}
             <li>
