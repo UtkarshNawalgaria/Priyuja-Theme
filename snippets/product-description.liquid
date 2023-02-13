@@ -1,10 +1,11 @@
-{% capture description %}
-  {%- if product.empty? -%}
-    {{ 'home_page.onboarding.product_description' | t }}
-  {%- else -%}
-    {{ product.description }}
-  {%- endif -%}
-{% endcapture %}
+{% liquid
+  if product.empty?
+    assign description = 'home_page.onboarding.product_description' | t
+  else
+    assign description = product.description
+  endif
+%}
+
 {%- if is_tab -%}
   {% assign title = 'products.product.description' | t %}
   {%- render 'tab', id: id, title: title, content: description -%}

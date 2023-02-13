@@ -1,7 +1,9 @@
 <header class="giftcard-header" role="banner">
-  {%- assign has_logo = section.settings.logo -%}
-  {%- assign header_logo_size = section.settings.desktop_logo_width | append: 'x' -%}
-  {%- assign header_logo_size_mobile = section.settings.mobile_logo_width | append: 'x' -%}
+  {% liquid
+    assign has_logo = section.settings.logo
+    assign header_logo_size = section.settings.desktop_logo_width | append: 'x'
+    assign header_logo_size_mobile = section.settings.mobile_logo_width | append: 'x'
+  %}
 
   {%- if has_logo -%}
     {%- style -%}
@@ -72,9 +74,6 @@
       "unit": "px",
       "info": "t:sections.giftcard-header.settings.mobile_logo_width.info"
     }
-  ],
-  "default": {
-    "settings": {}
-  }
+  ]
 }
 {% endschema %}

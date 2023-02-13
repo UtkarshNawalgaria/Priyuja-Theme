@@ -4,10 +4,14 @@
       height: {{ block.settings.desktop_logo_height }}px;
     }
   {%- endstyle -%}
-  {%- assign footer_logo_size = block.settings.desktop_logo_height | prepend: 'x' -%}
   <div class="footer__logo">
     <a href="{{ routes.root_url }}">
-      <img src="{{ block.settings.logo | img_url: footer_logo_size, scale: 2 }}" alt="{{ block.settings.logo.alt | default: shop.name }}">
+      <img
+        src="{{ block.settings.logo | image_url: height: block.settings.desktop_logo_height }}"
+        alt="{{ block.settings.logo.alt | default: shop.name }}"
+        loading="lazy"
+        height="block.settings.desktop_logo_height"
+      >
     </a>
   </div>
 {%- endif -%}

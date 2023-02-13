@@ -16,7 +16,7 @@
         %}
         <div class="brand-card">
           <a href="{{ page.url }}" target="_blank">
-            <img class="brand-card__img" src="{{ image_url }}" alt="{{ page.title }}">
+            <img class="brand-card__img" src="{{ image_url }}" alt="{{ page.title }}" width="280" height="280" loading="eager">
             <h3 class="brand-card__title">{{ page.title }}</h3>
           </a>
         </div>
@@ -26,8 +26,10 @@
 </div>
 
 {% schema %}
-  {
-    "name": "Brand List",
-    "settings": []
-  }
+{
+  "name": "Brand List",
+  "settings": [
+
+  ]
+}
 {% endschema %}
