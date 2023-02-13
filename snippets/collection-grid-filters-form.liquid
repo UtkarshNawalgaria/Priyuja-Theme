@@ -65,7 +65,7 @@
                   assign color_image = color_file_name | file_img_url: '50x50' | prepend: 'https:' | split: '?' | first
                   assign color_swatch_fallback = filter_value.label | split: ' ' | last | handle
                -%}
-                <li class="tag{% if filter_value.active %} tag--active{% endif %}{% if is_color %} tag--swatch{% endif %}{% if filter_value.count == 0%} hide{% endif %}">
+                <li class="tag{% if filter_value.active %} tag--active{% endif %}{% if is_color %} tag--swatch{% endif %}{% if filter_value.count == 0 %} hide{% endif %}">
                   <label class="tag__checkbox-wrapper text-label">
                       <input
                       type="checkbox"

@@ -7825,11 +7825,10 @@ label.tag__checkbox-wrapper{
   }
 
 @media only screen and (min-width:769px){
-
-.variant-input-wrap label{
+  .variant-input-wrap label{
     font-size:var(--typeBaseSize)
   }
-  }
+}
 
 .variant-input-wrap label{
     position:relative;
@@ -7839,7 +7838,7 @@ label.tag__checkbox-wrapper{
     margin:0 8px 12px 0;
     background-color:{{ settings.color_body_bg | default: "#fff" }};
     background-color:var(--colorBody);
-    box-shadow:0 0 0 1px {{ settings.color_borders | default:"#1c1d1d" }};
+    box-shadow:0 0 0 1px {{ settings.color_borders | default: "#1c1d1d" }};
     box-shadow:0 0 0 1px var(--colorBorder);
     overflow:hidden
   }
@@ -7867,12 +7866,12 @@ label.tag__checkbox-wrapper{
 
 .variant-input-wrap input[type=radio]:focus+label{
     border-color:{{ settings.color_body_text | default: "#1c1d1d" | color_modify: "alpha", 0.05 }};
-    box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:0 0 0 1px {{ settings.color_body_text | default: "#1c1d1d" }};
     box-shadow:0 0 0 1px var(--colorTextBody);
   }
 
 .variant-input-wrap input[type=radio]:checked+label{
-    box-shadow:0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:0 0 0 2px {{ settings.color_body_text | default: "#1c1d1d" }};
     box-shadow:0 0 0 2px var(--colorTextBody);
   }
 
@@ -8352,7 +8351,7 @@ html[dir=rtl] .grid-product__content{
   background-repeat:no-repeat;
   height:40px;
   width:40px;
-  box-shadow:0 0 0 1px {{ settings.color_borders | default:"#1c1d1d" }};
+  box-shadow:0 0 0 1px {{ settings.color_borders | default: "#1c1d1d" }};
   box-shadow:0 0 0 1px var(--colorBorder);
   transition:box-shadow 0.2s ease
 }
@@ -8387,12 +8386,12 @@ html[dir=rtl] .grid-product__content{
 }
 
 .tag:not(.tag--active) label:hover .color-swatch:hover,a.color-swatch:hover{
-  box-shadow:0 0 0 1px {{ settings.color_body_text | default:"#1c1d1d" }};
+  box-shadow:0 0 0 1px {{ settings.color_body_text | default: "#1c1d1d" }};
   box-shadow:0 0 0 1px var(--colorTextBody);
 }
 
 .tag--active .color-swatch{
-  box-shadow:0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
+  box-shadow:0 0 0 2px {{ settings.color_body_text | default: "#1c1d1d" }};
   box-shadow:0 0 0 2px var(--colorTextBody);
 }
 
@@ -8961,7 +8960,7 @@ html[dir=rtl] .background-media-text__text{
   border:7px solid;
   border-color:{{ settings.color_body_bg | default: "#fff" }};
   border-color:var(--colorBody);
-  box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
+  box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default: "#1c1d1d" }};
   box-shadow:inset 0 0 0 2px var(--colorTextBody)
 }
 
@@ -9842,7 +9841,7 @@ newsletter-reminder .newsletter-reminder__message{
   left:0;
   z-index:auto;
   border:7px solid transparent;
-  box-shadow:inset 0 0 0 2px {{ settings.color_image_text | default:"#fff" }};
+  box-shadow:inset 0 0 0 2px {{ settings.color_image_text | default: "#fff" }};
   box-shadow:inset 0 0 0 2px var(--colorHeroText);
   z-index:3
 }
@@ -9855,7 +9854,7 @@ newsletter-reminder .newsletter-reminder__message{
   }
 
 .type-banner .promo-grid__container--framed:not(.promo-grid__container--boxed):after,.type-product .promo-grid__container--framed:not(.promo-grid__container--boxed):after,.type-sale_collection .promo-grid__container--framed:not(.promo-grid__container--boxed):after{
-    box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
+    box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default: "#1c1d1d" }};
     box-shadow:inset 0 0 0 2px var(--colorTextBody)
 }
 
@@ -9945,7 +9944,7 @@ newsletter-reminder .newsletter-reminder__message{
   border:7px solid;
   border-color:{{ settings.color_body_bg | default: "#fff" }};
   border-color:var(--colorBody);
-  box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
+  box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default: "#1c1d1d" }};
   box-shadow:inset 0 0 0 2px var(--colorTextBody)
 }
 
@@ -11026,7 +11025,7 @@ html[dir=rtl] .product-single__meta .rte{
       left:0;
       right:0;
       bottom:0;
-      box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default:"#1c1d1d" }};
+      box-shadow:inset 0 0 0 2px {{ settings.color_body_text | default: "#1c1d1d" }};
       box-shadow:inset 0 0 0 2px var(--colorTextBody);
       z-index:1;
     }

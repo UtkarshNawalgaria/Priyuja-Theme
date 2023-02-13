@@ -42,7 +42,7 @@
     "category": "",
     "url": "{{ shop.url }}{{ product.url }}",
     {%- if is_barcode_available and is_valid_gtin_length %}
-      "{{gtin_option}}": {{ current_variant.barcode | json }},
+      "{{ gtin_option }}": {{ current_variant.barcode | json }},
       "productId": {{ current_variant.barcode | json }},
     {%- elsif is_barcode_available %}
       "mpn": {{ current_variant.barcode | json }},
