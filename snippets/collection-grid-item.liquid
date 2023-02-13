@@ -49,7 +49,7 @@
 
         <noscript>
           <img class="lazyloaded"
-            src="{{ collection_image | img_url: '400x' }}"
+            src="{{ collection_image | image_url: width: 400 }}"
             alt="{{ collection_image.alt | escape }}">
         </noscript>
       </div>

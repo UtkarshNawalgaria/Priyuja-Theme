@@ -105,9 +105,7 @@
                         alt="{{ media.alt | escape | split: '#' | first }}">
 
                     <noscript>
-                      <img class="lazyloaded"
-                        src="{{ media | img_url: '400x' }}"
-                        alt="{{ media.alt | escape }}">
+                      <img class="lazyloaded" src="{{ media | image_url: width: 400 }}" alt="{{ media.alt | escape }}">
                     </noscript>
                   </a>
                 </div>

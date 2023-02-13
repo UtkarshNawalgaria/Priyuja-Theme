@@ -23,7 +23,7 @@
                 role="presentation"
                 alt="{{ block.settings.image.alt }}">
             <noscript>
-              <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.image.alt }}">
+              <img class="lazyloaded" src="{{ block.settings.image | image_url: width: 400 }}" alt="{{ block.settings.image.alt }}">
             </noscript>
           </div>
         {%- endif -%}

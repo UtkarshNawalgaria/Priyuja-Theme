@@ -41,7 +41,7 @@
                                 alt="{{ block.settings.image.alt | escape }}">
                           </div>
                           <noscript>
-                            <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.title | escape }}">
+                            <img class="lazyloaded" src="{{ block.settings.image | image_url: width: 400 }}" alt="{{ block.settings.title | escape }}">
                           </noscript>
                         </div>
                       {%- else -%}
@@ -54,7 +54,7 @@
                               data-sizes="auto"
                               alt="{{ block.settings.image.alt | escape }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ block.settings.image | img_url: '400x' }}" alt="{{ block.settings.title | escape }}">
+                            <img class="lazyloaded" src="{{ block.settings.image | image_url: width: 400 }}" alt="{{ block.settings.title | escape }}">
                           </noscript>
                         </div>
                       {%- endif -%}

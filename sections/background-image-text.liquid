@@ -33,7 +33,7 @@
         <noscript>
           <img
             class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyloaded"
-            src="{{ section.settings.image | img_url: '1800x' }}"
+            src="{{ section.settings.image | image_url: width: 1800 }}"
             alt="{{ section.settings.image.alt }}">
         </noscript>
       {%- else -%}

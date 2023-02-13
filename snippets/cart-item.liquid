@@ -11,7 +11,7 @@
             alt="{{ product.product.title | escape }}">
         <noscript>
           <img class="lazyloaded"
-            src="{{ product | img_url: '400x' }}"
+            src="{{ product | image_url: width: 400 }}"
             alt="{{ product.product.title | escape }}">
         </noscript>
       </a>

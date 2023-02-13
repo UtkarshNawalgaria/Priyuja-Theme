@@ -212,7 +212,7 @@ Helper for Wholesale Now (https://apps.shopify.com/wholesale-now)
       {% for item in cart.items %}
       <tr class="wn-cart-row line{{ forloop.index }}">
         <td class="">
-          <img class="wn-cart-image" src="{{ item | img_url: '95x95', scale: 2 }}" alt="{{ item.title | escape }}">
+          <img class="wn-cart-image" src="{{ item | image_url: width: 190, height: 190 }}" alt="{{ item.title | escape }}">
         </td>
         <td class="">
           <div class="wn-item-title">

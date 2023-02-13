@@ -163,7 +163,7 @@
 
                     <img
                       class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyload"
-                      src="{{ block.settings.image | img_url: '300x' }}"
+                      src="{{ block.settings.image | image_url: width: 300 }}"
                       data-src="{{ img_url }}"
                       data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                       data-sizes="auto"
@@ -171,7 +171,7 @@
                     <noscript>
                       <img
                         class="image-fit promo-grid__bg-image promo-grid__bg-image--{{ block.id }} lazyloaded"
-                        src="{{ block.settings.image | img_url: '1800x' }}"
+                        src="{{ block.settings.image | image_url: width: 1800 }}"
                         alt="{{ block.settings.image.alt }}">
                     </noscript>
                   {%- else -%}
@@ -257,7 +257,7 @@
                               data-sizes="auto"
                               alt="{{ collection_image_1.alt }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ collection_image_1 | img_url: '800x' }}" alt="{{ image.alt }}">
+                            <img class="lazyloaded" src="{{ collection_image_1 | image_url: width: 800 }}" alt="{{ image.alt }}">
                           </noscript>
                         </div>
                       {%- endif -%}
@@ -274,7 +274,7 @@
                               data-sizes="auto"
                               alt="{{ collection_image_2.alt }}">
                           <noscript>
-                            <img class="lazyloaded" src="{{ collection_image_2 | img_url: '800x' }}" alt="{{ image.alt }}">
+                            <img class="lazyloaded" src="{{ collection_image_2 | image_url: width: 800 }}" alt="{{ image.alt }}">
                           </noscript>
                         </div>
                       {%- endif -%}
@@ -360,7 +360,7 @@
                         role="presentation"
                         alt="{{ block.settings.image.alt }}">
                     <noscript>
-                      <img class="lazyloaded" src="{{ block.settings.image | img_url: '600x' }}" alt="{{ block.settings.image.alt }}">
+                      <img class="lazyloaded" src="{{ block.settings.image | image_url: width: 600 }}" alt="{{ block.settings.image.alt }}">
                     </noscript>
                   </div>
                 {%- else -%}
@@ -389,7 +389,7 @@
                             role="presentation"
                             alt="{{ block.settings.image.alt }}">
                         <noscript>
-                          <img class="lazyloaded" src="{{ block.settings.image | img_url: '300x' }}" alt="{{ block.settings.image.alt }}">
+                          <img class="lazyloaded" src="{{ block.settings.image | image_url: width: 300 }}" alt="{{ block.settings.image.alt }}">
                         </noscript>
                       </div>
                     </div>
@@ -472,7 +472,7 @@
                                     data-sizes="auto"
                                     alt="{{ image.alt }}">
                                 <noscript>
-                                  <img class="lazyloaded" src="{{ image | img_url: '600x' }}" alt="{{ image.alt }}">
+                                  <img class="lazyloaded" src="{{ image | image_url: width: 600 }}" alt="{{ image.alt }}">
                                 </noscript>
                               </a>
                             </div>

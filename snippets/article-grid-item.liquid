@@ -21,7 +21,7 @@
                     alt="{{ article.image.alt | escape }}">
               </div>
               <noscript>
-                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+                <img class="lazyloaded" src="{{ article.image | image_url: width: 400 }}" alt="{{ article.title | escape }}">
               </noscript>
             </div>
           {%- else -%}
@@ -34,7 +34,7 @@
                   data-sizes="auto"
                   alt="{{ article.image.alt | escape }}">
               <noscript>
-                <img class="lazyloaded" src="{{ article.image | img_url: '400x' }}" alt="{{ article.title | escape }}">
+                <img class="lazyloaded" src="{{ article.image | image_url: width: 400 }}" alt="{{ article.title | escape }}">
               </noscript>
             </div>
           {%- endif -%}

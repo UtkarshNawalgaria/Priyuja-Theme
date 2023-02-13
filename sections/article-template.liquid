@@ -17,7 +17,7 @@
       alt="{{ article.image.alt | escape }}">
     <noscript>
       <img class="collection-hero__image image-fit"
-        src="{{ article.image | img_url: '1400x' }}"
+        src="{{ article.image | image_url: width: 1400 }}"
         alt="{{ article.image.alt | escape }}">
     </noscript>
 
@@ -89,7 +89,7 @@
         {%- endif -%}
       </header>
     {%- endunless -%}
-      
+
     <div class="article__body rte">
       {{ article.content }}
     </div>

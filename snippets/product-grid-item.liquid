@@ -104,7 +104,7 @@ Arguments
                 alt="{{ preview_image.alt | escape }}">
             <noscript>
               <img class="grid-product__image lazyloaded"
-                src="{{ preview_image | img_url: '400x' }}"
+                src="{{ preview_image | image_url: width: 400 }}"
                 alt="{{ preview_image.alt | escape }}">
             </noscript>
           </div>
@@ -243,7 +243,7 @@ Arguments
                 class="color-swatch color-swatch--small color-swatch--{{ value | handle }}{% if variant.image %} color-swatch--with-image{% endif %}"
                 {% if variant.image %}
                   data-variant-id="{{ variant.id }}"
-                  data-variant-image="{{ variant.image | img_url: '400x' }}"
+                  data-variant-image="{{ variant.image | image_url: width: 400 }}"
                 {% endif %}
                 aria-label="{{ product.title }} - {{ value }}"
                 style="background-color: {{ color_swatch_fallback }};{% if images[color_file_name] != blank %}  background-image: url({{ color_image }});{% endif %}">
