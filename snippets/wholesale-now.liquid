@@ -1,34 +1,39 @@
+{% comment %}
+Helper for Wholesale Now (https://apps.shopify.com/wholesale-now)
+{% endcomment %}
+
+
 <script type="text/javascript">
   window.wn = {};
 
   {% if customer %}
-    window.wn.customer_tags = "{{ customer.tags | join: ',' }}";
-    window.wn.customer_id = "{{ customer.id }}";
+    window.wn.customer_tags = "{{customer.tags | join: ','}}";
+    window.wn.customer_id = "{{customer.id}}";
   {% endif %}
 
   {% if template contains 'product' %}
     {% unless product.id == blank %}
       window.wn.product = {
-        id: {{ product.id }},
-        price: {{ product.price }},
-        variants: {{ product.variants | json }}
+        id: {{product.id}},
+        price: {{product.price}},
+        variants: {{product.variants | json}}
       };
       window.wn.product_collections = []
       {% for c in product.collections %}
-        window.wn.product_collections.push({{ c.id }})
+        window.wn.product_collections.push({{c.id}})
       {% endfor %}
     {% endunless %}
   {% endif %}
 
   {% if cart %}
-  	window.wn.cart = {{ cart | json }}
+  	window.wn.cart = {{cart | json}}
     window.wn.cart.items = [];
 
     {% for item in cart.items %}
-      var cart_item = {{ item | json }};
+      var cart_item = {{item | json}};
       cart_item["collection_ids"] = [];
       {% for c in item.product.collections %}
-        cart_item["collection_ids"].push({{ c.id }})
+        cart_item["collection_ids"].push({{c.id}})
       {% endfor %}
       window.wn.cart.items.push(cart_item);
     {% endfor %}
@@ -43,7 +48,7 @@
   {% endif %}
 </script>
 
-{% raw %}
+{% raw  %}
 <script id="wholesale-now-discount-tiers-table" type="text/x-handlebars-template">
   <div class="wholesale-now-discount-tiers" id="discount-group-{{{discount_group_id}}}">
     <h4 class="wholesale-now-discount-title">{{{table_header}}}</h4>
@@ -88,7 +93,7 @@
         {{#each set_prices}}
           <tr>
               <td>{{{../row_set_price_title}}}</td>
-              <td>{{{ price}}}</td>
+              <td>{{{price}}}</td>
           </tr>
         {{/each}}
       {{/if}}
@@ -110,7 +115,7 @@
     		  <div class="wn-item-properties">{{{lineitemproperties}}}</div>
         </td>
         <td class="wn-item-price wn-pull-right">
-          {{{ price}}}
+          {{{price}}}
         </td>
         <td class="wn-item-qty wn-pull-right">
           {{{quantity}}}
@@ -138,7 +143,7 @@
     	<span class="wn-delivery-range">{{{delivery_range}}}</span>
     	{{/if}}
   	</td>
-  	<td><span class="wn-shipping-price">{{{ price}}}</span></td>
+  	<td><span class="wn-shipping-price">{{{price}}}</span></td>
   	<td>
   	{{#if showRadio}}
   	<input type="radio" name="shipping-rate" id="wn-shipping-option-radio-{{{index}}}">
@@ -153,7 +158,7 @@
 		    <tr>
         	<td width="40%">{{{method_label}}}</td>
         	<td width="40%">{{{speed_label}}}</td>
-        	<td width="15%">{{{ price_label}}}</td>
+        	<td width="15%">{{{price_label}}}</td>
         	<td width="5%"></td>
         </tr>
       </thead>
@@ -207,7 +212,7 @@
       {% for item in cart.items %}
       <tr class="wn-cart-row line{{ forloop.index }}">
         <td class="">
-          <img class="wn-cart-image" src="{{ item | image_url: width: 190, height: 190 }}" alt="{{ item.title | escape }}">
+          <img class="wn-cart-image" src="{{ item | img_url: '95x95', scale: 2 }}" alt="{{ item.title | escape }}">
         </td>
         <td class="">
           <div class="wn-item-title">
@@ -317,14 +322,14 @@
 
   	<h3 id="shipping-address-header">Shipping Address</h3>
     <form id="net-order-form" class="submit-address" _lpchecked="1">
-      <input type="text" name="address[first_name]" value="{{ customer.default_address.first_name }}" placeholder="First Name" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-      <input type="text" name="address[last_name]" value="{{ customer.default_address.last_name }}" placeholder="Surname" required="">
-      <input type="text" name="address[company]" value="{{ customer.default_address.company }}" placeholder="Company">
-      <input type="text" name="address[address1]" value="{{ customer.default_address.address1 }}" placeholder="Address Line 1" required="">
-      <input type="text" name="address[address2]" value="{{ customer.default_address.address2 }}" placeholder="Address Line 2">
-      <input type="text" name="address[city]" value="{{ customer.default_address.city }}" placeholder="City" required="">
+      <input type="text" name="address[first_name]" value="{{customer.default_address.first_name}}" placeholder="First Name" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+      <input type="text" name="address[last_name]" value="{{customer.default_address.last_name}}" placeholder="Surname" required="">
+      <input type="text" name="address[company]" value="{{customer.default_address.company}}" placeholder="Company">
+      <input type="text" name="address[address1]" value="{{customer.default_address.address1}}" placeholder="Address Line 1" required="">
+      <input type="text" name="address[address2]" value="{{customer.default_address.address2}}" placeholder="Address Line 2">
+      <input type="text" name="address[city]" value="{{customer.default_address.city}}" placeholder="City" required="">
 
-      <select id="AddressCountry" name="address[country]" data-default="{{ customer.default_address.country }}"><option value="United States" data-provinces="[[&quot;Alabama&quot;,&quot;Alabama&quot;],[&quot;Alaska&quot;,&quot;Alaska&quot;],[&quot;American Samoa&quot;,&quot;American Samoa&quot;],[&quot;Arizona&quot;,&quot;Arizona&quot;],[&quot;Arkansas&quot;,&quot;Arkansas&quot;],[&quot;California&quot;,&quot;California&quot;],[&quot;Colorado&quot;,&quot;Colorado&quot;],[&quot;Connecticut&quot;,&quot;Connecticut&quot;],[&quot;Delaware&quot;,&quot;Delaware&quot;],[&quot;District of Columbia&quot;,&quot;District of Columbia&quot;],[&quot;Federated States of Micronesia&quot;,&quot;Federated States of Micronesia&quot;],[&quot;Florida&quot;,&quot;Florida&quot;],[&quot;Georgia&quot;,&quot;Georgia&quot;],[&quot;Guam&quot;,&quot;Guam&quot;],[&quot;Hawaii&quot;,&quot;Hawaii&quot;],[&quot;Idaho&quot;,&quot;Idaho&quot;],[&quot;Illinois&quot;,&quot;Illinois&quot;],[&quot;Indiana&quot;,&quot;Indiana&quot;],[&quot;Iowa&quot;,&quot;Iowa&quot;],[&quot;Kansas&quot;,&quot;Kansas&quot;],[&quot;Kentucky&quot;,&quot;Kentucky&quot;],[&quot;Louisiana&quot;,&quot;Louisiana&quot;],[&quot;Maine&quot;,&quot;Maine&quot;],[&quot;Marshall Islands&quot;,&quot;Marshall Islands&quot;],[&quot;Maryland&quot;,&quot;Maryland&quot;],[&quot;Massachusetts&quot;,&quot;Massachusetts&quot;],[&quot;Michigan&quot;,&quot;Michigan&quot;],[&quot;Minnesota&quot;,&quot;Minnesota&quot;],[&quot;Mississippi&quot;,&quot;Mississippi&quot;],[&quot;Missouri&quot;,&quot;Missouri&quot;],[&quot;Montana&quot;,&quot;Montana&quot;],[&quot;Nebraska&quot;,&quot;Nebraska&quot;],[&quot;Nevada&quot;,&quot;Nevada&quot;],[&quot;New Hampshire&quot;,&quot;New Hampshire&quot;],[&quot;New Jersey&quot;,&quot;New Jersey&quot;],[&quot;New Mexico&quot;,&quot;New Mexico&quot;],[&quot;New York&quot;,&quot;New York&quot;],[&quot;North Carolina&quot;,&quot;North Carolina&quot;],[&quot;North Dakota&quot;,&quot;North Dakota&quot;],[&quot;Northern Mariana Islands&quot;,&quot;Northern Mariana Islands&quot;],[&quot;Ohio&quot;,&quot;Ohio&quot;],[&quot;Oklahoma&quot;,&quot;Oklahoma&quot;],[&quot;Oregon&quot;,&quot;Oregon&quot;],[&quot;Palau&quot;,&quot;Palau&quot;],[&quot;Pennsylvania&quot;,&quot;Pennsylvania&quot;],[&quot;Puerto Rico&quot;,&quot;Puerto Rico&quot;],[&quot;Rhode Island&quot;,&quot;Rhode Island&quot;],[&quot;South Carolina&quot;,&quot;South Carolina&quot;],[&quot;South Dakota&quot;,&quot;South Dakota&quot;],[&quot;Tennessee&quot;,&quot;Tennessee&quot;],[&quot;Texas&quot;,&quot;Texas&quot;],[&quot;Utah&quot;,&quot;Utah&quot;],[&quot;Vermont&quot;,&quot;Vermont&quot;],[&quot;Virgin Islands&quot;,&quot;Virgin Islands&quot;],[&quot;Virginia&quot;,&quot;Virginia&quot;],[&quot;Washington&quot;,&quot;Washington&quot;],[&quot;West Virginia&quot;,&quot;West Virginia&quot;],[&quot;Wisconsin&quot;,&quot;Wisconsin&quot;],[&quot;Wyoming&quot;,&quot;Wyoming&quot;],[&quot;Armed Forces Americas&quot;,&quot;Armed Forces Americas&quot;],[&quot;Armed Forces Europe&quot;,&quot;Armed Forces Europe&quot;],[&quot;Armed Forces Pacific&quot;,&quot;Armed Forces Pacific&quot;]]">United States</option>
+      <select id="AddressCountry" name="address[country]" data-default="{{customer.default_address.country}}"><option value="United States" data-provinces="[[&quot;Alabama&quot;,&quot;Alabama&quot;],[&quot;Alaska&quot;,&quot;Alaska&quot;],[&quot;American Samoa&quot;,&quot;American Samoa&quot;],[&quot;Arizona&quot;,&quot;Arizona&quot;],[&quot;Arkansas&quot;,&quot;Arkansas&quot;],[&quot;California&quot;,&quot;California&quot;],[&quot;Colorado&quot;,&quot;Colorado&quot;],[&quot;Connecticut&quot;,&quot;Connecticut&quot;],[&quot;Delaware&quot;,&quot;Delaware&quot;],[&quot;District of Columbia&quot;,&quot;District of Columbia&quot;],[&quot;Federated States of Micronesia&quot;,&quot;Federated States of Micronesia&quot;],[&quot;Florida&quot;,&quot;Florida&quot;],[&quot;Georgia&quot;,&quot;Georgia&quot;],[&quot;Guam&quot;,&quot;Guam&quot;],[&quot;Hawaii&quot;,&quot;Hawaii&quot;],[&quot;Idaho&quot;,&quot;Idaho&quot;],[&quot;Illinois&quot;,&quot;Illinois&quot;],[&quot;Indiana&quot;,&quot;Indiana&quot;],[&quot;Iowa&quot;,&quot;Iowa&quot;],[&quot;Kansas&quot;,&quot;Kansas&quot;],[&quot;Kentucky&quot;,&quot;Kentucky&quot;],[&quot;Louisiana&quot;,&quot;Louisiana&quot;],[&quot;Maine&quot;,&quot;Maine&quot;],[&quot;Marshall Islands&quot;,&quot;Marshall Islands&quot;],[&quot;Maryland&quot;,&quot;Maryland&quot;],[&quot;Massachusetts&quot;,&quot;Massachusetts&quot;],[&quot;Michigan&quot;,&quot;Michigan&quot;],[&quot;Minnesota&quot;,&quot;Minnesota&quot;],[&quot;Mississippi&quot;,&quot;Mississippi&quot;],[&quot;Missouri&quot;,&quot;Missouri&quot;],[&quot;Montana&quot;,&quot;Montana&quot;],[&quot;Nebraska&quot;,&quot;Nebraska&quot;],[&quot;Nevada&quot;,&quot;Nevada&quot;],[&quot;New Hampshire&quot;,&quot;New Hampshire&quot;],[&quot;New Jersey&quot;,&quot;New Jersey&quot;],[&quot;New Mexico&quot;,&quot;New Mexico&quot;],[&quot;New York&quot;,&quot;New York&quot;],[&quot;North Carolina&quot;,&quot;North Carolina&quot;],[&quot;North Dakota&quot;,&quot;North Dakota&quot;],[&quot;Northern Mariana Islands&quot;,&quot;Northern Mariana Islands&quot;],[&quot;Ohio&quot;,&quot;Ohio&quot;],[&quot;Oklahoma&quot;,&quot;Oklahoma&quot;],[&quot;Oregon&quot;,&quot;Oregon&quot;],[&quot;Palau&quot;,&quot;Palau&quot;],[&quot;Pennsylvania&quot;,&quot;Pennsylvania&quot;],[&quot;Puerto Rico&quot;,&quot;Puerto Rico&quot;],[&quot;Rhode Island&quot;,&quot;Rhode Island&quot;],[&quot;South Carolina&quot;,&quot;South Carolina&quot;],[&quot;South Dakota&quot;,&quot;South Dakota&quot;],[&quot;Tennessee&quot;,&quot;Tennessee&quot;],[&quot;Texas&quot;,&quot;Texas&quot;],[&quot;Utah&quot;,&quot;Utah&quot;],[&quot;Vermont&quot;,&quot;Vermont&quot;],[&quot;Virgin Islands&quot;,&quot;Virgin Islands&quot;],[&quot;Virginia&quot;,&quot;Virginia&quot;],[&quot;Washington&quot;,&quot;Washington&quot;],[&quot;West Virginia&quot;,&quot;West Virginia&quot;],[&quot;Wisconsin&quot;,&quot;Wisconsin&quot;],[&quot;Wyoming&quot;,&quot;Wyoming&quot;],[&quot;Armed Forces Americas&quot;,&quot;Armed Forces Americas&quot;],[&quot;Armed Forces Europe&quot;,&quot;Armed Forces Europe&quot;],[&quot;Armed Forces Pacific&quot;,&quot;Armed Forces Pacific&quot;]]">United States</option>
         <option value="---" data-provinces="[]">---</option>
         <option value="Afghanistan" data-provinces="[]">Afghanistan</option>
         <option value="Aland Islands" data-provinces="[]">Åland Islands</option>
@@ -569,11 +574,11 @@
         <option value="Zimbabwe" data-provinces="[]">Zimbabwe</option>
       </select>
       <div id="AddressProvinceContainer" style="">
-          <select id="AddressProvince" name="address[province]" data-default="{{ customer.default_address.province }}"><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="American Samoa">American Samoa</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Federated States of Micronesia">Federated States of Micronesia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Marshall Islands">Marshall Islands</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Palau">Palau</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virgin Islands">Virgin Islands</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="Armed Forces Americas">Armed Forces Americas</option><option value="Armed Forces Europe">Armed Forces Europe</option><option value="Armed Forces Pacific">Armed Forces Pacific</option></select>
+          <select id="AddressProvince" name="address[province]" data-default="{{customer.default_address.province}}"><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="American Samoa">American Samoa</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Federated States of Micronesia">Federated States of Micronesia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Marshall Islands">Marshall Islands</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Palau">Palau</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virgin Islands">Virgin Islands</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="Armed Forces Americas">Armed Forces Americas</option><option value="Armed Forces Europe">Armed Forces Europe</option><option value="Armed Forces Pacific">Armed Forces Pacific</option></select>
       </div>
 
-      <input type="text" name="address[zip]" value="{{ customer.default_address.zip }}" placeholder="Zip/Postcode" autocapitalize="characters" required="">
-      <input type="text" name="address[phone]" value="{{ customer.default_address.phone }}" placeholder="Phone">
+      <input type="text" name="address[zip]" value="{{customer.default_address.zip}}" placeholder="Zip/Postcode" autocapitalize="characters" required="">
+      <input type="text" name="address[phone]" value="{{customer.default_address.phone}}" placeholder="Phone">
 
     </form>
 
