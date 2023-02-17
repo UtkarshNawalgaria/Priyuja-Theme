@@ -1,8 +1,8 @@
 <header class="giftcard-header" role="banner">
   {% liquid
     assign has_logo = section.settings.logo
-    assign header_logo_size = section.settings.desktop_logo_width | append: 'x'
-    assign header_logo_size_mobile = section.settings.mobile_logo_width | append: 'x'
+    assign header_logo_size = section.settings.desktop_logo_width
+    assign header_logo_size_mobile = section.settings.mobile_logo_width
   %}
 
   {%- if has_logo -%}
@@ -26,14 +26,14 @@
         class="site-header__logo-link">
         <img
           class="small--hide"
-          src="{{ section.settings.logo | img_url: header_logo_size }}"
-          srcset="{{ section.settings.logo | img_url: header_logo_size }} 1x, {{ section.settings.logo | img_url: header_logo_size, scale: 2 }} 2x"
+          src="{{ section.settings.logo | image_url: width: header_logo_size }}"
+          srcset="{{ section.settings.logo | image_url: width: header_logo_size }} 1x, {{ section.settings.logo | image_url: width: header_logo_size, scale: 2 }} 2x"
           alt="{{ section.settings.logo.alt | default: shop.name }}"
           itemprop="logo">
         <img
           class="medium-up--hide"
-          src="{{ section.settings.logo | img_url: header_logo_size_mobile }}"
-          srcset="{{ section.settings.logo | img_url: header_logo_size_mobile }} 1x, {{ section.settings.logo | img_url: header_logo_size_mobile, scale: 2 }} 2x"
+          src="{{ section.settings.logo | image_url: width: header_logo_size_mobile }}"
+          srcset="{{ section.settings.logo | image_url: width: header_logo_size_mobile }} 1x, {{ section.settings.logo | image_url: width: header_logo_size_mobile, scale: 2 }} 2x"
           alt="{{ section.settings.logo.alt | default: shop.name }}">
       </a>
     {%- else -%}

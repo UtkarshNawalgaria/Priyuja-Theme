@@ -14,11 +14,6 @@
             "size_chart": "size-chart"
           }
         },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
         "28bf1614-dfca-4d04-86fa-ecdec2cb4b48": {
           "type": "product_waitlist_form",
           "settings": {
@@ -92,7 +87,6 @@
       "block_order": [
         "price",
         "4b7490db-7985-4767-ac45-7bd22e77004d",
-        "separator",
         "28bf1614-dfca-4d04-86fa-ecdec2cb4b48",
         "e827023f-829b-43fc-bfae-94f1c3e70114",
         "variant_picker",
