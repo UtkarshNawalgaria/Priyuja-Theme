@@ -8084,19 +8084,19 @@ html[dir=rtl] .grid-product__content{
   opacity:0.65;
 }
 
-.grid-product__price{
+.grid-product__meta .product__price {
   font-size:calc(var(--typeBaseSize)*0.85);
   color:{{ settings.color_price | default: "#1c1d1d" }};
   color:var(--colorPrice);
   margin-top:5px;
 }
 
-.grid-product__price--original{
+.grid-product__meta .product__price .product__price--original {
   text-decoration:line-through;
   margin-right:5px;
 }
 
-.grid-product__price--savings{
+.grid-product__meta .product__price .product__price--savings {
   color:{{ settings.color_savings_text | default: "#1c1d1d" }};
   color:var(--colorTextSavings);
   margin-left:5px;

@@ -165,7 +165,7 @@ Arguments
         {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
           <div class="grid-product__vendor">{{ product.vendor }}</div>
         {%- endif -%}
-        <div class="grid-product__price">
+        <div class="product__price">
           {%- if product.price_varies -%}
             {%- assign price = product.price_min | money -%}
             {{ 'products.general.from_text_html' | t: price: price }}
