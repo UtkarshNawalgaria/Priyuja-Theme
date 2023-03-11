@@ -32,11 +32,6 @@
             "color_swatches": false
           }
         },
-        "fe0a3ed7-4d52-40b2-9aa3-1839ae4f1d32": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -90,7 +85,6 @@
         "28bf1614-dfca-4d04-86fa-ecdec2cb4b48",
         "e827023f-829b-43fc-bfae-94f1c3e70114",
         "variant_picker",
-        "fe0a3ed7-4d52-40b2-9aa3-1839ae4f1d32",
         "buy_buttons",
         "description",
         "9c13f905-ff8a-4141-8ab6-32b736aec64b",
