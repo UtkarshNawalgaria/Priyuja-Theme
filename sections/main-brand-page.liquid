@@ -1,43 +1,61 @@
 {% liquid
-  assign brand_name = page.metafields.custom.brand_name
-  assign brand_address = page.metafields.custom.brand_address
-  assign brand_email = page.metafields.custom.brand_email
-  assign brand_phone_number = page.metafields.custom.brand_phone_number
+  assign brand_object = page.metafields.custom.brand_object.value
+  assign brand_name = brand_object.name
+  assign brand_address = brand_object.address
+  assign brand_email = brand_object.email
+  assign brand_phone_number = brand_object.phone_number
 
   assign brand_description = page.metafields.custom.brand_description
 
-  if page.metafields.custom.brand_logo == blank
+  if brand_object.logo == blank
     assign brand_logo_url = 'https://cdn.shopify.com/s/files/1/0652/7074/3285/files/brand-shop-icon.png?v=1659269538&width=120'
   else
-    assign brand_logo_url = page.metafields.custom.brand_logo | image_url: width: 120, height: 120
+    assign brand_logo_tag = brand_object.logo | image_url: width: 120, height: 120 | image_tag: alt: brand_name
   endif
 
-  if page.metafields.custom.brand_banner == blank
-    assign brand_banner_url = 'https://images.meesho.com/images/marketing/1630322640582_1024.jpg'
+  if brand_object.banner == blank
+    assign brand_banner_url = 'https://cdn.shopify.com/s/files/1/0704/1119/0580/files/default-brand.jpg?v=1676812968&height=250'
   else
-    assign brand_banner_url = page.metafields.custom.brand_banner | image_url
+    assign brand_banner_tag = brand_object.banner | image_url: height: 250 | image_tag: alt: brand_name
   endif
 
-  if page.metafields.custom.brand_banner_mobile == blank
+  if brand_object.mobile_banner == blank
     assign brand_mobile_banner_url = 'https://images.meesho.com/images/marketing/1630322640582_1024.jpg'
   else
-    assign brand_mobile_banner_url = page.metafields.custom.brand_banner_mobile | image_url: width: 500, height: 350
+    assign brand_mobile_banner_tag = brand_object.mobile_banner | image_url: width: 500, height: 350 | image_tag: alt: brand_name
   endif
 %}
 
 <div class="brand-page">
   <div class="brand">
     <div class="brand-banner">
-      <img src="{{ brand_banner_url }}" alt="{{ brand_name }}" loading="lazy" class="desktop-banner-image">
-      <img src="{{ brand_mobile_banner_url }}" alt="{{ brand_name }}" loading="lazy" class="mobile-banner-image">
+      <div class="desktop-banner-image">
+        {% if brand_banner_url %}
+          <img src="{{ brand_banner_url }}" alt="{{ brand_name }} - Priyuja">
+        {% else %}
+          {{ brand_banner_tag }}
+        {% endif %}
+      </div>
+      <div class="mobile-banner-image">
+        {% if brand_mobile_banner_url %}
+          <img src="{{ brand_mobile_banner_url }}" alt="{{ brand_name }} - Priyuja">
+        {% else %}
+          {{ brand_mobile_banner_tag }}
+        {% endif %}
+        <img src="{{ brand_mobile_banner_url }}" alt="{{ brand_name }}">
+      </div>
     </div>
     <div class="brand-info">
       <div class="brand-logo-block">
-        <img src="{{ brand_logo_url }}" alt="{{ brand_name }} - Priyuja">
+        {% if brand_logo_url %}
+          <img src="{{ brand_logo_url }}" alt="{{ brand_name }} - Priyuja">
+        {% else %}
+          {{ brand_logo_tag }}
+        {% endif %}
       </div>
       <div class="brand-details">
         <h1 class="brand-name">{{ brand_name }}</h1>
-        <p class="brand-description">{{ brand_description }}</p>
+        <p class="brand-description">{{ brand_object.description }}</p>
         <ul class="icon-list">
           {% if brand_phone_number != blank %}
             <li>
@@ -53,7 +71,7 @@
           {% endif %}
           {% if brand_address != blank %}
             <li>
-              <svg class="brand-svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+              <svg class="brand-svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
               <span>{{ brand_address }}</span>
             </li>
           {% endif %}

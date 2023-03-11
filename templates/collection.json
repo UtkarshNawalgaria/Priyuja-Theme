@@ -52,7 +52,6 @@
           "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-collection-block\/150d2781-732b-4020-a9fb-1368e974e6bb",
           "settings": {
             "page_size": 12,
-            "enable_product_grid": false,
             "collection_card_desktop_template": "<div><\/div>",
             "collection_card_mobile_template": "<div><\/div>",
             "card_spacing_desktop": 20,
