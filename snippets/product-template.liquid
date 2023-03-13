@@ -110,6 +110,14 @@
                 </div>
               {%- endif -%}
 
+              {%- if sku_enable -%}
+                <p data-sku class="product-single__sku">
+                  {%- if current_variant.sku -%}
+                    <strong>SKU</strong> - {{ current_variant.sku }}
+                  {%- endif -%}
+                </p>
+              {%- endif -%}
+
               {%- if isModal -%}
                 <p class="h2 product-single__title">
                   {{ product.title }}
@@ -124,14 +132,6 @@
                 </h1>
               {%- endif -%}
               {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
-
-              {%- if sku_enable -%}
-                <p data-sku class="product-single__sku">
-                  {%- if current_variant.sku -%}
-                    {{ current_variant.sku }}
-                  {%- endif -%}
-                </p>
-              {%- endif -%}
             </div>
 
             <div data-product-blocks>
@@ -330,7 +330,7 @@
                     {% endif %}
                   {%- when 'buy_buttons' -%}
                     {% if product.available %}
-                      <div class="product-block show-desktop" {{ block.shopify_attributes }}>
+                      <div class="product-block" {{ block.shopify_attributes }}>
                         {%- unless product.empty? -%}
                           <div class="product-block">
                             {%- render 'product-form',
@@ -343,10 +343,11 @@
                         {%- endunless -%}
 
                         {%- if block.settings.surface_pickup_enable -%}
-                          <div data-store-availability-holder
+                          <div
+                            data-store-availability-holder
                             data-product-name="{{ product.title | escape }}"
                             data-base-url="{{ shop.url }}{{ routes.root_url }}"
-                            ></div>
+                          ></div>
                         {%- endif -%}
                       </div>
                     {% endif %}
@@ -405,9 +406,11 @@
                     </div>
                 {%- endcase -%}
               {%- else -%}
-                <div data-blocks-holder
-                     data-url="{{ product.url | within: collection }}"
-                     data-template="{{ product.template_suffix }}">
+                <div
+                  data-blocks-holder
+                  data-url="{{ product.url | within: collection }}"
+                  data-template="{{ product.template_suffix }}"
+                >
                   <div class="placeholder-content" style="min-height: 86px;"></div>
                 </div>
               {%- endfor -%}
@@ -433,28 +436,6 @@
           </div>
         {%- endunless -%}
       </div>
-    </div>
-    <div class="sticky-add-to-cart"  data-sticky-add-to-cart>
-      <div class="whatsapp-btn">
-        <a href="https://api.whatsapp.com/send?phone=919831044277&text=Hey, I want to buy this product.%0Ahttps://{{ shop.domain }}{{ product.url }}" target="_black" class="whatsapp-btn-link">
-          <div class="whatsapp-btn-icon">
-            <img src="https://whatsapp.seedgrow.net/images/whatsapp_logo.svg" alt="Order on Whatsapp">
-          </div>
-          <div class="whatsapp-btn-text">
-            Order
-          </div>
-        </a>
-      </div>
-      {%- unless product.empty? -%}
-        <div class="product-block button">
-          {%- render 'product-form',
-            form_id: form_id,
-            product: product,
-            show_dynamic_checkout: block.settings.show_dynamic_checkout,
-            current_variant: current_variant
-          -%}
-        </div>
-      {%- endunless -%}
     </div>
     {%- if product_video -%}
       <div class="product-video-container">

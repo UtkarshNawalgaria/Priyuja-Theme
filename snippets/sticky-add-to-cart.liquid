@@ -1,0 +1,20 @@
+<div class="sticky-add-to-cart"  data-sticky-add-to-cart>
+    <div class="whatsapp-btn">
+        <a href="https://api.whatsapp.com/send?phone=919831044277&text=Hey, I want to buy this product.%0Ahttps://{{ shop.domain }}{{ product.url }}" target="_black" class="whatsapp-btn-link">
+            <div class="whatsapp-btn-icon">
+                <img src="https://whatsapp.seedgrow.net/images/whatsapp_logo.svg" alt="Order on Whatsapp">
+            </div>
+            <div class="whatsapp-btn-text">Order</div>
+        </a>
+    </div>
+    {%- unless product.empty? -%}
+        <div class="product-block button">
+            {%- render 'product-form',
+                form_id: AddToCartForm-{{ section_id }}-{{ product.id }},
+                product: product,
+                show_dynamic_checkout: block.settings.show_dynamic_checkout,
+                current_variant: current_variant
+            -%}
+        </div>
+    {%- endunless -%}
+</div>
