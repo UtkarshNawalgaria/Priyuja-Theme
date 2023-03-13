@@ -23,16 +23,37 @@
       endunless
     -%}
 
-    <button
-      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
-      name="add"
-      data-add-to-cart
-      class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
-      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
-      <span data-add-to-cart-text data-default-text="{{ default_text }}">
-        {{ button_text }}
-      </span>
-    </button>
+    <div class="btn-group">
+      <button
+        {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+        name="add"
+        data-add-to-cart
+        class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
+        {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+        <span data-add-to-cart-icon>
+          {%- if settings.cart_icon == 'cart' -%}
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-cart" viewBox="0 0 64 64"><path fill="none" d="M14 17.44h46.79l-7.94 25.61H20.96l-9.65-35.1H3"/><circle cx="27" cy="53" r="2"/><circle cx="47" cy="53" r="2"/></svg>
+          {%- elsif settings.cart_icon == 'bag-minimal' -%}
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-bag-minimal" viewBox="0 0 64 64"><path stroke="null" id="svg_4" fill-opacity="null" stroke-opacity="null" fill="null" d="M11.375 17.863h41.25v36.75h-41.25z"/><path stroke="null" id="svg_2" d="M22.25 18c0-7.105 4.35-9 9.75-9s9.75 1.895 9.75 9"/></svg>
+          {%- else -%}
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-bag" viewBox="0 0 64 64"><g fill="none" stroke="#000" stroke-width="2"><path d="M25 26c0-15.79 3.57-20 8-20s8 4.21 8 20"/><path d="M14.74 18h36.51l3.59 36.73h-43.7z"/></g></svg>
+          {%- endif -%}
+        </span>
+        <span data-add-to-cart-text data-default-text="{{ default_text }}">
+          {{ button_text }}
+        </span>
+      </button>
+      <button class="whatsapp-btn" type="button">
+        <a href="https://api.whatsapp.com/send?phone=919831044277&text=Hey, I want to buy this product.%0Ahttps://{{ shop.domain }}{{ product.url }}" target="_black" class="whatsapp-btn-link">
+          <div class="whatsapp-btn-icon">
+            <img src="https://whatsapp.seedgrow.net/images/whatsapp_logo.svg" alt="Order on Whatsapp">
+          </div>
+          <div class="whatsapp-btn-text">
+            Order on Whatsapp
+          </div>
+        </a>
+      </button>
+    </div>
 
     {%- if enable_dynamic_buttons -%}
       {{ form | payment_button }}
