@@ -211,37 +211,6 @@
         "autoplay": false,
         "autoplay_speed": 5
       }
-    },
-    "16593519192598339d": {
-      "type": "newsletter",
-      "blocks": {
-        "1659351919ca745579-0": {
-          "type": "title",
-          "settings": {
-            "title": "Signup for our Newsletter"
-          }
-        },
-        "1659351919ca745579-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
-          }
-        },
-        "1659351919ca745579-2": {
-          "type": "form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1659351919ca745579-0",
-        "1659351919ca745579-1",
-        "1659351919ca745579-2"
-      ],
-      "settings": {
-        "color_background": "#ffe300",
-        "color_text": "#1c1d1d"
-      }
     }
   },
   "order": [
@@ -252,7 +221,6 @@
     "165935010517705749",
     "2c81d91d-b3ff-4ede-90b2-23c46c24a139",
     "8be977fe-474e-405e-8f2e-4edc4f157611",
-    "8dc0447c-876f-4d27-82d7-ffe1626bce9e",
-    "16593519192598339d"
+    "8dc0447c-876f-4d27-82d7-ffe1626bce9e"
   ]
 }
