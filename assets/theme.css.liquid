@@ -5028,7 +5028,22 @@ form+.footer__social {
     height:30px;
   }
 
-.site-nav__dropdown{
+.site-nav__dropdown {
+  position: absolute;
+  left: -13%;
+  margin: 24px;
+  z-index: 5;
+  display: block;
+  visibility: hidden;
+  background-color: {{ settings.color_body_bg | default: "#fff" }};
+  background-color: var(--colorBody);
+  min-width: 1350px;
+  padding: 10px 0 5px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.09);
+  transform: translate3d(0px, -12px, 0px)
+}
+
+/* .site-nav__dropdown {
   position:absolute;
   left:0;
   margin:0;
@@ -5041,7 +5056,7 @@ form+.footer__social {
   padding:10px 0 5px;
   box-shadow:0px 10px 20px rgba(0, 0, 0, 0.09);
   transform:translate3d(0px, -12px, 0px)
-}
+} */
 
 .is-focused>.site-nav__dropdown,.site-nav--has-dropdown:hover .site-nav__dropdown{
     display:block;
