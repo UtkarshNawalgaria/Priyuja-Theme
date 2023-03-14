@@ -1,0 +1,98 @@
+<div class="site-footer-links" data-section-id="{{ section.id }}" data-section-type="footer-links">
+    <div class="page-width">
+        {% for block in section.blocks %}
+            {% if block.settings.collection_list != blank %}
+                <div class="block">
+                    <div class="block-title">{{ block.settings.title }}</div>
+                    <ul>
+                        {% for collection in block.settings.collection_list %}
+                            <li><a href="/collections/{{ collection.handle }}">{{ collection.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% style %}
+    .site-footer-links .page-width {
+        max-width: 90%;
+    }
+
+    {% if section.settings.background_color != blank %}
+        .site-footer-links {
+            background-color: {{ section.settings.background_color }};
+        }
+    {% endif %}
+
+    .site-footer-links .block {
+        padding: 20px 0;
+    }
+
+    .site-footer-links .block .block-title {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .site-footer-links .block ul {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .site-footer-links .block li {
+        border-right: 1px solid;
+        padding-right: 10px;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .site-footer-links .block li,
+    .site-footer-links .block li a,
+    .site-footer-links .block .block-title {
+        color: {{ section.settings.text_color | default: "#000" }};
+    }
+
+    .site-footer-links .block li:last-child {
+        border-right: none;
+    }
+{% endstyle %}
+
+{% schema %}
+{
+    "name": "Footer Links",
+    "max_blocks": 5,
+    "settings": [
+        {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background Color"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text Color"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "link_block",
+            "name": "Links block",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Block Title",
+                    "default": "Block"
+                },
+                {
+                    "type": "collection_list",
+                    "id": "collection_list",
+                    "label": "Select Collection List"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}
