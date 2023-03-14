@@ -95,11 +95,21 @@
               "black-cotton-kurti"
             ]
           }
+        },
+        "268da3b8-d347-45fa-9982-92faed6d39cb": {
+          "type": "link_block",
+          "settings": {
+            "title": "Block",
+            "collection_list": [
+
+            ]
+          }
         }
       },
       "block_order": [
         "123c7d76-bac7-4f18-9e61-78087f184f89",
-        "9a6a0dfd-c391-41c2-8f0c-cb356995a9a1"
+        "9a6a0dfd-c391-41c2-8f0c-cb356995a9a1",
+        "268da3b8-d347-45fa-9982-92faed6d39cb"
       ],
       "settings": {
         "background_color": "#231f20",
