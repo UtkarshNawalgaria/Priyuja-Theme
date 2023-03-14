@@ -1,0 +1,67 @@
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "1524770292306": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping In India",
+            "link_text": "Valid on all orders above Rs 1000",
+            "link": ""
+          }
+        },
+        "1d917be8-8530-41c5-9a60-9ee75ce1021c": {
+          "type": "announcement",
+          "settings": {
+            "text": "First time shopper? Enjoy 10% off with code FIRST10 on Indian Ethnic Wear!",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1524770292306",
+        "1d917be8-8530-41c5-9a60-9ee75ce1021c"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "1524770014057": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Priyuja.png",
+            "desktop_logo_width": 180,
+            "mobile_logo_width": 110
+          }
+        }
+      },
+      "block_order": [
+        "1524770014057"
+      ],
+      "settings": {
+        "main_menu_link_list": "main-menu",
+        "mega_menu_images": true,
+        "main_menu_alignment": "left-center",
+        "header_style": "sticky",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "toolbar_menu": "",
+        "toolbar_social": true,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "7b5cd298-24af-4457-adbd-9946a3cafacd": {
+          "type": "custom",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Welcome to Priyuja",
+            "text": "<p>Kolkata's own contemporary boutique brand for Kurtis, Sarees, Lehengas and more.</p>",
+            "container_width": 20
+          }
+        },
+        "1494301487049": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "policy",
+            "container_width": 20
+          }
+        },
+        "2fcbcdc3-0c6e-46d1-bc44-058efed0d218": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "customer-help",
+            "container_width": 20
+          }
+        },
+        "04b91eed-5b63-4cdc-8818-a70cdbb67efa": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "",
+            "container_width": 20
+          }
+        },
+        "9e31a01b-ceeb-4ba7-bf35-572c569d8115": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Sign up and save",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "container_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "7b5cd298-24af-4457-adbd-9946a3cafacd",
+        "1494301487049",
+        "2fcbcdc3-0c6e-46d1-bc44-058efed0d218",
+        "04b91eed-5b63-4cdc-8818-a70cdbb67efa",
+        "9e31a01b-ceeb-4ba7-bf35-572c569d8115"
+      ],
+      "settings": {
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "show_payment_icons": true,
+        "show_copyright": true,
+        "copyright_text": "",
+        "footer_text": "<p>Kolkata is famous worldwide for its <span style=\"text-decoration:underline\"><strong>hand-stitched outfits</strong></span>, <span style=\"text-decoration:underline\"><strong>block and screen prints</strong></span>, and <span style=\"text-decoration:underline\"><strong>colorfully dyed garments</strong></span>. We are trying to bring the best of <span style=\"text-decoration:underline\"><strong>women's ethnic wear</strong></span> produced in this region and make it available at the price of manufacturers directly to consumers. The city has become synonymous with a certain sense of style. We are trying to bring to people the best of women's ethnic wear from this region in India at the same price that producers have been working with until now.<br/><br/>Kolkata's own contemporary boutique brand where you will find a stunning variety of traditional and <span style=\"text-decoration:underline\"><strong>indo-western clothing</strong></span> for women. We source only the most exquisite handcrafted designs, manufactured by top karigars from untapped areas across West Bengal. <br/><br/>Our mission is to bring the best of <span style=\"text-decoration:underline\"><strong>women's ethnic wear</strong></span>, produced here in West Bengal, and make it available to our patrons at the lowest prices, directly from manufacturers.<br/><br/>Shop from our beautiful collection of <span style=\"text-decoration:underline\"><strong>Designer Kurtis</strong></span>, <span style=\"text-decoration:underline\"><strong>Kurta Dupatta Sets</strong></span>, <span style=\"text-decoration:underline\"><strong>Unstitched Suits</strong></span>, <span style=\"text-decoration:underline\"><strong>Sarees</strong></span>, <span style=\"text-decoration:underline\"><strong>Gowns</strong></span> and <span style=\"text-decoration:underline\"><strong>Lehengas</strong></span>.</p>"
+      }
+    },
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "settings": {
+        "hide_homepage": false,
+        "image_size": "wide"
+      }
+    }
+  },
+  "order": ["footer-promotions", "footer"]
+}
