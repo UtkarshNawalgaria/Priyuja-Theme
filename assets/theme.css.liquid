@@ -188,7 +188,7 @@
   color:var(--colorBtnPrimaryText);
   background:{{ settings.color_button | default: "#000" }};
   background:var(--colorBtnPrimary);
-  border-radius:50%
+  border-radius:50%;
 }
 
 .hero .flickity-button{
@@ -5034,7 +5034,7 @@ form+.footer__social {
     height:30px;
   }
 
-.site-nav__dropdown {
+.site-nav__dropdown.megamenu {
   position: absolute;
   left: 13%;
   margin: 24px;
@@ -5049,7 +5049,7 @@ form+.footer__social {
   transform: translate3d(0px, -12px, 0px)
 }
 
-/* .site-nav__dropdown {
+.site-nav__dropdown {
   position:absolute;
   left:0;
   margin:0;
@@ -5061,8 +5061,8 @@ form+.footer__social {
   min-width:100%;
   padding:10px 0 5px;
   box-shadow:0px 10px 20px rgba(0, 0, 0, 0.09);
-  transform:translate3d(0px, -12px, 0px)
-} */
+  transform:translate3d(0px, -12px, 0px);
+}
 
 .is-focused>.site-nav__dropdown,.site-nav--has-dropdown:hover .site-nav__dropdown{
     display:block;
