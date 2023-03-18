@@ -147,8 +147,8 @@
       "settings": {
         "full_width": true,
         "gutter_size": 0,
-        "space_above": true,
-        "space_below": true
+        "space_above": false,
+        "space_below": false
       }
     },
     "1664371009f7d449ad": {
