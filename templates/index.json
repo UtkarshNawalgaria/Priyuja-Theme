@@ -1,41 +1,5 @@
 {
   "sections": {
-    "3f181c08-49d3-4f38-829f-c73b573a563e": {
-      "type": "promo-grid",
-      "blocks": {
-        "template--17454619459892__3f181c08-49d3-4f38-829f-c73b573a563e-1679136648bd1a94a8-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Kurtis_Flash_Sale.png",
-            "video_url": "",
-            "width": "100",
-            "height": 300,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__3f181c08-49d3-4f38-829f-c73b573a563e-1679136648bd1a94a8-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false
-      }
-    },
     "1659180325337d0a91": {
       "type": "slideshow",
       "blocks": {
@@ -149,6 +113,42 @@
         "style": "arrows",
         "autoplay": true,
         "autoplay_speed": 10
+      }
+    },
+    "3f181c08-49d3-4f38-829f-c73b573a563e": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--17454619459892__3f181c08-49d3-4f38-829f-c73b573a563e-1679136648bd1a94a8-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Kurtis_Flash_Sale.png",
+            "video_url": "",
+            "width": "100",
+            "height": 300,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__3f181c08-49d3-4f38-829f-c73b573a563e-1679136648bd1a94a8-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": true,
+        "space_below": true
       }
     },
     "1664371009f7d449ad": {
@@ -613,8 +613,8 @@
     }
   },
   "order": [
-    "3f181c08-49d3-4f38-829f-c73b573a563e",
     "1659180325337d0a91",
+    "3f181c08-49d3-4f38-829f-c73b573a563e",
     "1664371009f7d449ad",
     "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
