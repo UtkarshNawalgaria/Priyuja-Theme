@@ -1,41 +1,5 @@
 {
   "sections": {
-    "647a3f49-f871-41ad-98a3-4eafc3ffee98": {
-      "type": "promo-grid",
-      "blocks": {
-        "template--17454619558196__647a3f49-f871-41ad-98a3-4eafc3ffee98-1679136648bd1a94a8-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "",
-            "cta_text1": "",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/Kurtis_Flash_Sale.png",
-            "video_url": "",
-            "width": "100",
-            "height": 300,
-            "text_size": 100,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619558196__647a3f49-f871-41ad-98a3-4eafc3ffee98-1679136648bd1a94a8-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -170,7 +134,6 @@
     }
   },
   "order": [
-    "647a3f49-f871-41ad-98a3-4eafc3ffee98",
     "main",
     "sub",
     "product-recommendations",
