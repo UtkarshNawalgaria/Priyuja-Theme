@@ -3,6 +3,25 @@
     "1659180325337d0a91": {
       "type": "slideshow",
       "blocks": {
+        "81e7b446-f0e5-421b-a1e9-2284411d2f15": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Sale_Banner.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Sale_Banner.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
         "1659180325cecb808a-0": {
           "type": "image",
           "settings": {
@@ -40,31 +59,12 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "81e7b446-f0e5-421b-a1e9-2284411d2f15": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Sale_Banner.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Sale_Banner.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
+        "81e7b446-f0e5-421b-a1e9-2284411d2f15",
         "1659180325cecb808a-0",
-        "2ee809d5-1921-4f97-848f-e0854ef311dd",
-        "81e7b446-f0e5-421b-a1e9-2284411d2f15"
+        "2ee809d5-1921-4f97-848f-e0854ef311dd"
       ],
       "settings": {
         "section_height": "natural",
