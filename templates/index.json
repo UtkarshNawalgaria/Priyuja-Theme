@@ -22,44 +22,6 @@
             "focal_point": "center center"
           }
         },
-        "7887e436-2503-4a82-a687-ee4f33de4e74": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/beige-sarees",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Artboard_3.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Artboard_6_copy_2.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/saree",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Artboard_2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Artboard_6_copy.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "2ee809d5-1921-4f97-848f-e0854ef311dd": {
           "type": "image",
           "settings": {
@@ -78,33 +40,11 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
-        },
-        "478eca94-2b36-4a89-a844-eee960b36322": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/shivamani",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Artboard_5_f81c0a33-ad3a-4b00-84fc-26f875bfd43e.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Artboard_6_copy_4.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
         "1659180325cecb808a-0",
-        "7887e436-2503-4a82-a687-ee4f33de4e74",
-        "dde20b6c-91c5-4e79-b1a2-6ef2245e7c73",
-        "2ee809d5-1921-4f97-848f-e0854ef311dd",
-        "478eca94-2b36-4a89-a844-eee960b36322"
+        "2ee809d5-1921-4f97-848f-e0854ef311dd"
       ],
       "settings": {
         "section_height": "natural",
