@@ -442,6 +442,7 @@
     },
     "1658645152bb25d696": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/FIAA663RED_1.jpg",
         "image_width": 700,
