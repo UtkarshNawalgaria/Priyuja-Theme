@@ -171,6 +171,18 @@
         "space_around": true
       }
     },
+    "93eaa014-354b-48e6-ac0e-daa8517792b1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Beautiful Suits & Indo Westerns",
+        "home_featured_products": "sangeet",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "1664371844032e463c": {
       "type": "text-columns",
       "blocks": {
@@ -542,6 +554,7 @@
     "1664371009f7d449ad",
     "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
+    "93eaa014-354b-48e6-ac0e-daa8517792b1",
     "1664371844032e463c",
     "0e28ebab-92e6-4297-8159-c9dcecad1d12",
     "1664563013d44f0e4e",
