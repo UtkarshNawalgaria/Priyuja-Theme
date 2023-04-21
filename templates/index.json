@@ -509,6 +509,21 @@
         "divider": false
       }
     },
+    "54d54a30-37b2-482d-bfbb-fef383437923": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Blog",
+        "blog": "fashion-updates",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
     "ea82b11e-98e1-42c9-a8a8-970bc124569b": {
       "type": "slideshow",
       "blocks": {
@@ -604,6 +619,7 @@
     "4a3dba94-2ae0-4356-b799-6683a072ff8a",
     "1664195030898aa5c1",
     "1658645152bb25d696",
+    "54d54a30-37b2-482d-bfbb-fef383437923",
     "ea82b11e-98e1-42c9-a8a8-970bc124569b",
     "1664372150d309856a"
   ]
