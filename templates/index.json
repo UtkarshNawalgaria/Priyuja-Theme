@@ -22,44 +22,6 @@
             "focal_point": "center center"
           }
         },
-        "1659180325cecb808a-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/saree",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Artboard_4.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Artboard_6_copy_3.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
-        "2ee809d5-1921-4f97-848f-e0854ef311dd": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/collections\/net-sarees",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Artboard_1.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Artboard_6.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        },
         "8b4c86ea-d5a7-400f-998e-6f693da0dd75": {
           "type": "image",
           "settings": {
@@ -97,14 +59,52 @@
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
+        },
+        "1659180325cecb808a-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/saree",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Artboard_4.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_6_copy_3.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "2ee809d5-1921-4f97-848f-e0854ef311dd": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/net-sarees",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Artboard_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Artboard_6.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "81e7b446-f0e5-421b-a1e9-2284411d2f15",
-        "1659180325cecb808a-0",
-        "2ee809d5-1921-4f97-848f-e0854ef311dd",
         "8b4c86ea-d5a7-400f-998e-6f693da0dd75",
-        "acefd1a0-f3bd-45b8-b66f-13fca842fa54"
+        "acefd1a0-f3bd-45b8-b66f-13fca842fa54",
+        "1659180325cecb808a-0",
+        "2ee809d5-1921-4f97-848f-e0854ef311dd"
       ],
       "settings": {
         "section_height": "natural",
