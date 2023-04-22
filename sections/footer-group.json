@@ -78,9 +78,13 @@
         "123c7d76-bac7-4f18-9e61-78087f184f89": {
           "type": "link_block",
           "settings": {
-            "title": "Block",
+            "title": "Primary Categories",
             "collection_list": [
-
+              "saree",
+              "kurti",
+              "kurta-set",
+              "indo-western",
+              "gown"
             ]
           }
         },
