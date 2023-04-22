@@ -49,7 +49,14 @@ Arguments
   endif
 -%}
 
-<div class="grid__item grid-product {{ grid_item_width }}{% if quick_shop_enable %} grid-product__has-quick-shop{% endif %}" data-aos="row-of-{{ per_row }}" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}">
+<div
+  class="grid__item grid-product {{ grid_item_width }}{% if quick_shop_enable %} grid-product__has-quick-shop{% endif %}"
+  data-aos="row-of-{{ per_row }}"
+  data-product-handle="{{ product.handle }}"
+  data-product-id="{{ product.id }}"
+  data-product-price="{{ product.price_min }}"
+  data-product-compare-at-price="{{ product.compare_at_price_min }}"
+>
   <div class="grid-product__content">
     {%- if has_custom_label -%}
       <div class="grid-product__tag grid-product__tag--custom">
@@ -166,12 +173,14 @@ Arguments
           <div class="grid-product__vendor">{{ product.vendor }}</div>
         {%- endif -%}
         <div class="product__price">
-          {%- if product.price_varies -%}
-            {%- assign price = product.price_min | money -%}
-            {{ 'products.general.from_text_html' | t: price: price }}
-          {%- else -%}
-            {{ product.price | money }}
-          {%- endif -%}
+          <span>
+            {%- if product.price_varies -%}
+              {%- assign price = product.price_min | money -%}
+              {{ 'products.general.from_text_html' | t: price: price }}
+            {%- else -%}
+              {{ product.price | money }}
+            {%- endif -%}
+          </span>
           {%- if on_sale -%}
             <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
             <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>

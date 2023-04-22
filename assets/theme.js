@@ -1,16 +1,3 @@
-/*
-@license
-  Impulse by Archetype Themes (https://archetypethemes.co)
-  Access unminified JS in assets/theme.js
-
-  Use this event listener to run your own JS outside of this file.
-  Documentation - https://archetypethemes.co/blogs/impulse/javascript-events-for-developers
-
-  document.addEventListener('page:loaded', function() {
-    // Page has loaded and theme assets are ready
-  });
-*/
-
 window.theme = window.theme || {};
 window.Shopify = window.Shopify || {};
 
@@ -29,10 +16,6 @@ theme.config = {
 
 if (theme.config.isTouch) {
   document.documentElement.className += ' supports-touch';
-}
-
-if (console && console.log) {
-  // console.log('Impulse theme ('+theme.settings.themeVersion+') by ARCHΞTYPE | Learn more at https://archetypethemes.co');
 }
 
 theme.recentlyViewed = {
@@ -170,7 +153,21 @@ lazySizesConfig.expFactor = 4;
         );
       });
       return arr.join('&');
-    }
+    },
+
+    getMinObject: function(array, property) {
+      if (!Array.isArray(array) || array.length === 0) return null
+
+      let minObject = array[0]
+
+      for (let i = 1; i < array.length; i++) {
+        if (array[property] < minObject[property]) {
+          minObject = array[i];
+        }
+      }
+
+      return minObject;
+    },
   };
 
   theme.a11y = {
@@ -251,6 +248,73 @@ lazySizesConfig.expFactor = 4;
       el.off('touchmove' + namespace);
     }
   };
+
+  theme.wholesale = {
+    discountGroups: window.wn.datastore.discount_groups.filter(group => group.products.length > 0),
+    discountGroupTags: window.wn.datastore.discount_groups.map(group => group.customer_tag),
+    customerTags: JSON.parse(document.querySelector("#customerData").textContent),
+    wholesaleTag: 'reseller',
+
+    createProductDiscountGroups: function() {
+      const productDiscountGroupMap = new Map();
+
+      this.discountGroups.forEach(group => {
+        const tag = group.customer_tag;
+
+        group.products.forEach(product => {
+          const {shopify_product_id, variants} = product;
+          const minVariant = theme.utils.getMinObject(variants, "price");
+          let productMap = productDiscountGroupMap.get(shopify_product_id);
+
+          if (productMap) {
+            productMap[tag] = minVariant?.price || null;
+          } else {
+            productDiscountGroupMap.set(shopify_product_id, {
+              [tag]: minVariant ? minVariant.price : null
+            })
+          }
+        });
+      });
+
+      this.productDiscountGroupMap = productDiscountGroupMap;
+    },
+
+    setWholesalePrices: function(productList, priceTag) {
+      // Loop over all the products and show wholesale price if applicable
+      productList.forEach(product => {
+        const priceElement = product.querySelector(priceTag);
+        const {productId, productPrice, productCompareAtPrice} = product.dataset;
+        const discountedPrice = this.productDiscountGroupMap.get(productId);
+
+        // If customer is tagged with multiple discount group tags,
+        // then, show price of group with the buggest discount
+        let minPrice = Infinity;
+
+        this.customerTags.forEach(tag => {
+          if (!discountedPrice) return;
+
+          const tempPrice = discountedPrice[tag];
+
+          if (tempPrice) {
+            minPrice = tempPrice < minPrice ? tempPrice : minPrice;
+          }
+        });
+
+        if (minPrice === Infinity) return;
+
+        const discountPriceFormatted = theme.Currency.formatMoney(minPrice, theme.settings.moneyFormat);
+        const priceHtml = `
+          <span class="product__price--final">${discountPriceFormatted}</span>
+          <span class="product__price--original">${priceElement.textContent}</span>
+        `;
+
+        priceElement.classList.add("wholesale-price");
+        priceElement.innerHTML = priceHtml;
+      })
+    }
+  }
+
+  theme.wholesale.createProductDiscountGroups();
 
   // Add class when tab key starts being used to show outlines
   document.documentElement.on('keyup.tab', function(evt) {
@@ -6059,6 +6123,7 @@ lazySizesConfig.expFactor = 4;
       this.collectionHandle = container.getAttribute('data-collection-handle');
       this.namespace = '.collection-' + this.sectionId;
       this.sidebar = new theme.CollectionSidebar(container);
+      this.collectionProductItemSelector = `[data-section-id="${this.sectionId}"] .grid-product`;
       this.ajaxRenderer = new theme.AjaxRenderer({
         sections: [
           {
@@ -6079,6 +6144,7 @@ lazySizesConfig.expFactor = 4;
         this.initFilters();
         this.initPriceRange();
         this.sidebar.init();
+        this.modifyWholesalePrice();
       },
 
       initSort: function() {
@@ -6358,6 +6424,17 @@ lazySizesConfig.expFactor = 4;
       startLoading: function() {
         document.querySelector(selectors.collectionGrid).classList.add('unload');
       },
+
+      modifyWholesalePrice: function() {
+        const customerTags = theme.wholesale.customerTags;
+        const products = document.querySelectorAll(this.collectionProductItemSelector);
+
+        // If customer is not logged in or is not tagged with 'reseller' tag, then return
+        if (!customerTags ||
+            customerTags && !customerTags.includes(theme.wholesale.wholesaleTag)) return;
+
+        theme.wholesale.setWholesalePrices(products, ".product__price", customerTags)
+      }
     });
 
     return Collection;

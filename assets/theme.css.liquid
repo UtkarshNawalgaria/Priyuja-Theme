@@ -8114,7 +8114,8 @@ html[dir=rtl] .grid-product__content{
 
 .grid-product__meta .product__price .product__price--original {
   text-decoration:line-through;
-  margin-right:5px;
+  margin-right: 10px;
+  color: grey;
 }
 
 .grid-product__meta .product__price .product__price--savings {
@@ -8122,6 +8123,11 @@ html[dir=rtl] .grid-product__content{
   color:var(--colorTextSavings);
   margin-left:5px;
   white-space:nowrap;
+}
+
+.grid-product__meta .product__price.wholesale-price .product__price--final {
+  font-size: 20px;
+  margin-right: 10px;
 }
 
 .grid-product__tag{
@@ -11076,17 +11082,16 @@ html[dir=rtl] .product-single__meta .rte{
 }
 
 @media only screen and (min-width:769px){
-
-.product__thumbs--below .product__thumb-item{
-      margin-right:15px
+  .product__thumbs--below .product__thumb-item{
+    margin-right:15px
+  }
 }
-    }
 
 .product__thumbs--below .product__thumb-item:last-child{
-      margin-right:0;
-    }
+  margin-right:0;
+}
 
-.product__price{
+.product__price {
   color:{{ settings.color_price | default: "#1c1d1d" }};
   color:var(--colorPrice);
   margin-right:5px;

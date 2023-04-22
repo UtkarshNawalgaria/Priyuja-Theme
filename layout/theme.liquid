@@ -118,5 +118,8 @@
   -%}
   <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "188a8b7fbf8a2360aa3d06f966aec1281bdc4f4311b6d020a00e3bb7bbf225a1", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
   {% render 'wholesale-now', customer: customer, template: template, product: product, cart: cart %}
+  <script type="application/json" id="customerData">
+    {{ customer.tags | json }}
+  </script>
 </body>
 </html>
