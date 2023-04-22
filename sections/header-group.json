@@ -5,14 +5,6 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "1d917be8-8530-41c5-9a60-9ee75ce1021c": {
-          "type": "announcement",
-          "settings": {
-            "text": "POHELA BAISAKH OFFER",
-            "link_text": "Use Code BAISAKH20",
-            "link": ""
-          }
-        },
         "1524770292306": {
           "type": "announcement",
           "settings": {
@@ -23,7 +15,6 @@
         }
       },
       "block_order": [
-        "1d917be8-8530-41c5-9a60-9ee75ce1021c",
         "1524770292306"
       ],
       "settings": {
