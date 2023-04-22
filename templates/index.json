@@ -384,7 +384,7 @@
         "template--17454619459892__737b31f2-535a-48a7-b453-40d05031afc5-16742835661ebb7b2d-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "gutter_size": 0,
         "space_above": false,
         "space_below": false
