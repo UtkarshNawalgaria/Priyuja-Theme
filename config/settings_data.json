@@ -324,26 +324,10 @@
                 "desktop_logo_width": 140,
                 "mobile_logo_width": 110
               }
-            },
-            "1524770292306": {
-              "type": "announcement",
-              "settings": {
-                "text": "Free shipping",
-                "link_text": "On all orders over $100"
-              }
-            },
-            "1524770296206": {
-              "type": "announcement",
-              "settings": {
-                "text": "Hassle-free returns",
-                "link_text": "30-day postage paid returns"
-              }
             }
           },
           "block_order": [
-            "1524770014057",
-            "1524770292306",
-            "1524770296206"
+            "1524770014057"
           ],
           "settings": {
             "main_menu_link_list": "main-menu",
@@ -494,28 +478,10 @@
                 "desktop_logo_width": 200,
                 "mobile_logo_width": 140
               }
-            },
-            "1521051841065": {
-              "type": "announcement",
-              "settings": {
-                "text": "Free shipping",
-                "link_text": "On all orders over $100",
-                "link": "shopify:\/\/collections\/all"
-              }
-            },
-            "1520888647304": {
-              "type": "announcement",
-              "settings": {
-                "text": "Hassle-free returns",
-                "link_text": "30-day postage paid returns",
-                "link": "shopify:\/\/collections\/all"
-              }
             }
           },
           "block_order": [
-            "1520882467782",
-            "1521051841065",
-            "1520888647304"
+            "1520882467782"
           ],
           "settings": {
             "main_menu_link_list": "main-menu",
