@@ -513,7 +513,7 @@
       "type": "blog-posts",
       "settings": {
         "title": "Blog",
-        "blog": "fashion-updates",
+        "blog": "news",
         "post_limit": 3,
         "blog_show_tags": false,
         "blog_show_date": true,
