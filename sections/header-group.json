@@ -49,10 +49,21 @@
         "show_currency_selector": true,
         "show_currency_flags": true
       }
+    },
+    "promo-strip": {
+      "type": "promo-strip",
+      "settings": {
+        "text": "FLASH SALE",
+        "link_text": "30-day postage paid returns",
+        "discount_code": "SALE20",
+        "background_color": "#a91c0c",
+        "text_color": "#a91c0c"
+      }
     }
   },
   "order": [
     "announcement",
-    "header"
+    "header",
+    "promo-strip"
   ]
 }
