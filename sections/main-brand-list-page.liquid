@@ -6,17 +6,28 @@
     {% for page in pages %}
       {% if page.metafields.custom.brand_page and page.metafields.custom.hide_brand == false %}
         {% liquid
+
+          assign is_default_image = false
           if page.metafields.custom.brand_list_image != blank
-            assign image_url = page.metafields.custom.brand_list_image | image_url: width: 280, height: 280
+            assign image_url = page.metafields.custom.brand_list_image | image_url: width: 280
           elsif page.metafields.custom.brand_banner_mobile != blank
-            assign image_url = page.metafields.custom.brand_banner_mobile | image_url: width: 280, height: 280
+            assign image_url = page.metafields.custom.brand_banner_mobile | image_url: width: 280
           else
             assign image_url = "https://cdn.shopify.com/s/files/1/0652/7074/3285/files/default-brand-list-image.png?v=1662012931&w=280"
+            assign is_default_image = true
+          endif
+
+          if is_default_image == false
+            assign my_image_tag = image_url | image_tag: loading: "eager", width: 280, alt: page.title, class: "brand-card__img"
           endif
         %}
         <div class="brand-card">
           <a href="{{ page.url }}" target="_blank">
-            <img class="brand-card__img" src="{{ image_url }}" alt="{{ page.title }}" width="280" height="280" loading="eager">
+            {% if is_default_image == true %}
+              <img class="brand-card__img" src="{{ image_url }}" alt="{{ page.title }}" width="280" loading="eager">
+            {% else %}
+              {{ my_image_tag }}
+            {% endif %}
             <h3 class="brand-card__title">{{ page.title }}</h3>
           </a>
         </div>

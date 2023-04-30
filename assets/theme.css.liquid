@@ -10908,16 +10908,16 @@ html[dir=rtl] .product-single__meta .rte{
 }
 
 .product__photos a{
-    display:block;
-    max-width:100%;
-  }
+  display:block;
+  max-width:100%;
+}
 
 .product__photos img{
-    display:block;
-    margin:0 auto;
-    max-width:100%;
-    width:100%;
-  }
+  display:block;
+  margin:0 auto;
+  max-width:100%;
+  width:100%;
+}
 
 .product__main-photos{
   position:relative;
@@ -10925,29 +10925,26 @@ html[dir=rtl] .product-single__meta .rte{
 }
 
 .product__main-photos img{
-    display:none;
-  }
-
-.product__main-photos .flickity-page-dots{
-    display:none;
-  }
-
-@media only screen and (max-width:768px){
-
-.product__main-photos{
-    margin-bottom:30px;
-    margin-left:-17px;
-    margin-right:-17px
+  display:none;
 }
 
-    .product__main-photos .flickity-page-dots{
-      display:block;
-    }
+.product__main-photos .flickity-page-dots{
+  display:none;
+}
+
+@media only screen and (max-width:768px){
+  .product__main-photos{
+    margin-bottom:30px;
   }
 
-.product-main-slide:not(.is-selected) button,.product-main-slide:not(.is-selected) iframe,.product-main-slide:not(.is-selected) model-viewer,.product-main-slide:not(.is-selected) video{
-    display:none;
+  .product__main-photos .flickity-page-dots{
+    display:block;
   }
+}
+
+.product-main-slide:not(.is-selected) button,.product-main-slide:not(.is-selected) iframe,.product-main-slide:not(.is-selected) model-viewer,.product-main-slide:not(.is-selected) video{
+  display:none;
+}
 
 .product-main-slide{
   display:none;
@@ -12067,11 +12064,11 @@ html[dir=rtl] .product-single__meta .rte{
 .brand-list-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
+  gap: 20px;
 }
 
 .brand-list-grid .brand-card {
-  width: calc(50% - 1px);
+  width: calc(50% - 10px);
   padding: 10px;
   border-radius: 3px;
   box-shadow: 0 0 .3125rem #1718180d,0 .0625rem .125rem #00000026;
@@ -12079,6 +12076,7 @@ html[dir=rtl] .product-single__meta .rte{
 
 .brand-list-grid .brand-card .brand-card__img {
   object-fit: contain;
+  aspect-ratio: 1 / 1;
 }
 
 @media screen and (min-width: 769px) {
