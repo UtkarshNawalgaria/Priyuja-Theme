@@ -8,7 +8,7 @@
 
 {%- if is_tab -%}
   {% assign title = 'products.product.description' | t %}
-  {%- render 'tab', id: id, title: title, content: description -%}
+  {%- render 'tab', id: id, title: title, content: description, icon: 'info' -%}
 {%- else -%}
   <div class="rte product-single__description">
     <h3>Product Details</h3>
