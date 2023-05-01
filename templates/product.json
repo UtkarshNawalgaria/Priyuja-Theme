@@ -39,30 +39,32 @@
             "surface_pickup_enable": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
         "9c13f905-ff8a-4141-8ab6-32b736aec64b": {
           "type": "separator",
           "settings": {
           }
         },
-        "tab": {
-          "type": "tab",
+        "description": {
+          "type": "description",
           "settings": {
-            "title": "Return & Refund Policy",
-            "content": "<p><em>Priyuja offers an easy return policy. Within <\/em><em><strong>5 days<\/strong><\/em><em> of receiving the order, if you are not satisfied or there is an issue with the product, you can initiate a return. <\/em><\/p><p><em>Upon receiving the product back, a refund will be initiated. You can find detailed information here.<\/em><\/p><p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Return Policy\">Return & Refund Policy<\/a><\/p>",
-            "page": ""
+            "is_tab": true
           }
         },
         "1b7441b8-8f54-46c8-b7fc-32c8713e57a6": {
           "type": "tab",
           "settings": {
             "title": "Shipping information",
+            "icon": "globe",
             "content": "<p>Shipping is free for all orders above Rs. 1000. All orders under Rs. 1000 are subject to a shipping charge of Rs. 99.<\/p><p>Domestic orders reach you within <strong>5-7 days <\/strong>after placing the order, and international orders within <strong>7-10 days.<\/strong><\/p><p>You can find detailed information here.<\/p><p><a href=\"\/pages\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\"><strong>Shipping Policy<\/strong><\/a><\/p>",
+            "page": ""
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Return & Refund Policy",
+            "icon": "shield",
+            "content": "<p><em>Priyuja offers an easy return policy. Within <\/em><em><strong>5 days<\/strong><\/em><em> of receiving the order, if you are not satisfied or there is an issue with the product, you can initiate a return. <\/em><\/p><p><em>Upon receiving the product back, a refund will be initiated. You can find detailed information here.<\/em><\/p><p><a href=\"\/pages\/return-policy\" target=\"_blank\" title=\"Return Policy\">Return & Refund Policy<\/a><\/p>",
             "page": ""
           }
         },
@@ -86,10 +88,10 @@
         "e827023f-829b-43fc-bfae-94f1c3e70114",
         "variant_picker",
         "buy_buttons",
-        "description",
         "9c13f905-ff8a-4141-8ab6-32b736aec64b",
-        "tab",
+        "description",
         "1b7441b8-8f54-46c8-b7fc-32c8713e57a6",
+        "tab",
         "contact",
         "share"
       ],
