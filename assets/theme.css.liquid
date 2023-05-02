@@ -6773,7 +6773,7 @@ input[type=image]{
 }
 
 .product-block hr {
-  margin: 0;
+  margin: 25px 0;
 }
 
 .product-block--tab {
@@ -8050,7 +8050,6 @@ html[dir=rtl] .grid-product__content{
 }
 
 .grid-product__meta{
-  position:relative;
   padding:10px 0 6px 0;
   line-height:{{ settings.type_base_line_height | default: 1.4 | minus: 0.1 }}
 }
@@ -8094,6 +8093,22 @@ html[dir=rtl] .grid-product__content{
 .grid-product__meta .product__price.wholesale-price .product__price--final {
   font-size: 20px;
   margin-right: 10px;
+}
+
+.grid-product__meta .product__options {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 10px;
+	flex-direction: column;
+	position: absolute;
+	z-index: 4;
+  right: 5px;
+  top: -5px;
+	color: white;
+	background-color: rgba(0,0,0,.5);
+	padding: 10px 5px;
 }
 
 .grid-product__tag{

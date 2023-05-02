@@ -47,6 +47,13 @@ Arguments
       endif
     endfor
   endif
+
+  assign size_values = blank
+  for option in product.options_with_values
+    if option.name == "Size"
+      assign size_values = option.values
+    endif
+  endfor
 -%}
 
 <div
@@ -168,8 +175,8 @@ Arguments
 
       <div class="grid-product__meta">
         <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
-        {%- if settings.vendor_enable -%}
         {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+        {%- if settings.vendor_enable -%}
           <div class="grid-product__vendor">{{ product.vendor }}</div>
         {%- endif -%}
         <div class="product__price">
@@ -181,12 +188,12 @@ Arguments
               {{ product.price | money }}
             {%- endif -%}
           </span>
+
           {%- if on_sale -%}
             <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
             <span class="grid-product__price--original">{{ product.compare_at_price | money }}</span>
             <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
-          {%- endif -%}
-          {%- if on_sale -%}
+
             {%- if settings.product_save_amount -%}
               {%- capture saved_amount -%}{{ product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | round }}%{%- endcapture -%}
               <span class="grid-product__price--savings">
@@ -211,6 +218,16 @@ Arguments
             </div>
           {%- endif -%}
         </div>
+
+        {% if size_values != blank %}
+          <div class="product__options">
+            {% for size in size_values %}
+              {% if size != blank %}
+                <span>{{ size }}</span>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </a>
   </div>
