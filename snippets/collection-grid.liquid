@@ -74,7 +74,6 @@ Snippet Arguments
   </div>
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
-    Checking wholeslae products
     {%- for item in items -%}
       {% liquid
         unless is_wholesale_customer and item.metafields.custom.wholesale_product == false or item.metafields.custom.wholesale_product == blank
