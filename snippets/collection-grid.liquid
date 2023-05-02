@@ -31,6 +31,11 @@ Snippet Arguments
   for filter in filters
     assign current_filter_size = current_filter_size | plus: filter.active_values.size
   endfor
+
+  assign is_wholesale_customer = false
+  if customer and customer.tags contains 'reseller'
+    assign is_wholesale_customer = true
+  endif
 %}
 
 <div class="collection-grid__wrapper">
@@ -69,13 +74,21 @@ Snippet Arguments
   </div>
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
+    Checking wholeslae products
     {%- for item in items -%}
+      {% liquid
+        unless is_wholesale_customer and item.metafields.custom.wholesale_product == false or item.metafields.custom.wholesale_product == blank
+          assign product = item
+        endunless
+      %}
       {%- if item.object_type == 'product' -%}
-        {%- render 'product-grid-item',
-          product: item,
-          per_row: per_row,
-          quick_shop_enable: quick_shop_enable
-        -%}
+        {% if product != blank %}
+          {%- render 'product-grid-item',
+            product: product,
+            per_row: per_row,
+            quick_shop_enable: quick_shop_enable
+          -%}
+        {% endif %}
       {%- else -%}
         {%- render 'search-grid-item',
           item: item,
