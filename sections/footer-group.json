@@ -16,9 +16,10 @@
           "type": "custom",
           "settings": {
             "show_footer_title": true,
-            "title": "Welcome to Priyuja",
-            "text": "<p>Kolkata's own contemporary boutique brand for Kurtis, Sarees, Lehengas and more.<\/p>",
-            "container_width": 20
+            "title": "",
+            "image": "shopify:\/\/shop_images\/Priyuja.png",
+            "text": "<p><strong>Address<\/strong> - CG-171, Sector 2, Salt Lake City, Kolkata, West Bengal 700091<\/p><p><strong>Phone Number<\/strong>: 9831044277<\/p>",
+            "container_width": 25
           }
         },
         "1494301487049": {
@@ -26,7 +27,7 @@
           "settings": {
             "show_footer_title": true,
             "menu": "policy",
-            "container_width": 20
+            "container_width": 25
           }
         },
         "2fcbcdc3-0c6e-46d1-bc44-058efed0d218": {
@@ -34,15 +35,7 @@
           "settings": {
             "show_footer_title": true,
             "menu": "customer-help",
-            "container_width": 20
-          }
-        },
-        "04b91eed-5b63-4cdc-8818-a70cdbb67efa": {
-          "type": "menu",
-          "settings": {
-            "show_footer_title": true,
-            "menu": "",
-            "container_width": 20
+            "container_width": 25
           }
         },
         "9e31a01b-ceeb-4ba7-bf35-572c569d8115": {
@@ -51,7 +44,7 @@
             "show_footer_title": true,
             "title": "Sign up and save",
             "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-            "container_width": 20
+            "container_width": 25
           }
         }
       },
@@ -59,7 +52,6 @@
         "7b5cd298-24af-4457-adbd-9946a3cafacd",
         "1494301487049",
         "2fcbcdc3-0c6e-46d1-bc44-058efed0d218",
-        "04b91eed-5b63-4cdc-8818-a70cdbb67efa",
         "9e31a01b-ceeb-4ba7-bf35-572c569d8115"
       ],
       "settings": {

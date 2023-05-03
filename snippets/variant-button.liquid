@@ -20,7 +20,6 @@
     {{ option.name }}
     {%- if connect_to_sizechart and is_size -%}
       <span class="variant__label-info">
-        &mdash;
         {%- render
           'tool-tip-trigger',
           title: size_chart_title,

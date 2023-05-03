@@ -8,20 +8,20 @@
           "settings": {
           }
         },
-        "4b7490db-7985-4767-ac45-7bd22e77004d": {
-          "type": "size_chart",
-          "settings": {
-            "size_chart": "size-chart"
-          }
-        },
         "28bf1614-dfca-4d04-86fa-ecdec2cb4b48": {
           "type": "product_waitlist_form",
           "settings": {
           }
         },
-        "e827023f-829b-43fc-bfae-94f1c3e70114": {
+        "01c48e45-690e-4341-8978-155469d12e70": {
           "type": "separator",
           "settings": {
+          }
+        },
+        "4b7490db-7985-4767-ac45-7bd22e77004d": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": "size-chart"
           }
         },
         "variant_picker": {
@@ -83,9 +83,9 @@
       },
       "block_order": [
         "price",
-        "4b7490db-7985-4767-ac45-7bd22e77004d",
         "28bf1614-dfca-4d04-86fa-ecdec2cb4b48",
-        "e827023f-829b-43fc-bfae-94f1c3e70114",
+        "01c48e45-690e-4341-8978-155469d12e70",
+        "4b7490db-7985-4767-ac45-7bd22e77004d",
         "variant_picker",
         "buy_buttons",
         "9c13f905-ff8a-4141-8ab6-32b736aec64b",
