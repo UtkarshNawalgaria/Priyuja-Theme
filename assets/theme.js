@@ -283,7 +283,7 @@ lazySizesConfig.expFactor = 4;
       // Loop over all the products and show wholesale price if applicable
       productList.forEach(product => {
         const priceElement = product.querySelector(priceTag);
-        const {productId, productPrice, productCompareAtPrice} = product.dataset;
+        const {productId} = product.dataset;
         const discountedPrice = this.productDiscountGroupMap.get(productId);
 
         // If customer is tagged with multiple discount group tags,
@@ -5630,8 +5630,19 @@ lazySizesConfig.expFactor = 4;
           var results = div.querySelectorAll(selectors.productResults);
           if (results.length === 0) {
             this.container.classList.add('hide');
+          } else {
+            this.modifyWholesalePrice(results);
           }
         }.bind(this));
+      },
+      modifyWholesalePrice: function(products) {
+        const customerTags = theme.wholesale.customerTags;
+
+        // If customer is not logged in or is not tagged with 'reseller' tag, then return
+        if (!customerTags ||
+          customerTags && !customerTags.includes(theme.wholesale.wholesaleTag)) return;
+
+        theme.wholesale.setWholesalePrices(products, ".grid-product__price", customerTags);
       }
     });
 
