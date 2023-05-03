@@ -6433,7 +6433,7 @@ lazySizesConfig.expFactor = 4;
         if (!customerTags ||
             customerTags && !customerTags.includes(theme.wholesale.wholesaleTag)) return;
 
-        theme.wholesale.setWholesalePrices(products, ".product__price", customerTags)
+        theme.wholesale.setWholesalePrices(products, ".grid-product__price", customerTags)
       }
     });
 
