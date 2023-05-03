@@ -590,6 +590,22 @@
     "name": "t:settings_schema.product_tiles.name",
     "settings": [
       {
+        "type": "select",
+        "id": "product_tile_text_align",
+        "label": "Text Alignment",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          }
+        ]
+      },
+      {
         "type": "checkbox",
         "id": "quick_shop_enable",
         "label": "t:settings_schema.product_tiles.settings.quick_shop_enable.label"

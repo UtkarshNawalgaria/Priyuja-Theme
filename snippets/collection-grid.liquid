@@ -75,20 +75,14 @@ Snippet Arguments
 
   <div class="grid grid--uniform{% if mobile_flush_grid %} small--grid--flush{% endif %}"{% unless enable_collection_count %} data-scroll-to{% endunless %}>
     {%- for item in items -%}
-      {% liquid
-        assign product = blank
-        unless is_wholesale_customer and item.metafields.custom.wholesale_product == false
-          assign product = item
-        endunless
-      %}
       {%- if item.object_type == 'product' -%}
-        {% if product != blank %}
-          {%- render 'product-grid-item',
-            product: product,
-            per_row: per_row,
-            quick_shop_enable: quick_shop_enable
-          -%}
-        {% endif %}
+        {%- render 'product-grid-item',
+          product: item,
+          per_row: per_row,
+          quick_shop_enable: quick_shop_enable,
+          is_wholesale_customer: is_wholesale_customer,
+          is_wholesale_product: item.metafields.custom.wholesale_product
+        -%}
       {%- else -%}
         {%- render 'search-grid-item',
           item: item,

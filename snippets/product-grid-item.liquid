@@ -173,12 +173,25 @@ Arguments
         {%- endif -%}
       </div>
 
-      <div class="grid-product__meta">
-        <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
+      <div class="grid-product__meta" data-text-align="{{ settings.product_tile_text_align }}">
+        <div class="grid-product__tags">
+          {% if is_wholesale_customer == true and is_wholesale_product == true %}
+            <span class="tag wholesale-tag">
+              Wholesale
+            </span>
+          {% endif %}
+        </div>
+
+        <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">
+          {{ product.title }}
+        </div>
+
         {% render 'judgeme_widgets', widget_type: 'judgeme_preview_badge', jm_style: '', concierge_install: true, product: product %}
+
         {%- if settings.vendor_enable -%}
           <div class="grid-product__vendor">{{ product.vendor }}</div>
         {%- endif -%}
+
         <div class="product__price">
           <span>
             {%- if product.price_varies -%}

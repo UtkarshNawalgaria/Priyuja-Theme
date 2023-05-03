@@ -48,6 +48,7 @@
     "icon_linecaps": "round",
     "product_save_type": "percent",
     "vendor_enable": true,
+    "product_tile_text_align": "left",
     "quick_shop_enable": true,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "portrait",

@@ -76,6 +76,7 @@
     {% endif %}
 
     --colorGridOverlayOpacity: {{ settings.collection_grid_opacity | divided_by: 100.0 }};
+    --baseLineHeight: {{ settings.type_base_line_height | default: 1.4 | minus: 0.1 }};
   }
 
   .placeholder-content {
