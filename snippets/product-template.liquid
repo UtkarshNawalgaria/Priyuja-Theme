@@ -391,6 +391,7 @@
                   {% when 'product_specification' %}
                     <div class="product-block product-specification" {{ block.shopify_attributes }}>
                       {% assign value_count = 0 %}
+                      {% assign metafield_keys = block.settings.field_list | split: ',' %}
                       {% capture table %}
                         <div class="product-specification__table">
                           {% for key in metafield_keys %}
@@ -405,7 +406,7 @@
                               assign metafield_value = product.metafields.custom[downcased_key]
                             %}
                             {% if metafield_value != blank %}
-                              {% increment value_count %}
+                              {% assign value_count = value_count | plus: 1 %}
                               <div class="column">
                                 <span class="key">{{ key }}</span>
                                 <span class="value">{{ metafield_value }}</span>
@@ -417,7 +418,7 @@
 
                       {% if value_count >= 1 %}
                         <h4 class="product-specification__heading">{{ block.settings.heading }}</h4>
-                        {{ value_count }}
+                        {{ table }}
                       {% endif %}
                     </div>
                 {%- endcase -%}
