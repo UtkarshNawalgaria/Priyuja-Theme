@@ -400,7 +400,7 @@
                               assign split_key_size = downcased_key | split: ' ' | size
 
                               if split_key_size > 1
-                                assign downcased_key = downcased_key | join: '_'
+                                assign downcased_key = downcased_key | split: ' ' | join: '_'
                               endif
 
                               assign metafield_value = product.metafields.custom[downcased_key]

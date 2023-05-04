@@ -48,7 +48,7 @@
           "type": "product_specification",
           "settings": {
             "heading": "Product Specification",
-            "field_list": "Fabric,Work,Color,Occasion"
+            "field_list": "Fabric,Work,Color,Occasion,Sleeve Length"
           }
         },
         "description": {
