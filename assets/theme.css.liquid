@@ -2363,7 +2363,7 @@ button[disabled],html input[disabled]{
 
 @media only screen and (min-width:769px){
   .collapsible-trigger-btn--borders {
-    padding: 20px;
+    padding: 20px 0;
   }
 
   .collapsible-trigger-btn--borders .collapsible-trigger__icon {
@@ -6792,15 +6792,15 @@ input[type=image]{
   margin-top: -20px;
 }
 
-.theme-block{
+.theme-block {
   margin-bottom: 30px;
 }
 
-.theme-block:last-child{
-    margin-bottom:0;
-  }
+.theme-block:last-child {
+  margin-bottom:0;
+}
 
-[data-product-blocks] .spr-starrating{
+[data-product-blocks] .spr-starrating {
   margin-bottom:15px;
   margin-top:-15px;
 }
@@ -6888,22 +6888,22 @@ input[type=image]{
 }
 
 .hero__image-wrapper:before,.hero__media:before{
-    content:"";
-    position:absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    z-index:3;
-    background-color:{{ settings.color_image_overlay | default: "#000" }};
-    background-color:var(--colorImageOverlay);
-    opacity:{{ settings.color_image_overlay_opacity | divided_by: 100.0 }};
-    opacity:var(--colorImageOverlayOpacity)
-  }
+  content:"";
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:3;
+  background-color:{{ settings.color_image_overlay | default: "#000" }};
+  background-color:var(--colorImageOverlay);
+  opacity:{{ settings.color_image_overlay_opacity | divided_by: 100.0 }};
+  opacity:var(--colorImageOverlayOpacity)
+}
 
 .video-interactable .hero__image-wrapper:before,.video-interactable .hero__media:before{
-      pointer-events:none
-  }
+  pointer-events:none
+}
 
 .hero__image{
   position:relative;
@@ -12246,4 +12246,30 @@ html[dir=rtl] .product-single__meta .rte{
   .btn-group {
     flex-direction: column;
   }
+}
+
+.product-specification {
+  margin-bottom: 20px;
+}
+
+.product-specification__heading {
+  font-size: 1em;
+  letter-spacing: 0em;
+}
+
+.product-specification__table {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.product-specification__table .column {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.product-specification__table .column .key {
+  font-size: 16px;
 }

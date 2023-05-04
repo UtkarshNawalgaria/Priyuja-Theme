@@ -388,6 +388,33 @@
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.code }}
                     </div>
+                  {% when 'product_specification' %}
+                    <div class="product-block product-specification" {{ block.shopify_attributes }}>
+                      {% liquid
+                        assign metafield_keys = block.settings.field_list | split: ','
+                      %}
+                      <h4 class="product-specification__heading">{{ block.settings.heading }}</h4>
+                      <div class="product-specification__table">
+                        {% for key in metafield_keys %}
+                          {% liquid
+                            assign downcased_key = key | downcase
+                            assign split_key_size = downcased_key | split: ' ' | size
+
+                            if split_key_size > 1
+                              assign downcased_key = downcased_key | join: '_'
+                            endif
+                            
+                            assign metafield_value = product.metafields.custom[downcased_key]
+                          %}
+                          {% if metafield_value != blank %}
+                            <div class="column">
+                              <span class="key">{{ key }}</span>
+                              <span class="value">{{ metafield_value }}</span>
+                            </div>
+                          {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
                 {%- endcase -%}
               {%- else -%}
                 <div

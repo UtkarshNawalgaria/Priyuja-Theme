@@ -44,6 +44,13 @@
           "settings": {
           }
         },
+        "eff1fe29-2d2c-4e2b-af74-7cce0d930faf": {
+          "type": "product_specification",
+          "settings": {
+            "heading": "Product Specification",
+            "field_list": "Fabric,Work,Color,Occasion"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -89,6 +96,7 @@
         "variant_picker",
         "buy_buttons",
         "9c13f905-ff8a-4141-8ab6-32b736aec64b",
+        "eff1fe29-2d2c-4e2b-af74-7cce0d930faf",
         "description",
         "1b7441b8-8f54-46c8-b7fc-32c8713e57a6",
         "tab",
