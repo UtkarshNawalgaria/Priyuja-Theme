@@ -4,7 +4,7 @@
   </header>
   <div class="brand-list-grid">
     {% for page in pages %}
-      {% if page.metafields.custom.brand_page and page.metafields.custom.hide_brand == false %}
+      {% if page.metafields.custom.brand_page == true and page.metafields.custom.hide_brand == false %}
         {% liquid
 
           assign is_default_image = false
