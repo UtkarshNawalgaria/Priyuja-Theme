@@ -454,8 +454,8 @@
         "d46a0814-406c-404a-abe5-aa1a2582c550"
       ],
       "settings": {
-        "full_width": false,
-        "gutter_size": 1,
+        "full_width": true,
+        "gutter_size": 0,
         "space_above": false,
         "space_below": false
       }
