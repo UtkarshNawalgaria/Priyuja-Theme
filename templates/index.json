@@ -191,18 +191,6 @@
         "space_around": true
       }
     },
-    "93eaa014-354b-48e6-ac0e-daa8517792b1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Beautiful Suits & Indo Westerns",
-        "home_featured_products": "sangeet",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "1664371844032e463c": {
       "type": "text-columns",
       "blocks": {
@@ -271,44 +259,16 @@
         "divider": false
       }
     },
-    "0e28ebab-92e6-4297-8159-c9dcecad1d12": {
-      "type": "promo-grid",
-      "blocks": {
-        "35afd0be-ead2-461e-82db-2ab9ee4a88ce": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px.png",
-            "link": "",
-            "width": "100"
-          }
-        }
-      },
-      "block_order": [
-        "35afd0be-ead2-461e-82db-2ab9ee4a88ce"
-      ],
-      "settings": {
-        "full_width": false,
-        "gutter_size": 0,
-        "space_above": false,
-        "space_below": false
-      }
-    },
-    "1664563013d44f0e4e": {
+    "93eaa014-354b-48e6-ac0e-daa8517792b1": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured Collection",
-        "home_featured_products": "featured",
+        "title": "Beautiful Suits & Indo Westerns",
+        "home_featured_products": "sangeet",
         "per_row": 4,
-        "rows": 2,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
-      }
-    },
-    "1664370911cc5sdfdf": {
-      "type": "image-columns",
-      "disabled": true,
-      "settings": {
       }
     },
     "7da4b888-bb8b-4a85-b017-c72e82220e92": {
@@ -369,6 +329,24 @@
         "title": "Shop By Fabric",
         "logo_opacity": 76,
         "divider": false
+      }
+    },
+    "1664563013d44f0e4e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Collection",
+        "home_featured_products": "featured",
+        "per_row": 4,
+        "rows": 2,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1664370911cc5sdfdf": {
+      "type": "image-columns",
+      "disabled": true,
+      "settings": {
       }
     },
     "737b31f2-535a-48a7-b453-40d05031afc5": {
@@ -532,6 +510,28 @@
         "divider": false
       }
     },
+    "0e28ebab-92e6-4297-8159-c9dcecad1d12": {
+      "type": "promo-grid",
+      "blocks": {
+        "35afd0be-ead2-461e-82db-2ab9ee4a88ce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shop_now_1920_x_400_px.png",
+            "link": "",
+            "width": "100"
+          }
+        }
+      },
+      "block_order": [
+        "35afd0be-ead2-461e-82db-2ab9ee4a88ce"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
     "1658645152bb25d696": {
       "type": "text-and-image",
       "disabled": true,
@@ -562,41 +562,6 @@
         "view_all": true,
         "blog_image_size": "wide",
         "divider": false
-      }
-    },
-    "ea82b11e-98e1-42c9-a8a8-970bc124569b": {
-      "type": "slideshow",
-      "blocks": {
-        "template--17454619459892__ea82b11e-98e1-42c9-a8a8-970bc124569b-16742846724a9b6109-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 40,
-            "subheading": "",
-            "link": "https:\/\/www.instagram.com\/priyujafashion\/",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Add_a_subheading.png",
-            "image_mobile": "shopify:\/\/shop_images\/FOLLOW_INSTA_BANNER_500_x_340_px.png",
-            "overlay_opacity": 0,
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__ea82b11e-98e1-42c9-a8a8-970bc124569b-16742846724a9b6109-0"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5
       }
     },
     "1664372150d309856a": {
@@ -642,6 +607,41 @@
         "color_background": "#f9f8ef",
         "color_text": "#a91c0c"
       }
+    },
+    "ea82b11e-98e1-42c9-a8a8-970bc124569b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17454619459892__ea82b11e-98e1-42c9-a8a8-970bc124569b-16742846724a9b6109-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "https:\/\/www.instagram.com\/priyujafashion\/",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Add_a_subheading.png",
+            "image_mobile": "shopify:\/\/shop_images\/FOLLOW_INSTA_BANNER_500_x_340_px.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__ea82b11e-98e1-42c9-a8a8-970bc124569b-16742846724a9b6109-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
     }
   },
   "order": [
@@ -649,19 +649,19 @@
     "1664371009f7d449ad",
     "bfbca987-2bae-4a14-b774-dec881be8e37",
     "167447743475c4c20c",
-    "93eaa014-354b-48e6-ac0e-daa8517792b1",
     "1664371844032e463c",
-    "0e28ebab-92e6-4297-8159-c9dcecad1d12",
+    "93eaa014-354b-48e6-ac0e-daa8517792b1",
+    "7da4b888-bb8b-4a85-b017-c72e82220e92",
     "1664563013d44f0e4e",
     "1664370911cc5sdfdf",
-    "7da4b888-bb8b-4a85-b017-c72e82220e92",
     "737b31f2-535a-48a7-b453-40d05031afc5",
     "16646081516a0616db",
     "4a3dba94-2ae0-4356-b799-6683a072ff8a",
     "1664195030898aa5c1",
+    "0e28ebab-92e6-4297-8159-c9dcecad1d12",
     "1658645152bb25d696",
     "54d54a30-37b2-482d-bfbb-fef383437923",
-    "ea82b11e-98e1-42c9-a8a8-970bc124569b",
-    "1664372150d309856a"
+    "1664372150d309856a",
+    "ea82b11e-98e1-42c9-a8a8-970bc124569b"
   ]
 }
