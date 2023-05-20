@@ -590,42 +590,42 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_9b6f7e8e-e071-454b-8feb-6442cd9f7015.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/cotton-sarees"
           }
         },
         "template--17454619459892__7da4b888-bb8b-4a85-b017-c72e82220e92-1684582550f2859dfb-1": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_b20c0be7-1d59-4b3a-b031-82816474bccd.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/silk-sarees"
           }
         },
         "template--17454619459892__7da4b888-bb8b-4a85-b017-c72e82220e92-1684582550f2859dfb-2": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_0640b174-8c77-4b10-a1c2-b82bb4b2bd03.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/banarasi-saree"
           }
         },
         "template--17454619459892__7da4b888-bb8b-4a85-b017-c72e82220e92-1684582550f2859dfb-3": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/4_1037ae86-bb2c-409e-b36c-ffb9a009326d.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/georgette-sarees"
           }
         },
         "66351d0b-8ec0-467b-82f9-c3b3c09d14a9": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/5_644f7b9f-cb1c-414b-9a3a-403fcaf61da2.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/organza-sarees"
           }
         },
         "142cc0c0-e754-45ac-a180-b795f5429b83": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/6_f07581a5-e3b6-4d0e-9afb-0d04461beb89.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/banarasi-saree"
           }
         }
       },
