@@ -2944,32 +2944,28 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
   z-index: 99999;
 }
 
-.drawer--right{
+.drawer--right {
   width:350px;
   right:-350px
 }
 
-@media only screen and (min-width:769px){
-
-.drawer--right{
-    width:450px;
-    right:-450px
-}
-  }
-
-.drawer--right.drawer--is-open{
-  display:block;
-  transform:translateX(-350px);
-  transition-duration:0.45s;
+.drawer--right.drawer--is-open {
+  display: block;
+  transform: translateX(-350px);
+  transition-duration: 0.45s;
   z-index: 99999;
 }
 
 @media only screen and (min-width:769px){
-
-.drawer--right.drawer--is-open{
-      transform:translateX(-450px)
+  .drawer--right {
+    width: 540px;
+    right: -540px
   }
-    }
+
+  .drawer--right.drawer--is-open{
+    transform: translateX(-540px)
+  }
+}
 
 .js-drawer-closing .main-content:after,.js-drawer-open .main-content:after{
   content:"";
