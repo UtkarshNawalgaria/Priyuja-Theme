@@ -517,28 +517,28 @@
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_ad33ca69-5dd5-458d-a577-ba51dbe5b80d.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/under-2000"
           }
         },
         "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-1": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_f707528e-356d-4cb9-83b3-1fd012d9f51f.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/under-5000"
           }
         },
         "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-2": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_209a7f9a-5dcc-497b-94f9-6cb686da1e77.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/under-7002"
           }
         },
         "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-3": {
           "type": "logo_image",
           "settings": {
             "image": "shopify:\/\/shop_images\/4_ca3011c6-82fb-43fc-80dc-2b1442f0a5eb.png",
-            "link": ""
+            "link": "shopify:\/\/collections\/under-10000"
           }
         }
       },
