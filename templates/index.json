@@ -498,6 +498,62 @@
         "space_below": false
       }
     },
+    "4a9838f9-237e-4ef4-9729-355df973c3d7": {
+      "type": "logo-list",
+      "blocks": {
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_ad33ca69-5dd5-458d-a577-ba51dbe5b80d.png",
+            "link": ""
+          }
+        },
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_f707528e-356d-4cb9-83b3-1fd012d9f51f.png",
+            "link": ""
+          }
+        },
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_209a7f9a-5dcc-497b-94f9-6cb686da1e77.png",
+            "link": ""
+          }
+        },
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_ca3011c6-82fb-43fc-80dc-2b1442f0a5eb.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-0",
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-1",
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-2",
+        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-3"
+      ],
+      "settings": {
+        "title": "Shop By Price",
+        "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "e2c6f923-7207-4fb4-9828-e8d2544719f1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "sargam-banaras",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "1664195030898aa5c1": {
       "type": "featured-collection",
       "settings": {
@@ -642,50 +698,6 @@
         "autoplay": true,
         "autoplay_speed": 5
       }
-    },
-    "4a9838f9-237e-4ef4-9729-355df973c3d7": {
-      "type": "logo-list",
-      "blocks": {
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-0": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_ad33ca69-5dd5-458d-a577-ba51dbe5b80d.png",
-            "link": ""
-          }
-        },
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-1": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_f707528e-356d-4cb9-83b3-1fd012d9f51f.png",
-            "link": ""
-          }
-        },
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-2": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_209a7f9a-5dcc-497b-94f9-6cb686da1e77.png",
-            "link": ""
-          }
-        },
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-3": {
-          "type": "logo_image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_ca3011c6-82fb-43fc-80dc-2b1442f0a5eb.png",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-0",
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-1",
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-2",
-        "template--17454619459892__4a9838f9-237e-4ef4-9729-355df973c3d7-1685086430ae2e9333-3"
-      ],
-      "settings": {
-        "title": "Shop By Price",
-        "logo_opacity": 100,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -701,12 +713,13 @@
     "737b31f2-535a-48a7-b453-40d05031afc5",
     "16646081516a0616db",
     "4a3dba94-2ae0-4356-b799-6683a072ff8a",
+    "4a9838f9-237e-4ef4-9729-355df973c3d7",
+    "e2c6f923-7207-4fb4-9828-e8d2544719f1",
     "1664195030898aa5c1",
     "0e28ebab-92e6-4297-8159-c9dcecad1d12",
     "1658645152bb25d696",
     "54d54a30-37b2-482d-bfbb-fef383437923",
     "1664372150d309856a",
-    "ea82b11e-98e1-42c9-a8a8-970bc124569b",
-    "4a9838f9-237e-4ef4-9729-355df973c3d7"
+    "ea82b11e-98e1-42c9-a8a8-970bc124569b"
   ]
 }
