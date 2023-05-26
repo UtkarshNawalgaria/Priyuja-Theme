@@ -264,7 +264,7 @@
       "settings": {
         "title": "Beautiful Suits & Indo Westerns",
         "home_featured_products": "sangeet",
-        "per_row": 4,
+        "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
@@ -336,7 +336,7 @@
       "settings": {
         "title": "Featured Collection",
         "home_featured_products": "featured",
-        "per_row": 4,
+        "per_row": 3,
         "rows": 2,
         "mobile_scrollable": true,
         "view_all": true,
@@ -503,7 +503,7 @@
       "settings": {
         "title": "Sarees by Sargam Banaras",
         "home_featured_products": "sargam-banaras",
-        "per_row": 4,
+        "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
@@ -559,7 +559,7 @@
       "settings": {
         "title": "Unstitched Suits",
         "home_featured_products": "unstitched-dress-material",
-        "per_row": 4,
+        "per_row": 3,
         "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
