@@ -498,6 +498,18 @@
         "space_below": false
       }
     },
+    "e2c6f923-7207-4fb4-9828-e8d2544719f1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "sargam-banaras",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "4a9838f9-237e-4ef4-9729-355df973c3d7": {
       "type": "logo-list",
       "blocks": {
@@ -539,18 +551,6 @@
       "settings": {
         "title": "Shop By Price",
         "logo_opacity": 100,
-        "divider": false
-      }
-    },
-    "e2c6f923-7207-4fb4-9828-e8d2544719f1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "sargam-banaras",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
         "divider": false
       }
     },
@@ -713,8 +713,8 @@
     "737b31f2-535a-48a7-b453-40d05031afc5",
     "16646081516a0616db",
     "4a3dba94-2ae0-4356-b799-6683a072ff8a",
-    "4a9838f9-237e-4ef4-9729-355df973c3d7",
     "e2c6f923-7207-4fb4-9828-e8d2544719f1",
+    "4a9838f9-237e-4ef4-9729-355df973c3d7",
     "1664195030898aa5c1",
     "0e28ebab-92e6-4297-8159-c9dcecad1d12",
     "1658645152bb25d696",
